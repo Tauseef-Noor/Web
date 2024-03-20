@@ -1,0 +1,135 @@
+/* Blog layout: Excerpt 
+------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+.post_layout_excerpt {
+	position:relative;
+	margin-bottom:0;
+}
+.post_layout_excerpt .post_wrapper {
+	padding: 3.2em 3.8em 3.8em;
+	background-color: var(--theme-color-alter_bg_color);
+	border-top: 7px solid var(--theme-color-alter_link2);
+}
+.post_layout_excerpt + .post_layout_excerpt {
+	margin-top: 3rem;
+}
+.post_layout_excerpt.sticky {
+	padding: 0;
+}
+.post_layout_excerpt.sticky .post_title,
+.post_layout_excerpt.sticky .post_title a {
+	color: var(--theme-color-inverse_link);
+}
+.post_layout_excerpt.sticky .post_title a:hover {
+	color: var(--theme-color-text_link);
+}
+.post_layout_excerpt.sticky .post_meta,
+.post_layout_excerpt.sticky .post_meta_item,
+.post_layout_excerpt.sticky .post_meta_item:after,
+.post_layout_excerpt.sticky .post_meta_item:hover:after,
+.post_layout_excerpt.sticky .post_meta .vc_inline-link,
+.post_layout_excerpt.sticky .post_meta .vc_inline-link:after,
+.post_layout_excerpt.sticky .post_meta .vc_inline-link:hover:after,
+.post_layout_excerpt.sticky .post_meta_item a,
+.post_layout_excerpt.sticky .post_info .post_info_item,
+.post_layout_excerpt.sticky .post_info .post_info_item a,
+.post_layout_excerpt.sticky .post_info_counters .post_meta_item {
+	color: var(--theme-color-inverse_link);
+}
+.post_layout_excerpt.sticky .post_date a:hover,
+.post_layout_excerpt.sticky .post_date a:focus,
+.post_layout_excerpt.sticky a.post_meta_item:hover,
+.post_layout_excerpt.sticky a.post_meta_item:focus,
+.post_layout_excerpt.sticky .post_meta_item a:hover,
+.post_layout_excerpt.sticky .post_meta_item a:focus,
+.post_layout_excerpt.sticky .post_meta .vc_inline-link:hover,
+.post_layout_excerpt.sticky .post_meta .vc_inline-link:focus,
+.post_layout_excerpt.sticky .post_info .post_info_item a:hover,
+.post_layout_excerpt.sticky .post_info .post_info_item a:focus,
+.post_layout_excerpt.sticky .post_info_meta .post_meta_item:hover,
+.post_layout_excerpt.sticky .post_info_meta .post_meta_item:focus {
+	color: var(--theme-color-inverse_link_08);
+}
+.post_layout_excerpt.sticky.post_item {
+	color: var(--theme-color-inverse_link);
+}
+.post_layout_excerpt.sticky.post_item .more-link {
+	color: var(--theme-color-inverse_link);
+	border-color: var(--theme-color-text_link);
+	background-color: var(--theme-color-text_link);
+}
+.post_layout_excerpt.sticky.post_item .more-link:hover {
+	color: var(--theme-color-inverse_link);
+	border-color: var(--theme-color-text_link_blend);
+	background-color: var(--theme-color-text_link_blend);
+}
+
+.post_layout_excerpt .post_featured {
+	margin-bottom: 0;
+	display: inline-block;
+}
+.post_layout_excerpt.post_format_gallery .slider_pagination_wrap {
+	display: none;
+}
+.post_layout_excerpt.post_format_audio .post_featured.without_thumb,
+.post_layout_excerpt.post_format_gallery .post_featured.without_thumb {
+	display:block;
+}
+.post_layout_excerpt .post_header {
+	margin: 0;
+	position:relative;
+}
+.post_layout_excerpt .post_header .post_price {
+	width: auto;
+	@include abs-rt;
+	@include font(2.5em, 1.5em);
+}
+.post_layout_excerpt .post_category {
+	margin-bottom: 0.5em;
+}
+.post_layout_excerpt .post_title {
+	@include font(2.250em, 1.12em, 700);
+	margin: 0;
+}
+.post_layout_excerpt .post_title + .post_meta {
+	margin-top: 1.2em;
+}
+.post_layout_excerpt .post_header + .post_content .post_content_inner {
+	margin-top: 1.45em;
+}
+.post_layout_excerpt .post_content_inner + .post_meta {
+	margin-top: 1em;
+}
+.post_layout_excerpt .post_content > p:last-child {
+	margin-bottom: 0;
+}
+.post_layout_excerpt.format-quote blockquote {
+	border: 1px solid var(--theme-color-extra_bd_color);
+}
+.post_layout_excerpt.format-audio .mejs-controls {
+	padding-left: 0;
+	padding-right: 0;
+}
+.post_layout_excerpt.format-quote.post_item .more-link {
+	color: var(--theme-color-inverse_link);
+	border-color: var(--theme-color-text_link);
+	background-color: var(--theme-color-text_link);
+}
+.post_layout_excerpt.format-quote.post_item .more-link:hover {
+	color: var(--theme-color-inverse_link);
+	border-color: var(--theme-color-text_link_blend);
+	background-color: var(--theme-color-text_link_blend);
+}
+
+// First post large in the other blog styles
+body:not(.blog_style_excerpt) .post_layout_excerpt {
+	margin-bottom: 3em;
+}
+
+.post_layout_excerpt blockquote {
+	margin: 0;
+}

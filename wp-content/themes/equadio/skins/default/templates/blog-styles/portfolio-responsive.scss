@@ -1,0 +1,103 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+//@mixin blog_styles_portfolio--xxl() {
+@media #{$media_xxl} {
+	/* Blog layout: Portfolio */
+	.portfolio_4 .post_featured.hover_fade .post_info .post_title {
+		@include font(1.2em, 1.1em);
+	}
+	.portfolio_4 .post_featured.hover_fade .post_info .post_meta {
+		font-size: 14px;
+	}
+	.portfolio_4 .post_featured.hover_fade .post_meta .post_meta_item:after {
+		margin: 0 0.5em;
+	}
+	.portfolio_4 .post_featured.hover_fade .post_info .post_descr {
+		padding: 0.5em;
+	}
+}
+//@mixin blog_styles_portfolio--xl() {
+@media #{$media_xl} {
+	/* Blog layout: Portfolio */
+	.portfolio_4 .column-1_4 {
+		width: 33.333% !important;
+	}
+	.portfolio_2 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_3 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_4 .post_featured.hover_fade .post_info .post_title {
+		@include font(24px, 28px);
+	}
+	.portfolio_2 .post_featured.hover_fade .post_info .post_meta,
+	.portfolio_3 .post_featured.hover_fade .post_info .post_meta,
+	.portfolio_4 .post_featured.hover_fade .post_info .post_meta {
+		font-size: 15px;
+	}
+	.portfolio_2 .post_featured.hover_fade .post_meta .post_meta_item:after,
+	.portfolio_3 .post_featured.hover_fade .post_meta .post_meta_item:after,
+	.portfolio_4 .post_featured.hover_fade .post_meta .post_meta_item:after {
+		margin: 0 0.8em;
+	}
+	.portfolio_2 .post_featured.hover_fade .post_info .post_descr,
+	.portfolio_3 .post_featured.hover_fade .post_info .post_descr,
+	.portfolio_4 .post_featured.hover_fade .post_info .post_descr {
+		padding: 0.5em;
+	}
+}
+//@mixin blog_styles_portfolio--xl() {
+@media #{$media_xl} {
+	/* Blog layout: Portfolio */
+	.portfolio_2 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_3 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_4 .post_featured.hover_fade .post_info .post_title {
+		@include font(22px, 26px);
+	}
+
+}
+
+//@mixin blog_styles_portfolio--md() {
+@media #{$media_md} {
+	/* Blog layout: Portfolio */
+	.portfolio_3 .column-1_3,
+	.portfolio_4 .column-1_4 {
+		width: 50% !important;
+	}
+	.portfolio_2 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_3 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_4 .post_featured.hover_fade .post_info .post_title {
+		@include font(20px, 24px);
+	}
+
+}
+//@mixin blog_styles_portfolio--sm() {
+@media #{$media_sm} {
+	/* Blog layout: Portfolio */
+	.portfolio_3 .column-1_3,
+	.portfolio_4 .column-1_4 {
+		width: 50% !important;
+	}
+}
+//@mixin theme--sm_wp() {
+@media #{$media_sm_wp} {
+	/* Blog layout: Portfolio */
+	.portfolio_3 .column-1_3,
+	.portfolio_4 .column-1_4 {
+		width: 100% !important;
+	}
+}
+//@mixin blog_styles_portfolio--xs() {
+@media #{$media_xs} {
+	/* Blog layout: Portfolio */
+	.portfolio_2 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_3 .post_featured.hover_fade .post_info .post_title,
+	.portfolio_4 .post_featured.hover_fade .post_info .post_title {
+		@include font(19px, 22px);
+	}
+
+	.portfolio_2 .post_featured.hover_fade .post_meta .post_meta_item:after,
+	.portfolio_3 .post_featured.hover_fade .post_meta .post_meta_item:after,
+	.portfolio_4 .post_featured.hover_fade .post_meta .post_meta_item:after {
+		margin: 0 0.5em;
+	}
+}

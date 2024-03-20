@@ -1,0 +1,23 @@
+@media (max-width: 1279px) {
+  /* Essential Addons For Elementor Lite */
+  .eael-advance-tabs .eael-tabs-nav > ul li {
+    padding: 13px 30px 20px 30px;
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+  .eael-advance-tabs .eael-tabs-nav > ul li > i {
+    font-size: 25px;
+  }
+  .eael-advance-tabs .eael-tabs-nav .eael-tab-inline-icon li i,
+  .eael-advance-tabs .eael-tabs-nav .eael-tab-inline-icon li img {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* Essential Addons For Elementor Lite */
+  .eael-advance-tabs .eael-tabs-nav > ul li {
+    padding: 13px 25px 20px 25px;
+    font-size: 17px;
+    line-height: 22px;
+  }
+}

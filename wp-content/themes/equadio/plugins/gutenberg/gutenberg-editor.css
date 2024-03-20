@@ -1,0 +1,57 @@
+/* Gutenberg Editor panels ( editor sidebar, not edit area )
+----------------------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+
+/* Components panel */
+.components-panel__body > .components-panel__body-title {
+  background-color: #edeff0;
+}
+
+.components-panel__body.is-opened > .components-panel__body-title {
+  margin-bottom: 15px !important;
+}
+
+.components-panel__body .components-base-control-title {
+  margin: 1.25em 0 0.25em;
+}
+
+.components-color-palette-preview {
+  border: 1px solid #8d96a0;
+  border-radius: 5px;
+  height: 22px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.components-toolbar .components-icon-button {
+  overflow: hidden;
+}
+
+.components-base-control input[type=text],
+.components-base-control input[type=number],
+.components-base-control input[type=search] {
+  height: auto;
+  padding: 6px 8px;
+}
+
+/* Fix margin from Give plugin */
+.editor-block-list__layout .components-button {
+  margin-top: 0;
+}
+
+.post-publish-panel__postpublish-buttons > .components-button {
+  margin: 5px;
+}
+
+.post-publish-panel__postpublish-buttons > span > .components-button {
+  margin: 0;
+}
+
+.components-datetime__time .components-datetime__time-wrapper .components-datetime__time-am-button,
+.components-datetime__time .components-datetime__time-wrapper .components-datetime__time-pm-button {
+  margin-top: 0;
+}

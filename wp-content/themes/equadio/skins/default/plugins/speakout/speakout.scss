@@ -1,0 +1,517 @@
+/* SpeakOut Styles
+----------------------------------------------------------------- */
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+/* Petition Wrap */
+.dk-speakout-petition-wrap {
+	padding: 3em 3.4em;
+	width: 100%;
+	background-color: var(--theme-color-alter_bg_color);
+	border: none;
+	text-shadow: none;
+	@include border-radius(0);
+	@include box-shadow(none);
+	@include border-box;
+}
+.dk-speakout-petition-wrap  .dk-speakout-petition {
+	padding-top: 1em;
+}
+
+/* Title */
+.dk-speakout-petition-wrap h3 {
+	padding: 0;
+	margin: 0 !important;
+	letter-spacing: 0;
+	background: transparent;
+	@include border-radius(0);
+	@include box-shadow(none);
+	text-shadow: none;
+	color: var(--theme-color-text_dark) !important;
+}
+.dk-speakout-petition-wrap h3 + .dk-speakout-readme {
+	margin-top: 1.5em;
+}
+
+/* Read Me Petition */
+.dk-speakout-petition-wrap .dk-speakout-readme {
+	display: inline-block !important;
+	@include font(1rem, 1.3em, 600);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 0;
+	background: transparent;
+	border: none;
+	height: auto;
+	@include box-shadow(none);
+	text-shadow: none;
+	color: var(--theme-color-text_link);
+}
+.dk-speakout-petition-wrap .dk-speakout-readme:hover {
+	color: var(--theme-color-text_hover);
+}
+
+.dk-speakout-petition-wrap .dk-speakout-readme span {
+	padding: 0;
+	position: relative;
+	background: none;
+	line-height: normal;
+}
+.dk-speakout-petition-wrap .dk-speakout-readme span:before {
+	content: '\e9d0';
+	font-family: $theme_icons;
+	font-weight: 400;
+	margin-right: 0.3em;
+}
+
+/* Inputs */
+.dk-speakout-petition input[type=text], 
+.dk-speakout-petition input[type=email], 
+.dk-speakout-petition select,
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"] {
+	height: auto;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"],
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"],
+.dk-speakout-petition-wrap .dk-speakout-petition select {
+	padding: 0.8em 1.6em;
+	color: var(--theme-color-input_text);
+	background-color: var(--theme-color-input_bg_color);
+	border: 2px solid var(--theme-color-input_bd_color);
+	@include border-radius(40px);
+}
+
+.dk-speakout-petition-wrap .dk-speakout-petition select {
+	margin-bottom: 0;
+	padding: 0.8em 1.4em;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"],
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"],
+.dk-speakout-petition-wrap .dk-speakout-petition .select_container {
+	margin-bottom: 20px;
+}
+
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"]:focus,
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"].filled,
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"]:focus,
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"].filled,
+.dk-speakout-petition-wrap .dk-speakout-petition select:focus,
+.dk-speakout-petition-wrap .dk-speakout-petition select.filled {
+	color: var(--theme-color-input_dark);
+	background-color: var(--theme-color-input_bg_hover);
+	border-color: var(--theme-color-input_bd_hover);
+}
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"]:required,
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"]:required,
+.dk-speakout-petition-wrap .dk-speakout-petition select:required {
+	border-color: var(--theme-color-input_bd_color) !important;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-bcc-wrap,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-privacypolicy-wrap,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-full,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-optin-wrap,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-half,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-half:nth-child(2n) {
+	margin: 0;
+	width: 100%;
+}
+
+
+/* Checkbox */
+.dk-speakout-petition-wrap .dk-speakout-petition label {
+	font-weight: 400;
+	vertical-align: top;
+	text-shadow: none;
+	text-transform: none;
+	margin-left: 0;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-bcc-wrap label,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-privacypolicy-wrap label,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-optin-wrap label {
+	display: inline-block;
+	margin: 0;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-bcc-wrap + .dk-speakout-privacypolicy-wrap,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-bcc-wrap + .dk-speakout-optin-wrap,
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-privacypolicy-wrap + .dk-speakout-optin-wrap {
+	margin-top: 0.5em;
+}
+
+.dk-speakout-petition-wrap .dk-speakout-petition label.required span {
+	color: var(--theme-color-text_link);
+}
+
+/* Button */
+.dk-speakout-petition-wrap .dk-speakout-submit-wrap {
+	margin-top: 0.5em;
+}
+
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-submit {
+	color: var(--theme-color-inverse_link) !important;
+	background: var(--theme-color-text_link) !important;
+	border: var(--theme-color-text_link) !important;
+	text-shadow: none !important;
+	width: 100%;
+	@include box-shadow(none !important);
+	@include transition(color .3s ease, border-color .3s ease, background-color .3s ease, margin .3s ease);
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-submit:hover {
+	color: var(--theme-color-inverse_hover) !important;
+	background: var(--theme-color-text_hover) !important;
+	border: var(--theme-color-text_hover) !important;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-submit[disabled] {
+	color: var(--theme-color-inverse_link) !important;
+	background: var(--theme-color-text_light) !important;
+	border: var(--theme-color-text_light) !important;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-submit:active {
+	top: auto;
+}
+/* Preloader */
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-ajaxloader[style*="hidden;"] {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-ajaxloader[style*="hidden;"] + .dk-speakout-submit {
+	margin-top: 0;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-ajaxloader {
+
+	height: 20px;
+	margin: 10px 0;
+	@include transition(margin .3s ease);
+}
+
+/* Share */
+.dk-speakout-petition-wrap .dk-speakout-share div > p:first-child {
+	color: var(--theme-color-text_dark);
+	padding: 0;
+}
+.dk-speakout-petition-wrap .dk-speakout-share div > p:last-child {
+	@include flex;
+	@include flex-wrap(wrap);
+	@include flex-justify-content(space-between);
+	margin-bottom: 0;
+	padding: 0;
+}
+.dk-speakout-petition-wrap .dk-speakout-share div > p:last-child > a.dk-speakout-twitter,
+.dk-speakout-petition-wrap .dk-speakout-share div > p:last-child > a.dk-speakout-facebook  {
+	width: calc(1 / 2 * 100% - (1 - 1 / 2) * 15px);
+	text-align: center;
+	@include border-box;
+}
+.dk-speakout-petition-wrap  a.dk-speakout-twitter:active,
+.dk-speakout-petition-wrap  a.dk-speakout-facebook:active {
+	top: 0;
+}
+
+.dk-speakout-petition-wrap .dk-speakout-share div > p + p {
+	margin-top: 1em !important;
+}
+
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter,
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook {
+	height: auto;
+	padding: 0.88em 2.8em;
+	margin: 0;
+	@include font(14px !important, 22px !important, 600, normal);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	@include border-radius(40px);
+	border: none;
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter > span,
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook > span {
+	display: none;
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook {
+	color: #fff;
+	background: #3873ad;
+	border-color: #3873ad;
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter {
+	color: #fff;
+	background: #62c6f8;
+	border-color: #62c6f8;
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook:hover {
+	color: #fff;
+	background: #4284c5;
+	border-color: #4284c5;
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter:hover {
+	color: #fff;
+	background: #4fbff8;
+	border-color: #4fbff8;
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter:before,
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook:before {
+	font-family: $theme_icons;
+	@include font(0.9em, '', 400);
+	margin-right: 0.2em;
+	display: inline-block;
+	vertical-align: baseline;
+	position: relative;
+	left: -5px;
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter:before{
+	content: '\e89a';
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook:before{
+	content: '\e873';
+}
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter:after,
+.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook:after {
+	content: attr(title);
+}
+.dk-speakout-petition-wrap .dk-speakout-share,
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap {
+	background: var(--theme-color-alter_bg_color);
+}
+.dk-speakout-petition-wrap .dk-speakout-share {
+	padding: 0;
+	font-weight: 400;
+	text-align: left;
+	@include border-radius(0);
+}
+
+/* Progress wrap */
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap {
+	font-size: inherit;
+	margin-top: 2.45em;
+	padding: 0;
+	border-top: none;
+	text-align: left;
+}
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-signature-count {
+	margin: 0;
+}
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap  .dk-speakout-signature-count span {
+	font-weight: 600;
+}
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-signature-count + div {
+	@include flex;
+	@include flex-align-items(center);
+	line-height: 1;
+	margin-top: 0.5em;
+	font-weight: 600;
+}
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap + .dk-speakout-share {
+	margin-top: 2.45em;
+}
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progress {
+	margin: 2px 1% 0;
+	width: 100% !important;
+	height: 15px;
+	background: var(--theme-color-bg_color);
+	border: none;
+	@include border-radius(0);
+	@include border-box;
+}
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progress .dk-speakout-progressbar {
+	border: none;
+	@include border-radius(0);
+	height: 15px;
+}
+
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progressbar-low,
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progressbar-medium,
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progressbar-high,
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progressbar-complete {
+	background-image: none !important;
+}
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progress .dk-speakout-progressbar-low,
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progress .dk-speakout-progressbar-medium,
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progress .dk-speakout-progressbar-high,
+.dk-speakout-petition-wrap .dk-speakout-progress-wrap .dk-speakout-progress .dk-speakout-progressbar-complete {
+	background-color:var(--theme-color-alter_link2);
+}
+
+/* Speakout Reader */
+#dk-speakout-reader {
+	width: 66% !important;
+	top: 50% !important;
+	left: 50% !important;
+	@include transform(translate(-50%, -50%));
+	@include border-box;
+	@include border-radius(0);
+	@include box-shadow(0 4px 16px rgba(0, 0, 0, 0.7));
+	overflow: visible !important;
+	background:var(--theme-color-alter_bg_color);
+}
+#dk-speakout-reader #dk-speakout-reader-close {
+	top: -30px;
+	right: -30px;
+}
+#dk-speakout-reader textarea {
+	width: 100%;
+}
+#dk-speakout-reader #dk-speakout-reader-content {
+	padding: 35px 40px 40px 40px;
+}
+#dk-speakout-reader #dk-speakout-reader-content p {
+	margin: 1.4em 0;
+}
+#dk-speakout-reader #dk-speakout-reader-content p:first-child {
+	margin-top: 0;
+}
+#dk-speakout-reader #dk-speakout-reader-content p:last-child {
+	margin-bottom: 0;
+}
+#dk-speakout-reader #dk-speakout-reader-content p.dk-speakout-caps {
+	margin-bottom: 30px;
+}
+
+
+#dk-speakout-reader #dk-speakout-reader-content .dk-speakout-greeting {
+	color: var(--theme-color-text_dark);
+	@include font(1.250em, 1.285em, 700);
+	margin: 0;
+}
+#dk-speakout-reader #dk-speakout-reader-content p + .dk-speakout-greeting,
+#dk-speakout-reader #dk-speakout-reader-content .dk-speakout-greeting + p {
+	margin-top: 1.4em;
+}
+
+/* Speakout Messages */
+.dk-speakout-response {
+	padding: 0.42em 4%;
+	border: 2px solid var(--theme-color-alter_link2) !important;
+	@include border-radius(20px);
+	margin-top: 1em;
+}
+.dk-speakout-response > p {
+	padding: 0.4em 0;
+	color: var(--theme-color-alter_text);
+}
+.dk-speakout-response > strong {
+	color: var(--theme-color-alter_dark);
+}
+.dk-speakout-error,
+.dk-speakout-response-error {
+	background-color: var(--theme-color-input_bg_color) !important;
+	border-color: var(--theme-color-alter_link) !important;
+	@include box-shadow(none !important);
+}
+.dk-speakout-success,
+.dk-speakout-response-success {
+	background-color: var(--theme-color-input_bg_color) !important;
+	border-color: var(--theme-color-alter_link3) !important;
+	@include box-shadow(none !important);
+}
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"].dk-speakout-error:required,
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"].dk-speakout-error:required,
+.dk-speakout-petition-wrap .dk-speakout-petition select.dk-speakout-error:required {
+	border-color: var(--theme-color-alter_link) !important;
+}
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"]:-moz-ui-invalid,
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"]:-moz-ui-invalid,
+.dk-speakout-petition-wrap .dk-speakout-petition select:-moz-ui-invalid {
+	@include box-shadow(none !important);
+}
+.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"][name="dk-speakout-country"]::-webkit-calendar-picker-indicator {
+	display: none;
+	color: transparent !important;
+	background: none !important;
+}
+
+/* Signature */
+table.dk-speakout-signaturelist {
+	margin-bottom: 0;
+	border-top: none;
+}
+table.dk-speakout-signaturelist caption {
+	margin-top: 0 !important;
+	color: var(--theme-color-text_dark);
+	text-align: center;
+}
+table.dk-speakout-signaturelist td,
+table.dk-speakout-signaturelist tr {
+	padding: 2em 1em;
+}
+table.dk-speakout-signaturelist td {
+	border-bottom: none;
+}
+
+table.dk-speakout-signaturelist .dk-speakout-signaturelist-flag-icon {
+	margin-right: 5px;
+	width: 15px;
+	vertical-align: baseline;
+}
+table.dk-speakout-signaturelist td.dk-speakout-signaturelist-count {
+	width: 8%;
+	text-align: center;
+}
+table.dk-speakout-signaturelist .dk-speakout-signaturelist-pagelinks > td {
+	background-color: transparent !important;
+}
+table.dk-speakout-signaturelist td.dk-speakout-signaturelist-name {
+	font-weight: 400;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks td {
+	text-align: center;
+	line-height: normal;
+	padding: 2.5em 0 0 0;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a {
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		@include font(20px, '', 700);
+		@include box(2.2em, 2.2em, 2.18em);
+		text-align: center;
+		cursor: pointer;
+		position: relative;
+		overflow: hidden;
+		text-indent: -200px;
+		text-shadow: none;
+		@include border-radius(50%);
+		border: none;
+		color: var(--theme-color-inverse_hover);
+		background: var(--theme-color-alter_link3) none;
+		@include transition-colors;
+	
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a.dk-speakout-signaturelist-disabled {
+	pointer-events: none;
+	cursor: default !important;
+	opacity: 1;
+	color: var(--theme-color-alter_dark);
+	background: var(--theme-color-alter_bg_color);
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a:active {
+	top: 0;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a:hover{
+	color: var(--theme-color-inverse_link);
+	background: var(--theme-color-alter_link);
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a.dk-speakout-signaturelist-prev + a.dk-speakout-signaturelist-next {
+	margin-left: 0.2em;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a:before{
+	font-family: $theme_icons;
+	@include font(14px, '', 600);
+	text-indent: 0;
+	@include abs-cc;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a.dk-speakout-signaturelist-prev:before {
+	content: '\e9bc';
+	letter-spacing: 1px;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a.dk-speakout-signaturelist-next:before {
+	content: '\e9bd';
+	letter-spacing: -1px;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a.dk-speakout-signaturelist-first:before {
+	content: '\e9bc\e9bc';
+	letter-spacing: -7px;
+	left: 40%;
+}
+table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a.dk-speakout-signaturelist-last:before {
+	content: '\e9bd\e9bd';
+	letter-spacing: -7px;
+	left: 45%;
+}

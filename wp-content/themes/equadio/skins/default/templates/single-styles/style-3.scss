@@ -1,0 +1,114 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+.single_style_style-3 .page_content_wrap {
+	padding-top: 0;
+}
+.single_style_style-3 .page_content_wrap > .content_wrap {
+	padding-top: 4em;
+}
+.post_header_wrap_style_style-3 {
+	position: relative;
+}
+.post_header_wrap_style_style-3.post_header_wrap_in_header {
+	margin-top: 4em;
+}
+.post_header_wrap_style_style-3.post_header_wrap_in_header.with_featured_image {
+	margin-top: 0;
+}
+.post_header_wrap_style_style-3 .post_featured {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.post_header_wrap_style_style-3 .post_featured.post_featured_bg {
+	height: 32rem;
+}
+.post_header_wrap_style_style-3 .post_featured.post_featured_bg:before {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	content: ' ';
+	display: block;
+	@include abs-cover(2);
+	pointer-events: none;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 25%, rgba(0,0,0,0.13) 50%, rgba(0,0,0,0.25) 66%, rgba(0,0,0,0.75) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 25%,rgba(0,0,0,0.13) 50%,rgba(0,0,0,0.25) 66%,rgba(0,0,0,0.75) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgba(0,0,0,0.13) 50%,rgba(0,0,0,0.25) 66%,rgba(0,0,0,0.75) 100%);
+}
+.post_header_wrap_style_style-3 .post_featured.post_featured_bg:after {
+	content: ' ';
+	display: block;
+	@include abs-cover(2);
+	pointer-events: none;
+	background: rgba(0,0,0, .2);
+}
+
+.post_header_wrap_style_style-3 .post_featured img {
+	max-width: none;
+	width: 100%;
+}
+
+.post_header_wrap_style_style-3 .post_header {
+	display: block;
+	text-align: center;
+	margin-top: 3em;
+}
+.post_header_wrap_style_style-3 .post_header .post_title,
+.post_header_wrap_style_style-3 .post_header .post_subtitle {
+	margin: 0 auto;
+	max-width: 75%;
+}
+.post_header_wrap_style_style-3 .post_header .post_title {
+	line-height: 1.1em;
+}
+.post_header_wrap_style_style-3 .post_header .post_subtitle {
+	@include font(1.2857em, 1.4em, 600);
+	margin-top: 1em;
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_categories {
+	margin-top: 0;
+	margin-bottom: 1em;
+	letter-spacing: 0.2px;
+	@include font( 1em, inherit, 600);
+	@include flex-justify-content(center);
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_categories .post_categories,
+.post_header_wrap_style_style-3 .post_header .post_meta_categories .post_categories a {
+	color: var(--theme-color-text_link);
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_categories .post_categories a:hover {
+	color: var(--theme-color-text_hover);	
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_other {
+	@include font(1em, 1.5em);
+	margin-top: 2em;
+	@include flex-justify-content(center);
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_other .post_meta_item {
+	white-space: nowrap;
+	line-height: 1.75em;
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_other .post_share {
+	display: inline-block;
+	vertical-align: top;
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_other .post_share .social_item {
+	margin: 0 10px 0 0;
+	font-size: 1.15em;
+}
+.post_header_wrap_style_style-3 .post_header .post_meta_other .post_meta_item:after,
+.post_header_wrap_style_style-3 .post_header .post_meta_other .vc_inline-link:after {
+	content: '';
+	margin: 0 1em 0 0;
+}
+.post_header_wrap_style_style-3 .post_author_name {
+	color: var(--theme-color-text_light);
+	@include transition-property(color);
+}
+.post_header_wrap_style_style-3 a:hover .post_author_name,
+.post_header_wrap_style_style-3 a:focus .post_author_name {
+	color: var(--theme-color-text_dark);
+}

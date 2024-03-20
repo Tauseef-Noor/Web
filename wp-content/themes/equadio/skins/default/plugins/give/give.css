@@ -1,0 +1,726 @@
+/* Give styles
+----------------------------------------------------------------- */
+/* Text fields */
+#give-recurring-form .form-row input[type=email],
+#give-recurring-form .form-row input[type=password],
+#give-recurring-form .form-row input[type=tel],
+#give-recurring-form .form-row input[type=text],
+#give-recurring-form .form-row input[type=url],
+#give-recurring-form .form-row select,
+#give-recurring-form .form-row textarea,
+form.give-form .form-row input[type=email],
+form.give-form .form-row input[type=password],
+form.give-form .form-row input[type=tel],
+form.give-form .form-row input[type=text],
+form.give-form .form-row input[type=url],
+form.give-form .form-row select,
+form.give-form .form-row textarea,
+form[id*=give-form] .form-row input[type=email],
+form[id*=give-form] .form-row input[type=password],
+form[id*=give-form] .form-row input[type=tel],
+form[id*=give-form] .form-row input[type=text],
+form[id*=give-form] .form-row input[type=url],
+form[id*=give-form] .form-row select,
+form[id*=give-form] .form-row textarea,
+form[id*=give-form] .give-donation-amount #give-amount,
+form[id*=give-form] .give-donation-amount #give-amount-text,
+form[id*=give-form] #give-final-total-wrap .give-final-total-amount,
+form[id*=give-form] .give-donation-amount .give-currency-symbol,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-before,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-after,
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+  padding: 0.8em 1.6em;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  color: var(--theme-color-input_text);
+  border-color: var(--theme-color-input_bd_color);
+  background-color: var(--theme-color-input_bg_color);
+}
+
+form[id*=give-form] .give-donation-amount .give-currency-symbol,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-before,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-after,
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+  background-color: var(--theme-color-alter_bg_color);
+  border-color: var(--theme-color-input_bd_color);
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea,
+form.give-form .form-row textarea,
+form[id*=give-form] .form-row textarea {
+  border-radius: 20px;
+}
+
+#give-recurring-form .form-row input[type=email]:focus,
+#give-recurring-form .form-row input[type=password]:focus,
+#give-recurring-form .form-row input[type=tel]:focus,
+#give-recurring-form .form-row input[type=text]:focus,
+#give-recurring-form .form-row input[type=url]:focus,
+#give-recurring-form .form-row select:focus,
+#give-recurring-form .form-row textarea:focus,
+form.give-form .form-row input[type=email]:focus,
+form.give-form .form-row input[type=password]:focus,
+form.give-form .form-row input[type=tel]:focus,
+form.give-form .form-row input[type=text]:focus,
+form.give-form .form-row input[type=url]:focus,
+form.give-form .form-row select:focus,
+form.give-form .form-row textarea:focus,
+form[id*=give-form] .form-row input[type=email]:focus,
+form[id*=give-form] .form-row input[type=password]:focus,
+form[id*=give-form] .form-row input[type=tel]:focus,
+form[id*=give-form] .form-row input[type=text]:focus,
+form[id*=give-form] .form-row input[type=url]:focus,
+form[id*=give-form] .form-row select:focus,
+form[id*=give-form] .form-row textarea:focus,
+form[id*=give-form] .give-donation-amount #give-amount:focus,
+form[id*=give-form] .give-donation-amount #give-amount-text:focus {
+  color: var(--theme-color-input_dark);
+  border-color: var(--theme-color-input_bd_hover);
+  background-color: var(--theme-color-input_bg_hover);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus::-webkit-input-placeholder,
+form.give-form .form-row textarea[placeholder]:focus::-webkit-input-placeholder,
+form[id*=give-form] .form-row textarea[placeholder]:focus::-webkit-input-placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus::-moz-placeholder,
+form.give-form .form-row textarea[placeholder]:focus::-moz-placeholder,
+form[id*=give-form] .form-row textarea[placeholder]:focus::-moz-placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus:-ms-input-placeholder,
+form.give-form .form-row textarea[placeholder]:focus:-ms-input-placeholder,
+form[id*=give-form] .form-row textarea[placeholder]:focus:-ms-input-placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus::-webkit-input-placeholder, form.give-form .form-row textarea[placeholder]:focus::-webkit-input-placeholder, form[id*=give-form] .form-row textarea[placeholder]:focus::-webkit-input-placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus::-moz-placeholder, form.give-form .form-row textarea[placeholder]:focus::-moz-placeholder, form[id*=give-form] .form-row textarea[placeholder]:focus::-moz-placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus:-ms-input-placeholder, form.give-form .form-row textarea[placeholder]:focus:-ms-input-placeholder, form[id*=give-form] .form-row textarea[placeholder]:focus:-ms-input-placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus::-ms-input-placeholder, form.give-form .form-row textarea[placeholder]:focus::-ms-input-placeholder, form[id*=give-form] .form-row textarea[placeholder]:focus::-ms-input-placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row textarea[placeholder]:focus::placeholder,
+form.give-form .form-row textarea[placeholder]:focus::placeholder,
+form[id*=give-form] .form-row textarea[placeholder]:focus::placeholder {
+  color: var(--theme-color-input_dark);
+}
+
+form[id*=give-form] .give-donation-amount .give-currency-symbol,
+form[id*=give-form] .give-donation-amount #give-amount,
+form[id*=give-form] .give-donation-amount #give-amount-text,
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label,
+form[id*=give-form] #give-final-total-wrap .give-final-total-amount {
+  height: auto;
+}
+
+.give-progress-bar > span,
+.give-goal-progress .give-progress-bar > span {
+  background: var(--theme-color-text_link2) !important;
+  border-radius: 0;
+}
+
+table.give-table {
+  color: var(--theme-color-alter_text);
+  background-color: var(--theme-color_bg_color);
+  border: none;
+}
+table.give-table th {
+  border-color: var(--theme-color-extra_bd_color);
+  background-color: var(--theme-color-extra_bg_color);
+}
+table.give-table thead th:first-child {
+  border-left: 1px solid var(--theme-color-extra_bd_color);
+}
+table.give-table thead th:last-child {
+  border-right: 1px solid var(--theme-color-extra_bd_color);
+}
+table.give-table tbody tr td {
+  font-size: 16px;
+  padding: 20px;
+  border: none;
+  border-left: 1px solid var(--theme-color-alter_bd_color);
+  background: var(--theme-color-alter_bg_hover);
+}
+table.give-table tbody tr:nth-child(2n) td {
+  color: var(--theme-color-alter_text);
+  background: var(--theme-color-alter_bg_color);
+}
+
+/* Single Give */
+[id*=give-form] div#give-sidebar-left {
+  width: calc(45% - 30px);
+  margin-right: 30px;
+}
+
+[id*=give-form] div.summary {
+  width: 55%;
+  padding: 3em 3.2em 3.2em;
+  background-color: var(--theme-color-alter_bg_color);
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[id*=give-form] .give-form-title {
+  margin-top: 0 !important;
+}
+
+/* progress bar */
+.give-progress-bar,
+.give-goal-progress .give-progress-bar {
+  height: 15px;
+  border-radius: 0;
+  background: var(--theme-color-alter_bg_color);
+}
+
+.single-give_forms .give-progress-bar {
+  background: var(--theme-color-bg_color);
+}
+
+.give-goal-progress .raised {
+  margin-bottom: 10px;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: var(--theme-color-alter_dark);
+}
+
+.give-goal-progress span.income {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
+/* Donation Amount */
+form[id*=give-form] .give-donation-amount .give-currency-symbol,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-before {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1.4em;
+  padding-right: 1.2em;
+  height: 45px;
+  line-height: 45px !important;
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  border-radius: 40px 0 0 40px;
+}
+
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-before {
+  font-size: 16px !important;
+}
+
+form[id*=give-form] .give-donation-amount input.give-amount-top {
+  width: 60px;
+}
+
+form[id*=give-form] .give-donation-amount #give-amount,
+form[id*=give-form] .give-donation-amount #give-amount-text {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.8px !important;
+  min-width: 60px;
+}
+
+form[id*=give-form] .give-donation-amount #give-amount {
+  border-left: none;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 45px;
+  line-height: 45px !important;
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  border-radius: 0 40px 40px 0;
+  color: var(--theme-color-alter_dark);
+  border-color: var(--theme-color-alter_dark);
+  background-color: transparent !important;
+}
+
+form[id*=give-form] .give-donation-amount #give-amount:focus {
+  color: var(--theme-color-alter_dark);
+  border-color: var(--theme-color-alter_dark);
+  background-color: transparent !important;
+}
+
+#give-donation-level-button-wrap {
+  margin: 0 0 25px;
+}
+
+#give-donation-level-button-wrap > li {
+  margin: 0 15px 15px 0;
+}
+
+#give-donation-level-button-wrap .give-btn.give-donation-level-btn {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 0 2em;
+  height: 45px;
+  line-height: 45px !important;
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  border-width: 2px !important;
+  border-style: solid;
+  color: var(--theme-color-alter_dark);
+  border-color: var(--theme-color-alter_dark);
+  background-color: transparent;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#give-donation-level-button-wrap .give-btn.give-donation-level-btn:hover {
+  color: var(--theme-color-inverse_link);
+  border-color: var(--theme-color-alter_link);
+  background-color: var(--theme-color-alter_link);
+}
+
+form[id*=give-form] .give-donation-amount .give-currency-symbol,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-before,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-after {
+  background-color: transparent;
+  border-color: var(--theme-color-alter_dark);
+  color: var(--theme-color-alter_dark);
+}
+
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+  background-color: var(--theme-color-alter_link3);
+  border-color: var(--theme-color-alter_link3);
+  color: var(--theme-color-inverse_hover);
+}
+
+form[id*=give-form] #give-final-total-wrap {
+  margin: 20px 0 25px;
+}
+
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label,
+form[id*=give-form] #give-final-total-wrap .give-final-total-amount {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 0 2em;
+  height: 45px;
+  line-height: 45px !important;
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  border-radius: 40px 0 0 40px;
+}
+
+form[id*=give-form] #give-final-total-wrap .give-final-total-amount {
+  border-radius: 0 40px 40px 0;
+  border-left: none;
+  color: var(--theme-color-alter_dark);
+  border-color: var(--theme-color-alter_dark);
+  background-color: transparent;
+}
+
+form[id*=give-form] select.give-select-level {
+  padding: 0.8em 1.4em;
+  color: var(--theme-color-input_text);
+  border: 2px solid var(--theme-color-input_bd_color);
+  border-radius: 40px;
+}
+
+form[id*=give-form] select.give-select-level:focus {
+  color: var(--theme-color-input_dark);
+  border-color: var(--theme-color-input_bd_hover);
+}
+
+[id*=give-form].give-form-type-multi {
+  margin-bottom: 0;
+}
+
+/* type modal */
+.give-modal form.give-form,
+.give-modal form[id*=give-form] {
+  padding: 40px;
+}
+
+.give-modal .mfp-inline-holder div.mfp-content,
+.give-modal .mfp-ajax-holder div.mfp-content {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.give-modal .mfp-content {
+  padding: 0;
+  margin: 0 auto;
+  background: var(--theme-color-bg_color);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.give-modal form[id*=give-form],
+.give-modal form[id*=give-form] .give-submit {
+  margin-bottom: 0;
+}
+
+[id*=give-form].give-display-modal .give-btn,
+[id*=give-form].give-display-reveal .give-btn {
+  margin-bottom: 0;
+}
+
+.give-modal .mfp-ajax-holder div.mfp-content,
+.give-modal .mfp-inline-holder div.mfp-content {
+  -ms-overflow-style: none;
+} /*  hide scrollbar Explorer */
+.give-modal .mfp-ajax-holder div.mfp-content,
+.give-modal .mfp-inline-holder div.mfp-content {
+  scrollbar-width: none;
+} /* hide scrollbar FireFox */
+.give-modal .mfp-ajax-holder div.mfp-content,
+.give-modal .mfp-inline-holder div.mfp-content::-webkit-scrollbar {
+  width: 0;
+} /* hide scrollbar Chrome */
+/* Modal close */
+.give-modal.mfp-wrap button.mfp-close {
+  display: block;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 8px;
+  margin: 0 !important;
+  padding: 0;
+  text-indent: -300px;
+  overflow: hidden !important;
+  opacity: 1 !important;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  color: var(--theme-color-alter_text);
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.give-modal.mfp-wrap button.mfp-close:hover {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.give-modal.mfp-wrap button.mfp-close:before,
+.give-modal.mfp-wrap button.mfp-close:after {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  width: 100%;
+  height: 0;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: -1px;
+  border-top: 2px solid var(--theme-color-alter_dark);
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+.give-modal.mfp-wrap button.mfp-close:hover:before,
+.give-modal.mfp-wrap button.mfp-close:focus:before,
+.give-modal.mfp-wrap button.mfp-close:hover:after,
+.give-modal.mfp-wrap button.mfp-close:focus:after {
+  border-color: var(--theme-color-alter_link);
+}
+
+.give-modal.mfp-wrap button.mfp-close:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.give-modal.mfp-wrap button.mfp-close:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+[id*=give-form].give-display-modal .give-donation-levels-wrap,
+[id*=give-form].give-display-modal .give-total-wrap {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.sc_layouts_column_align_center [id*=give-form].give-display-modal .give-donation-levels-wrap,
+.sc_layouts_column_align_center [id*=give-form].give-display-modal .give-total-wrap {
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.sc_layouts_column_align_right [id*=give-form].give-display-modal .give-donation-levels-wrap,
+.sc_layouts_column_align_right [id*=give-form].give-display-modal .give-total-wrap {
+  -ms-flex-pack: end;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+/* Tooltip */
+#give-recurring-form .give-tooltip,
+form.give-form .give-tooltip,
+form[id*=give-form] .give-tooltip {
+  color: var(--theme-color-text_light);
+}
+
+.give-tooltip[class*=hint--]:hover:after,
+.give-tooltip[class*=hint--]:hover:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.give-tooltip[class*=hint--]:after {
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+  background: var(--theme-color-text_dark);
+  color: var(--theme-color-inverse_hover);
+}
+
+.give-tooltip.hint--top-left:before,
+.give-tooltip.hint--top-right:before,
+.give-tooltip.hint--top:before {
+  border-top-color: var(--theme-color-text_dark);
+}
+
+/* Title */
+#give-recurring-form h3.give-section-break,
+#give-recurring-form h4.give-section-break,
+#give-recurring-form legend, form.give-form h3.give-section-break,
+form.give-form h4.give-section-break,
+form.give-form legend, form[id*=give-form] h3.give-section-break,
+form[id*=give-form] h4.give-section-break, form[id*=give-form] legend {
+  font-size: 1.25em;
+  line-height: 1.285em;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  border-color: var(--theme-color-bd_color);
+}
+
+/* Receipt */
+table#give_donation_receipt .give-receipt-thead-text {
+  color: var(--theme-color-extra_dark);
+}
+
+#give-receipt .give_error,
+#give-receipt .give_success,
+#give-receipt .give_warning {
+  background-color: var(--theme-color-alter_bg_color);
+}
+
+table#give_donation_receipt td > strong,
+table#give_donation_receipt th > strong {
+  color: var(--theme-color-alter_dark);
+}
+
+/* Messages */
+.give_error, .give_success, .give_warning {
+  background: var(--theme-color-alter_bg_color);
+}
+
+.single-give_forms .give_error,
+.single-give_forms .give_success,
+.single-give_forms .give_warning {
+  background: var(--theme-color-bg_color);
+}
+
+.give_error > p, .give_success > p, .give_warning > p {
+  color: var(--theme-color-text);
+}
+
+.give_error > p > strong, .give_success > p > strong, .give_warning > p > strong {
+  color: var(--theme-color-text_dark);
+}
+
+.give_error:before, .give_warning:before {
+  color: var(--theme-color-inverse_link);
+}
+
+.give_success:before {
+  color: var(--theme-color-inverse_hover);
+}
+
+.give_error {
+  border-color: var(--theme-color-text_link);
+}
+
+.give_error:before {
+  background-color: var(--theme-color-text_link);
+}
+
+.give_warning {
+  border-color: var(--theme-color-text_link2);
+}
+
+.give_warning:before {
+  background-color: var(--theme-color-text_link2);
+}
+
+.give_success {
+  border-color: var(--theme-color-text_link3);
+}
+
+.give_success:before {
+  background-color: var(--theme-color-text_link3);
+}
+
+/* Required */
+#give-recurring-form .give-error,
+#give-recurring-form .give-required-indicator,
+form.give-form .give-error,
+form.give-form .give-required-indicator,
+form[id*=give-form] .give-error,
+form[id*=give-form] .give-required-indicator {
+  color: var(--theme-color-text_link);
+}
+
+#give-recurring-form .form-row input[type=email].required,
+#give-recurring-form .form-row input[type=password].required,
+#give-recurring-form .form-row input[type=tel].required,
+#give-recurring-form .form-row input[type=text].required,
+#give-recurring-form .form-row input[type=url].required,
+#give-recurring-form .form-row select.required,
+#give-recurring-form .form-row textarea.required,
+form.give-form .form-row input[type=email].required,
+form.give-form .form-row input[type=password].required,
+form.give-form .form-row input[type=tel].required,
+form.give-form .form-row input[type=text].required,
+form.give-form .form-row input[type=url].required,
+form.give-form .form-row select.required,
+form.give-form .form-row textarea.required,
+form[id*=give-form] .form-row input[type=email].required,
+form[id*=give-form] .form-row input[type=password].required,
+form[id*=give-form] .form-row input[type=tel].required,
+form[id*=give-form] .form-row input[type=text].required,
+form[id*=give-form] .form-row input[type=url].required,
+form[id*=give-form] .form-row select.required,
+form[id*=give-form] .form-row textarea.required {
+  color: var(--theme-color-input_text);
+}
+
+#give-recurring-form .form-row input[type=email].required:focus,
+#give-recurring-form .form-row input[type=password].required:focus,
+#give-recurring-form .form-row input[type=tel].required:focus,
+#give-recurring-form .form-row input[type=text].required:focus,
+#give-recurring-form .form-row input[type=url].required:focus,
+#give-recurring-form .form-row select.required:focus,
+#give-recurring-form .form-row textarea.required:focus,
+form.give-form .form-row input[type=email].required:focus,
+form.give-form .form-row input[type=password].required:focus,
+form.give-form .form-row input[type=tel].required:focus,
+form.give-form .form-row input[type=text].required:focus,
+form.give-form .form-row input[type=url].required:focus,
+form.give-form .form-row select.required:focus,
+form.give-form .form-row textarea.required:focus,
+form[id*=give-form] .form-row input[type=email].required:focus,
+form[id*=give-form] .form-row input[type=password].required:focus,
+form[id*=give-form] .form-row input[type=tel].required:focus,
+form[id*=give-form] .form-row input[type=text].required:focus,
+form[id*=give-form] .form-row input[type=url].required:focus,
+form[id*=give-form] .form-row select.required:focus,
+form[id*=give-form] .form-row textarea.required:focus {
+  color: var(--theme-color-input_dark);
+}
+
+#give-recurring-form .form-row input[type=email]:required,
+#give-recurring-form .form-row input[type=password]:required,
+#give-recurring-form .form-row input[type=tel]:required,
+#give-recurring-form .form-row input[type=text]:required,
+#give-recurring-form .form-row input[type=url]:required,
+#give-recurring-form .form-row select:required,
+#give-recurring-form .form-row textarea:required,
+form.give-form .form-row input[type=email]:required,
+form.give-form .form-row input[type=password]:required,
+form.give-form .form-row input[type=tel]:required,
+form.give-form .form-row input[type=text]:required,
+form.give-form .form-row input[type=url]:required,
+form.give-form .form-row select:required,
+form.give-form .form-row textarea:required,
+form[id*=give-form] .form-row input[type=email]:required,
+form[id*=give-form] .form-row input[type=password]:required,
+form[id*=give-form] .form-row input[type=tel]:required,
+form[id*=give-form] .form-row input[type=text]:required,
+form[id*=give-form] .form-row input[type=url]:required,
+form[id*=give-form] .form-row select:required,
+form[id*=give-form] .form-row textarea:required {
+  border-color: var(--theme-color-input_bd_color) !important;
+}
+
+#give-recurring-form .form-row input[type=email]:focus:required,
+#give-recurring-form .form-row input[type=password]:focus:required,
+#give-recurring-form .form-row input[type=tel]:focus:required,
+#give-recurring-form .form-row input[type=text]:focus:required,
+#give-recurring-form .form-row input[type=url]:focus:required,
+#give-recurring-form .form-row select:focus:required,
+#give-recurring-form .form-row textarea:focus:required,
+form.give-form .form-row input[type=email]:focus:required,
+form.give-form .form-row input[type=password]:focus:required,
+form.give-form .form-row input[type=tel]:focus:required,
+form.give-form .form-row input[type=text]:focus:required,
+form.give-form .form-row input[type=url]:focus:required,
+form.give-form .form-row select:focus:required,
+form.give-form .form-row textarea:focus:required,
+form[id*=give-form] .form-row input[type=email]:focus:required,
+form[id*=give-form] .form-row input[type=password]:focus:required,
+form[id*=give-form] .form-row input[type=tel]:focus:required,
+form[id*=give-form] .form-row input[type=text]:focus:required,
+form[id*=give-form] .form-row input[type=url]:focus:required,
+form[id*=give-form] .form-row select:focus:required,
+form[id*=give-form] .form-row textarea:focus:required {
+  border-color: var(--theme-color-input_bd_hover) !important;
+}
+
+.give-submit-button-wrap span.give-loading-animation,
+[id^=give-user-login-submit] span.give-loading-animation {
+  margin: 0.7em 0 0 0.5em;
+}

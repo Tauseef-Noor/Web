@@ -1,0 +1,102 @@
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	word-wrap: normal !important;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+:focus {
+	outline: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+	border-color: #1b1f22;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	background: #1b1f22;
+	cursor: pointer;
+}
+
+a:focus,
+a:active {
+	color: #1b1f22;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+.entry-content a:focus,
+.entry-summary a:focus,
+.edit-link a:focus,
+.widget a:focus,
+.entry-meta a:focus,
+.entry-footer a:focus,
+.site-footer a:focus,
+.entry-title a:focus,
+.post-navigation a:focus,
+.posts-navigation a:focus,
+.comment-navigation a:focus,
+.widget_authors a:focus strong,
+.project-terms a:focus,
+.author-bio a:focus,
+.entry-content a.button:focus, 
+.button:focus,
+.widget ul li a:focus,
+#comments a:focus {
+	border-bottom-color: currentColor;
+}
+
+.elementor-progress-text,
+.elementor-progress-percentage {
+	font-size: 14px;
+	font-family: Sans-serif;
+}
+/* Rounded image box */
+.envato-kit-19-rounded .elementor-image-box-img img{
+	border-radius: 100%;
+}

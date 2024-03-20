@@ -1,0 +1,154 @@
+/* Blog layout: Classic 
+------------------------- */
+.posts_container.columns_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: calc(-1 * var(--theme-var-grid_gap));
+}
+
+.posts_container.columns_wrap .post_layout_classic {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.post_layout_classic {
+  position: relative;
+  border-color: var(--theme-color-bd_color);
+}
+
+.post_layout_classic .post_featured {
+  margin-bottom: 0;
+}
+
+.post_layout_classic .post_wrapper {
+  padding: 3em 3.8em 3.4em;
+  background-color: var(--theme-color-alter_bg_color);
+  border-top: 7px solid var(--theme-color-alter_link2);
+}
+
+.post_layout_classic .post_featured[class*=hover_] {
+  display: block;
+}
+
+.post_layout_classic .post_featured img {
+  width: 100%;
+}
+
+.post_layout_classic .post_header {
+  padding-top: 0.02px;
+}
+
+.post_layout_classic .post_category {
+  margin-bottom: 0.5em;
+}
+
+.post_layout_classic .post_title {
+  font-size: 1.875em;
+  line-height: 1.1855em;
+  letter-spacing: 0.7px;
+  margin: 0;
+}
+
+.post_layout_classic_4 .post_title,
+.sc_layouts_submenu .post_layout_classic .post_title {
+  font-size: 1.5em;
+}
+
+.post_layout_classic blockquote,
+.post_layout_classic .wp-block-quote:not(.is-large):not(.is-style-large) {
+  margin: 0;
+  padding: 6em 3em 3em 3em;
+}
+
+.post_layout_classic blockquote p {
+  font-size: 2em;
+}
+
+.post_layout_classic blockquote:before {
+  font-size: 3.5rem;
+  top: 0.7em;
+  left: 0.8em;
+}
+
+.post_layout_classic.sticky {
+  padding: 0;
+}
+
+.post_layout_classic.sticky .post_title,
+.post_layout_classic.sticky .post_title a {
+  color: var(--theme-color-inverse_link);
+}
+
+.post_layout_classic.sticky .post_title a:hover {
+  color: var(--theme-color-text_link);
+}
+
+.post_layout_classic.sticky .post_meta,
+.post_layout_classic.sticky .post_meta_item,
+.post_layout_classic.sticky .post_meta_item:after,
+.post_layout_classic.sticky .post_meta_item:hover:after,
+.post_layout_classic.sticky .post_meta .vc_inline-link,
+.post_layout_classic.sticky .post_meta .vc_inline-link:after,
+.post_layout_classic.sticky .post_meta .vc_inline-link:hover:after,
+.post_layout_classic.sticky .post_meta_item a,
+.post_layout_classic.sticky .post_info .post_info_item,
+.post_layout_classic.sticky .post_info .post_info_item a,
+.post_layout_classic.sticky .post_info_counters .post_meta_item {
+  color: var(--theme-color-inverse_link);
+}
+
+.post_layout_classic.sticky .post_date a:hover,
+.post_layout_classic.sticky .post_date a:focus,
+.post_layout_classic.sticky a.post_meta_item:hover,
+.post_layout_classic.sticky a.post_meta_item:focus,
+.post_layout_classic.sticky .post_meta_item a:hover,
+.post_layout_classic.sticky .post_meta_item a:focus,
+.post_layout_classic.sticky .post_meta .vc_inline-link:hover,
+.post_layout_classic.sticky .post_meta .vc_inline-link:focus,
+.post_layout_classic.sticky .post_info .post_info_item a:hover,
+.post_layout_classic.sticky .post_info .post_info_item a:focus,
+.post_layout_classic.sticky .post_info_meta .post_meta_item:hover,
+.post_layout_classic.sticky .post_info_meta .post_meta_item:focus {
+  color: var(--theme-color-inverse_link_08);
+}
+
+.post_layout_classic.sticky.post_item {
+  color: var(--theme-color-inverse_link);
+}
+
+.post_layout_classic.sticky.post_item .more-link {
+  color: var(--theme-color-inverse_link);
+  border-color: var(--theme-color-text_link);
+  background-color: var(--theme-color-text_link);
+}
+
+.post_layout_classic.sticky.post_item .more-link:hover {
+  color: var(--theme-color-inverse_link);
+  border-color: var(--theme-color-text_link_blend);
+  background-color: var(--theme-color-text_link_blend);
+}
+
+.post_layout_classic.format-audio .mejs-controls {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.post_layout_classic .post_title + .post_meta {
+  margin-top: 1em;
+}
+
+.post_layout_classic .post_header + .post_content {
+  padding-top: 1.5em;
+}
+
+.post_layout_classic .post_content + .post_meta {
+  margin-top: 1em;
+}

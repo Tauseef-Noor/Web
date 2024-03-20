@@ -1,0 +1,837 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "Wildlife Conservation",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Causes",
+            "screenshot": "screenshots\/our-causes.jpg",
+            "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Causes Single",
+            "screenshot": "screenshots\/our-causes-single.jpg",
+            "source": "templates\/our-causes-single-d816579b320f019084ac3fef3d3f7389.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about-1e807e8ff2ed1f076379aefb08ed664c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Donate",
+            "screenshot": "screenshots\/donate.jpg",
+            "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq-a7df2c88ae69c0f0ad0868fcf7b62d53.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Get Involved",
+            "screenshot": "screenshots\/get-involved.jpg",
+            "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "required_css": [
+        {
+            "name": "Custom CSS",
+            "description": "These styles are added to the WordPress Customizer.",
+            "file": "css\/customizer.css"
+        }
+    ],
+    "images": [
+        {
+            "filename": "elephant-africa-african-elephant-kenya-70080.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/elephant-africa-african-elephant-kenya-70080-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/about-1e807e8ff2ed1f076379aefb08ed664c.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 283264,
+            "dimensions": [
+                1880,
+                1253
+            ]
+        },
+        {
+            "filename": "transparent.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/transparent-500x375.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 4660,
+            "dimensions": [
+                640,
+                480
+            ]
+        },
+        {
+            "filename": "pexels-photo-1577478.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/pexels-photo-1577478-500x332.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                }
+            ],
+            "filesize": 568631,
+            "dimensions": [
+                1880,
+                1249
+            ]
+        },
+        {
+            "filename": "zoo-elephant-58915.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/zoo-elephant-58915-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/faq-a7df2c88ae69c0f0ad0868fcf7b62d53.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 596424,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "nature-face-close-up-cheetah-88234.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/nature-face-close-up-cheetah-88234-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/faq-a7df2c88ae69c0f0ad0868fcf7b62d53.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 481765,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "lion-animal-nature-predator-40835.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/lion-animal-nature-predator-40835-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 23595,
+            "dimensions": [
+                525,
+                350
+            ]
+        },
+        {
+            "filename": "pexels-photo-1319515.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/pexels-photo-1319515-500x750.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 191963,
+            "dimensions": [
+                1000,
+                1500
+            ]
+        },
+        {
+            "filename": "elephant.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/elephant.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-causes-single-d816579b320f019084ac3fef3d3f7389.json",
+                    "name": "Our Causes Single"
+                },
+                {
+                    "source": "templates\/about-1e807e8ff2ed1f076379aefb08ed664c.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                },
+                {
+                    "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 27463,
+            "dimensions": [
+                256,
+                256
+            ]
+        },
+        {
+            "filename": "savannah.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/savannah.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-causes-single-d816579b320f019084ac3fef3d3f7389.json",
+                    "name": "Our Causes Single"
+                },
+                {
+                    "source": "templates\/about-1e807e8ff2ed1f076379aefb08ed664c.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                },
+                {
+                    "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 28550,
+            "dimensions": [
+                256,
+                256
+            ]
+        },
+        {
+            "filename": "map-location.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/map-location.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-causes-single-d816579b320f019084ac3fef3d3f7389.json",
+                    "name": "Our Causes Single"
+                },
+                {
+                    "source": "templates\/about-1e807e8ff2ed1f076379aefb08ed664c.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                },
+                {
+                    "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 19502,
+            "dimensions": [
+                256,
+                256
+            ]
+        },
+        {
+            "filename": "pexels-elephant-trunk-skin-care-big-158555-1024x683.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/pexels-elephant-trunk-skin-care-big-158555-1024x683-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                }
+            ],
+            "filesize": 148872,
+            "dimensions": [
+                1024,
+                683
+            ]
+        },
+        {
+            "filename": "curvemask.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/curvemask-500x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                },
+                {
+                    "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 17222,
+            "dimensions": [
+                1000,
+                800
+            ]
+        },
+        {
+            "filename": "african-mask.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/african-mask.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                }
+            ],
+            "filesize": 33259,
+            "dimensions": [
+                256,
+                256
+            ]
+        },
+        {
+            "filename": "pexels-photo-3334820.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/pexels-photo-3334820-500x750.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/our-causes-single-d816579b320f019084ac3fef3d3f7389.json",
+                    "name": "Our Causes Single"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/faq-a7df2c88ae69c0f0ad0868fcf7b62d53.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                }
+            ],
+            "filesize": 260568,
+            "dimensions": [
+                867,
+                1300
+            ]
+        },
+        {
+            "filename": "pexels-photo-852947.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/pexels-photo-852947-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-851751b917328162aa6678e6691c4210.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/about-1e807e8ff2ed1f076379aefb08ed664c.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                }
+            ],
+            "filesize": 590672,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "brown-rhinoceros-1524627.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/brown-rhinoceros-1524627-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                }
+            ],
+            "filesize": 426375,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "pexels-photo-730539.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/pexels-photo-730539-500x484.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 126021,
+            "dimensions": [
+                640,
+                620
+            ]
+        },
+        {
+            "filename": "africa-animal-big-carnivore-87410.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/africa-animal-big-carnivore-87410-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                }
+            ],
+            "filesize": 87671,
+            "dimensions": [
+                640,
+                426
+            ]
+        },
+        {
+            "filename": "africa-animal-big-carnivore-41182.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/africa-animal-big-carnivore-41182-500x750.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 152197,
+            "dimensions": [
+                640,
+                960
+            ]
+        },
+        {
+            "filename": "pexels-photo-209077-768x512.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/06\/pexels-photo-209077-768x512-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 86470,
+            "dimensions": [
+                768,
+                512
+            ]
+        },
+        {
+            "filename": "africa-animal-big-carnivore-41178-1024x682.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/africa-animal-big-carnivore-41178-1024x682-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-d011816a0979f351d770fe2ada21e4b1.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 117778,
+            "dimensions": [
+                1024,
+                682
+            ]
+        },
+        {
+            "filename": "pexels-photo-584181.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/pexels-photo-584181-500x375.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                }
+            ],
+            "filesize": 298344,
+            "dimensions": [
+                1733,
+                1300
+            ]
+        },
+        {
+            "filename": "pexels-photo-674053.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/pexels-photo-674053-500x336.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                }
+            ],
+            "filesize": 310656,
+            "dimensions": [
+                1880,
+                1262
+            ]
+        },
+        {
+            "filename": "pexels-photo-1101116.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/pexels-photo-1101116-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/our-causes-single-d816579b320f019084ac3fef3d3f7389.json",
+                    "name": "Our Causes Single"
+                },
+                {
+                    "source": "templates\/our-team-5f8c52771f11fdc35da21a91bfeb1e2d.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                },
+                {
+                    "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 307975,
+            "dimensions": [
+                1880,
+                1253
+            ]
+        },
+        {
+            "filename": "pexels-photo-1670732.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/pexels-photo-1670732-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/our-causes-single-d816579b320f019084ac3fef3d3f7389.json",
+                    "name": "Our Causes Single"
+                },
+                {
+                    "source": "templates\/donate-81544ee9c1de05dcd6d5b0333a35550b.json",
+                    "name": "Donate"
+                },
+                {
+                    "source": "templates\/faq-a7df2c88ae69c0f0ad0868fcf7b62d53.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                }
+            ],
+            "filesize": 372283,
+            "dimensions": [
+                1880,
+                1253
+            ]
+        },
+        {
+            "filename": "pexels-photo-88476-ntb1x74mcc82cwxe30nv4kldi64mzfgcil7v3mskpc.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2018\/06\/pexels-photo-88476-ntb1x74mcc82cwxe30nv4kldi64mzfgcil7v3mskpc.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/our-causes-27ad39ea6d32c43f1bb615084320e770.json",
+                    "name": "Our Causes"
+                },
+                {
+                    "source": "templates\/get-involved-b0a324d1ab4c3a2add78617f360357af.json",
+                    "name": "Get Involved"
+                }
+            ],
+            "filesize": 5578,
+            "dimensions": [
+                200,
+                200
+            ]
+        },
+        {
+            "filename": "pexels-photo-1685955.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/pexels-photo-1685955-500x750.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/about-1e807e8ff2ed1f076379aefb08ed664c.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/contact-2c886377ce8a8837c49fa5ad4b7a1a87.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 77809,
+            "dimensions": [
+                867,
+                1300
+            ]
+        },
+        {
+            "filename": "wildlife-photography-of-cheetah-lying-on-boulder-1320598.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/collection-19\/wp-content\/uploads\/sites\/22\/2019\/12\/wildlife-photography-of-cheetah-lying-on-boulder-1320598-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq-a7df2c88ae69c0f0ad0868fcf7b62d53.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 640604,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        }
+    ]
+}

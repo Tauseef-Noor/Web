@@ -1,0 +1,43 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+//@mixin theme-hovers--md() {
+@media #{$media_md} {
+	/* Theme Hovers */
+	[class*="column-1_3"] .post_featured.hover_info .post_info .post_descr,
+	[class*="column-1_4"] .post_featured.hover_info .post_info .post_descr,
+	[class*="masonry_item-1_3"] .post_featured.hover_info .post_info .post_descr {
+		display: none;
+	}
+}
+
+//@mixin theme-hovers--sm() {
+@media #{$media_sm} {
+	/* Theme Hovers */
+	[class*="column-1_3"] .post_featured.hover_info .post_info .post_descr,
+	[class*="column-1_4"] .post_featured.hover_info .post_info .post_descr,
+	[class*="masonry_item-1_3"] .post_featured.hover_info .post_info .post_descr {
+		display: block;
+	}
+	.post_featured.hover_icon .icons span {
+		font-size: 16px;
+		@include box(50px, 50px, 50px);
+	}
+}
+
+//@mixin theme-hovers--xs() {
+@media #{$media_xs} {
+	/* Theme Hovers */
+	.post_featured.hover_border .post_info .post_info_back	{
+		padding: 2.5em;
+	}
+	.post_featured.hover_border .post_info:before,
+	.post_featured.hover_border .post_info:after {
+		@include abs-pos(20px, 20px, 20px, 20px);
+	}
+	.post_featured.hover_border .post_info .post_title {
+		padding-bottom: 4px;
+	}
+}

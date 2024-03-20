@@ -1,0 +1,125 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+form.mc4wp-form .form_wrap {
+	position: relative;
+}
+
+form.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	padding: 0 10.8em 0 1.6em;
+	height: 60px;
+	width:100%;
+	display: inline-block;
+	vertical-align: top;
+	@include border-radius(40px);
+	@include border-box;
+	background-color: var(--theme-color-input_bg_color);
+	border-color: var(--theme-color-input_bg_color) !important;
+	color: var(--theme-color-input_text);
+}
+
+form.mc4wp-form .mc4wp-form-fields input[type="email"]:focus,
+form.mc4wp-form .mc4wp-form-fields input[type="email"].filled {
+	background-color: var(--theme-color-input_bg_hover);
+	border-color: var(--theme-color-input_bg_hover) !important;
+	color: var(--theme-color-input_dark);
+}
+
+form.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	padding: 0 2.6em;
+	height: 60px;
+	max-width:12em;
+	line-height: normal;
+	display: inline-block;
+	vertical-align: top;
+	@include abs-rt(-1px);
+	@include border-box;
+}
+form.mc4wp-form .mc4wp-form-fields input[type="submit"]:hover,
+form.mc4wp-form .mc4wp-form-fields input[type="submit"]:focus {
+	@include theme_button_colors_hover;
+}
+
+form.mc4wp-form .mc4wp-form-fields input[type="email"]:not(output):-moz-ui-invalid {
+	@include box-shadow(none);
+}
+form.mc4wp-form label:has(input[type="checkbox"]),
+form.mc4wp-form input[type="checkbox"] + label {
+	margin-top: 10px;
+}
+
+form.mc4wp-form label:has(input[type="checkbox"]) > a,
+form.mc4wp-form .mc4wp-alert a,
+form.mc4wp-form input[type="checkbox"] + label a {
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+form.mc4wp-form label:has(input[type="checkbox"]) > a:hover,
+form.mc4wp-form .mc4wp-alert a:hover,
+form.mc4wp-form input[type="checkbox"] + label a:hover {
+	text-decoration: none;
+}
+form.mc4wp-form .mc4wp-alert {
+	margin: 1em 0 0;
+	padding: 0.5em 1.2em;
+	line-height:1.5em;
+	background-color: var(--theme-color-alter_bg_color);
+	border: 2px solid var(--theme-color-alter_link);
+	color: var(--theme-color-alter_dark);
+	@include border-radius(40px);
+	@include border-box;
+}
+form.mc4wp-form .mc4wp-alert a {
+	color: var(--theme-color-text_link) !important;
+}
+form.mc4wp-form .mc4wp-alert a:hover {
+	color: var(--theme-color-text_hover) !important;
+}
+
+form.mc4wp-form p {
+	margin: 0;
+}
+form.mc4wp-form p + p,
+form.mc4wp-form input + p {
+	margin-top: 1em;
+}
+
+/* light form */
+#light-form.mc4wp-form {
+
+	label:has(input[type="checkbox"]),
+	input[type="checkbox"] + label {
+		color: var(--theme-color-inverse_link);
+	}
+
+	label:has(input[type="checkbox"])::before,
+	input[type="checkbox"] + label:before {
+		border-color: var(--theme-color-inverse_link) !important;
+	}
+
+	label:has(input[type="checkbox"]) > a,
+	input[type="checkbox"] + label > a {
+		color: var(--theme-color-inverse_link) !important;
+	}
+
+	label:has(input[type="checkbox"]:checked)::before,
+	input[type="checkbox"]:checked + label:before {
+		background-color: var(--theme-color-text_link);
+	}
+
+	input[type="submit"][disabled] {
+		background-color: var(--theme-color-text_link_08) !important;
+		border-color: var(--theme-color-text_link_08) !important;
+		color: var(--theme-color-inverse_link) !important;
+	}
+
+}
+
+.mc4wp-form label > input[type="checkbox"]{
+	left: 0;
+}

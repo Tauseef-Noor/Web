@@ -1,0 +1,148 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+//@mixin speakout--xl() {
+@media #{$media_xl} {
+}
+
+//@mixin speakout--lg() {
+@media #{$media_lg} {
+	.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"],
+	.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"],
+	.dk-speakout-petition-wrap .dk-speakout-petition select {
+		font-size: 16px !important;
+	}
+	.dk-speakout-petition-wrap .dk-speakout-readme,
+	.dk-speakout-petition-wrap .dk-speakout-petition .dk-speakout-submit,
+	.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter,
+	.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook {
+		@include font(14px, 22px);
+		letter-spacing: 0.5px;
+	}
+	.dk-speakout-petition-wrap {
+		padding: 2em 2.4em;
+	}
+	.dk-speakout-petition-wrap h3 {
+		 @include font(24px, 28px);
+	}
+	table.dk-speakout-signaturelist td,
+	table.dk-speakout-signaturelist tr {
+		padding: 1.5em 1em;
+	}
+	table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a:before {
+		font-size: 12px;
+	}
+
+
+}
+
+//@mixin speakout--md() {
+@media #{$media_md} {
+	.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-twitter,
+	.dk-speakout-petition-wrap .dk-speakout-share a.dk-speakout-facebook {
+		padding: 0.6em 1.4em;
+	}
+	.dk-speakout-petition-wrap h3 {
+		@include font(22px, 24px);
+		letter-spacing: 0;
+	}
+
+}
+//@mixin speakout--sm() {
+@media #{$media_sm} {
+	.dk-speakout-petition-wrap {
+		padding: 20px 25px;
+	}
+	.dk-speakout-petition-wrap h3 {
+		@include font(20px, 22px);
+	}
+	.dk-speakout-petition-wrap .dk-speakout-petition input[type="text"],
+	.dk-speakout-petition-wrap .dk-speakout-petition input[type="email"],
+	.dk-speakout-petition-wrap .dk-speakout-petition select {
+		font-size: 15px !important;
+		padding: 10px 20px;
+		margin-bottom: 15px;
+	}
+	.dk-speakout-petition-wrap .dk-speakout-petition select {
+		margin-bottom: 0;
+		padding: 10px 20px;
+	}
+	.dk-speakout-petition-wrap .dk-speakout-petition .select_container {
+		margin-bottom: 15px;
+	}
+	.dk-speakout-petition-wrap .dk-speakout-progress-wrap {
+		margin-top: 2em;
+	}
+	.dk-speakout-petition-wrap .dk-speakout-progress-wrap + .dk-speakout-share {
+		margin-top: 2em;
+	}
+	table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks td {
+		padding: 2em 0 0 0;
+	}
+	table.dk-speakout-signaturelist td, table.dk-speakout-signaturelist tr {
+		@include font(14px, 19px);
+		padding: 5px;
+		letter-spacing: 0;
+	}
+	table.dk-speakout-signaturelist .dk-speakout-signaturelist-flag-icon {
+		margin-right: 2px;
+		width: 13px;
+	}
+	table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a {
+		@include box(2em, 2em, 2em);
+	}
+	table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a:before {
+		font-size: 10px;
+	}
+	#dk-speakout-reader #dk-speakout-reader-content p {
+		margin: 1em 0;
+	}
+	#dk-speakout-reader #dk-speakout-reader-content p + .dk-speakout-greeting,
+	#dk-speakout-reader #dk-speakout-reader-content .dk-speakout-greeting + p {
+		margin-top: 1em;
+	}
+
+	#dk-speakout-reader {
+		width: 70% !important;
+	}
+	#dk-speakout-reader #dk-speakout-reader-content {
+		padding: 25px 30px 30px 30px;
+	}
+	.dk-speakout-signaturelistWrapper {
+		overflow-x: auto;
+		max-width: 100%;
+	}
+	table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks td {
+		text-align: left;
+	}
+}
+//@mixin speakout--xs() {
+@media #{$media_xs} {
+	.dk-speakout-petition-wrap h3 {
+		@include font(19px, 22px);
+	}
+	.dk-speakout-petition-wrap .dk-speakout-share div > p:first-child {
+		@include font(18px !important, 20px !important);
+	}
+	.dk-speakout-petition-wrap .dk-speakout-share div > p:last-child {
+		@include flex-direction(column);
+		@include flex-justify-content(flex-start);
+	}
+	.dk-speakout-petition-wrap .dk-speakout-share div > p:last-child > a.dk-speakout-twitter,
+	.dk-speakout-petition-wrap .dk-speakout-share div > p:last-child > a.dk-speakout-facebook {
+		width: 100%;
+	}
+	.dk-speakout-petition-wrap .dk-speakout-share div > p:last-child > a.dk-speakout-twitter {
+		margin-top: 10px;
+	}
+	table.dk-speakout-signaturelist td, table.dk-speakout-signaturelist tr {
+		@include font(13px, 17px);
+		letter-spacing: -0.3px;
+		padding: 3px;
+	}
+	table.dk-speakout-signaturelist tr.dk-speakout-signaturelist-pagelinks a {
+		@include box(1.8em, 1.8em, 1.8em);
+	}
+
+}

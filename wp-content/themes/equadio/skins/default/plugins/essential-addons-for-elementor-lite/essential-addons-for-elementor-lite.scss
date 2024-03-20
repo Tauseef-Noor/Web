@@ -1,0 +1,75 @@
+/* Essential Addons for Elementor styles
+----------------------------------------------------------------- */
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+/* Advance Tabs */
+.eael-advance-tabs .eael-tabs-nav > ul li {
+	@include font(1.25em, 1.3em, 700);
+	letter-spacing: 0.4px;
+	padding: 18px 45px 25px 45px;
+	margin: 0 2px 0 0;
+	border-top-width:7px;
+	border-top-style: solid;
+	background-color: var(--theme-color-alter_bg_hover);
+	border-color: var(--theme-color-alter_bg_hover);
+	color:  var(--theme-color-alter_dark);
+}
+.eael-advance-tabs .eael-tabs-nav > ul li:last-child {
+	margin-right: 0;
+}
+.eael-advance-tabs .eael-tabs-nav > ul li.active,
+.eael-advance-tabs .eael-tabs-nav > ul li.active-default,
+.eael-advance-tabs .eael-tabs-nav > ul li:hover {
+	background-color: var(--theme-color-alter_bg_color);
+	border-color: var(--theme-color-alter_link2);
+	color:  var(--theme-color-alter_dark);
+}
+.eael-advance-tabs .eael-tabs-nav > ul li img {
+	width: 40px;
+}
+.eael-advance-tabs .eael-tabs-nav .eael-tab-inline-icon li i,
+.eael-advance-tabs .eael-tabs-nav .eael-tab-inline-icon li img {
+	margin-right: 20px;
+}
+.eael-advance-tabs .eael-tabs-nav > ul.eael-tab-inline-icon li {
+	@include flex-justify-content(flex-start);
+	text-align: left;
+	@include transition-colors;
+}
+.eael-advance-tabs .eael-tabs-nav > ul li > i {
+	@include transition-color;
+	font-size: 35px;
+	color: var(--theme-color-alter_dark);
+}
+.eael-advance-tabs .eael-tabs-nav > ul li:hover > i,
+.eael-advance-tabs .eael-tabs-nav > ul li.active > i {
+	color: var(--theme-color-alter_link2);
+}
+.eael-advance-tabs .eael-tabs-nav > ul li > i.fa-sun:before,
+.eael-advance-tabs .eael-tabs-nav > ul li > i.fa-water:before,
+.eael-advance-tabs .eael-tabs-nav > ul li > i.fa-wind:before {
+	font-family: $theme_icons;
+	font-weight: 400;
+}
+.eael-advance-tabs .eael-tabs-nav > ul li > i.fa-sun:before{
+	content: '\e9b1';
+}
+.eael-advance-tabs .eael-tabs-nav > ul li > i.fa-wind:before {
+	content: '\e9b6';
+}
+.eael-advance-tabs .eael-tabs-nav > ul li > i.fa-water:before {
+	content: '\e9b3';
+}
+
+.eael-advance-tabs .eael-tabs-content > div {
+	background-color: var(--theme-color-alter_bg_color);
+	color: var(--theme-color-alter_text);
+}
+.eael-advance-tabs .eael-tabs-content > div.active,
+.eael-advance-tabs .eael-tabs-content > div.active-default {
+	padding: 1.5em;
+}
+
+

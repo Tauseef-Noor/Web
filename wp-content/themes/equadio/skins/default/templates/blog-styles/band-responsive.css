@@ -1,0 +1,55 @@
+@media (max-width: 1279px) {
+  /* Blog layout: Band */
+  .post_layout_band .post_header .post_price {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+}
+@media (max-width: 1023px) {
+  /* Blog layout: Band */
+  .post_layout_band .post_header .post_price {
+    font-size: 1.75em;
+    line-height: 1.5em;
+  }
+}
+@media (max-width: 767px) {
+  /* Blog layout: Band */
+  .post_layout_band {
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .post_layout_band .post_featured {
+    -ms-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .post_layout_band .post_featured + .post_content_wrap {
+    -ms-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding: 1.5em 0 0;
+  }
+  .post_layout_band .post_header .post_price {
+    position: static;
+    right: auto;
+    top: auto;
+    margin-top: 0.3em;
+  }
+  .post_layout_band blockquote {
+    padding: 2em 2em 2em 4em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .post_layout_band blockquote:before {
+    top: 0.7em;
+    left: 0.9em;
+  }
+}
+@media (max-width: 479px) {
+  /* Blog layout: Band */
+  .post_layout_band .post_content_wrap {
+    padding: 1.5em;
+  }
+}

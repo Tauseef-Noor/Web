@@ -1,0 +1,111 @@
+/* Blog layout: Band
+------------------------- */
+.post_layout_band {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.post_layout_band {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-align: stretch;
+  -webkit-box-align: stretch;
+          align-items: stretch;
+}
+
+.post_layout_band.sticky {
+  padding: 0;
+}
+
+.post_layout_band.sticky .label_sticky {
+  border-top-color: transparent;
+  border-left-color: var(--theme-color-text_link);
+  right: auto;
+  left: -14px;
+}
+
+.post_layout_band + .post_layout_band {
+  margin-top: 3em;
+}
+
+.post_layout_band .post_featured {
+  -ms-flex-basis: 48%;
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  -ms-flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: 0;
+}
+
+.post_layout_band .post_content_wrap {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0 0 2em;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.post_layout_band .post_featured + .post_content_wrap {
+  -ms-flex-basis: 52%;
+  -ms-flex-preferred-size: 52%;
+      flex-basis: 52%;
+}
+
+.post_layout_band.post_format_quote .post_content_wrap,
+.post_layout_band.post_format_aside .post_content_inner {
+  padding: 0;
+  background-color: transparent;
+  color: inherit;
+}
+
+.post_layout_band blockquote {
+  margin: 0;
+}
+
+.post_layout_band .post_header {
+  margin: 0;
+  position: relative;
+}
+
+.post_layout_band .post_header .post_price {
+  width: auto;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.post_layout_band .post_category {
+  margin-bottom: 0.5em;
+}
+
+.post_layout_band .post_title {
+  margin: 0;
+}
+
+.post_layout_band .post_header + .post_content {
+  margin-top: 1em;
+}
+
+.post_layout_band .post_content + .post_meta {
+  margin-top: 1em;
+}

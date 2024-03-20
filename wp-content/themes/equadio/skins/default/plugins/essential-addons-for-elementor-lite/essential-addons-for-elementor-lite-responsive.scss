@@ -1,0 +1,30 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+//@mixin essential-addons-for-elementor-lite--lg() {
+@media #{$media_lg} {
+    /* Essential Addons For Elementor Lite */
+	.eael-advance-tabs .eael-tabs-nav > ul li {
+		padding: 13px 30px 20px 30px;
+		@include font(1em, 1.2em);
+	}
+	.eael-advance-tabs .eael-tabs-nav > ul li > i {
+		font-size: 25px;
+	}
+
+	.eael-advance-tabs .eael-tabs-nav .eael-tab-inline-icon li i,
+	.eael-advance-tabs .eael-tabs-nav .eael-tab-inline-icon li img {
+		margin-right: 15px;
+	}
+
+}
+
+//@mixin essential-addons-for-elementor-lite--sm() {
+@media #{$media_sm} {
+	/* Essential Addons For Elementor Lite */
+	.eael-advance-tabs .eael-tabs-nav > ul li {
+		padding: 13px 25px 20px 25px;
+		@include font(17px, 22px);
+	}
+}

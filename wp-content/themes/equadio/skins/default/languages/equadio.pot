@@ -1,0 +1,5498 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Equadio\n"
+"POT-Creation-Date: 2023-12-27 12:44+0200\n"
+"PO-Revision-Date: 2015-09-02 14:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: ThemeREX\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-KeywordsList: translate_nooped_plural;gettext_noop;gettext;"
+"esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;_n_noop;_nx;_n;_x;_e;"
+"__\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:26 skins/default/skin.php:797
+msgid "Trackback:"
+msgstr ""
+
+#: comments.php:26 comments.php:31 skins/default/skin.php:762
+#: skins/default/skin.php:797 skins/default/skin.php:802
+#: theme-specific/theme-tags.php:693
+msgid "Edit"
+msgstr ""
+
+#: comments.php:31 skins/default/skin.php:802
+msgid "Pingback:"
+msgstr ""
+
+#: comments.php:49 skins/default/skin.php:821
+msgid "Post Author"
+msgstr ""
+
+#: comments.php:61 skins/default/skin.php:826
+msgid "Posted"
+msgstr ""
+
+#: comments.php:67 skins/default/skin.php:832
+msgid "at"
+msgstr ""
+
+#: comments.php:81 skins/default/skin.php:882
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:140
+msgid "Show comment"
+msgstr ""
+
+#: comments.php:141 comments.php:222 comments.php:224
+#: theme-specific/theme-tags.php:338
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:142 skins/default/skin-options.php:1904
+msgid "Hide comments"
+msgstr ""
+
+#: comments.php:182 comments.php:268 skins/default/skin.php:693
+#: theme-specific/theme-tags.php:624
+msgid "Comment"
+msgstr ""
+
+#: comments.php:191
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:242
+msgid "Name"
+msgstr ""
+
+#: comments.php:243
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:254 skins/default/plugins/trx_addons/trx_addons-setup.php:549
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:255
+msgid "Your E-mail"
+msgstr ""
+
+#: comments.php:269
+msgid "Your comment"
+msgstr ""
+
+#: front-page/front-page-options.php:32
+msgid "Front Page Builder"
+msgstr ""
+
+#: front-page/front-page-options.php:33
+msgid ""
+"More fine tuning component display Front Page (view and menu position, "
+"presence and position of the sidebar, header and footer, etc.) you can "
+"produce in the section \"Page Options\" when editing a page, selected as "
+"Front Page"
+msgstr ""
+
+#: front-page/front-page-options.php:41 plugins/elementor/elementor.php:429
+#: skins/default/skin-options.php:49 skins/default/skin-options.php:57
+#: skins/default/skin-options.php:141 skins/default/skin-options.php:151
+#: skins/default/skin-options.php:161 skins/default/skin-options.php:210
+#: skins/default/skin-options.php:302 skins/default/skin-options.php:317
+#: skins/default/skin-options.php:363 skins/default/skin-options.php:997
+#: skins/default/skin-options.php:1014 skins/default/skin-options.php:1126
+#: skins/default/skin-options.php:1286 skins/default/skin-options.php:1296
+#: skins/default/skin-options.php:1330 skins/default/skin-options.php:1592
+#: skins/default/skin-options.php:2258
+#: theme-options/theme-options-override.php:102
+#: theme-options/theme-options-qsetup.php:66
+#: theme-options/theme-options-qsetup.php:74
+#: theme-options/theme-options-qsetup.php:82
+#: theme-options/theme-options-qsetup.php:90
+#: theme-options/theme-options-qsetup.php:98
+#: theme-options/theme-options-qsetup.php:106
+#: theme-options/theme-options-qsetup.php:114
+#: theme-options/theme-options-qsetup.php:195
+msgid "General"
+msgstr ""
+
+#: front-page/front-page-options.php:47
+msgid "General settings for Front Page Builder"
+msgstr ""
+
+#: front-page/front-page-options.php:52
+msgid "Enable Front Page builder"
+msgstr ""
+
+#: front-page/front-page-options.php:53
+msgid "If Front Page Builder is off - native page content will be shown"
+msgstr ""
+
+#: front-page/front-page-options.php:58
+msgid "Sections order"
+msgstr ""
+
+#: front-page/front-page-options.php:59
+msgid ""
+"Drag and drop sections below to set up their order on the Front Page. You "
+"can also enable / disable any section."
+msgstr ""
+
+#: front-page/front-page-options.php:70 front-page/front-page-options.php:270
+#: front-page/front-page-options.php:437 front-page/front-page-options.php:608
+#: front-page/front-page-options.php:775 front-page/front-page-options.php:942
+#: front-page/front-page-options.php:1109
+#: front-page/front-page-options.php:1274
+#: front-page/front-page-options.php:1466
+#: front-page/front-page-options.php:1651
+msgid "Background image"
+msgstr ""
+
+#: front-page/front-page-options.php:71
+msgid "Select or upload background image for whole Front page"
+msgstr ""
+
+#: front-page/front-page-options.php:105
+msgid "Big title"
+msgstr ""
+
+#: front-page/front-page-options.php:113 front-page/front-page-options.php:171
+#: front-page/front-page-options.php:391 front-page/front-page-options.php:555
+#: front-page/front-page-options.php:729 front-page/front-page-options.php:896
+#: front-page/front-page-options.php:1063
+#: front-page/front-page-options.php:1227
+#: front-page/front-page-options.php:1411
+#: front-page/front-page-options.php:1596
+msgid "Title"
+msgstr ""
+
+#: front-page/front-page-options.php:119
+msgid "Slider"
+msgstr ""
+
+#: front-page/front-page-options.php:124
+msgid "Slider Shortcode"
+msgstr ""
+
+#: front-page/front-page-options.php:125
+msgid ""
+"Paste a shortcode generated by any slider plugin. The slider will be used "
+"instead of the section title, description and buttons."
+msgstr ""
+
+#: front-page/front-page-options.php:132 front-page/front-page-options.php:358
+#: front-page/front-page-options.php:525 front-page/front-page-options.php:696
+#: front-page/front-page-options.php:863 front-page/front-page-options.php:1030
+#: front-page/front-page-options.php:1197
+#: front-page/front-page-options.php:1364
+#: front-page/front-page-options.php:1397
+#: front-page/front-page-options.php:1554
+#: front-page/front-page-options.php:1584 skins/default/skin-options.php:149
+msgid "Layout"
+msgstr ""
+
+#: front-page/front-page-options.php:140 front-page/front-page-options.php:364
+#: front-page/front-page-options.php:530 front-page/front-page-options.php:702
+#: front-page/front-page-options.php:869 front-page/front-page-options.php:1036
+#: front-page/front-page-options.php:1202
+#: front-page/front-page-options.php:1370
+#: front-page/front-page-options.php:1559
+msgid "Full height"
+msgstr ""
+
+#: front-page/front-page-options.php:141 front-page/front-page-options.php:365
+#: front-page/front-page-options.php:531 front-page/front-page-options.php:703
+#: front-page/front-page-options.php:870 front-page/front-page-options.php:1037
+#: front-page/front-page-options.php:1203
+#: front-page/front-page-options.php:1371
+#: front-page/front-page-options.php:1560
+msgid "Stretch this section to the window height"
+msgstr ""
+
+#: front-page/front-page-options.php:150 front-page/front-page-options.php:372
+#: front-page/front-page-options.php:537 front-page/front-page-options.php:710
+#: front-page/front-page-options.php:877 front-page/front-page-options.php:1044
+#: front-page/front-page-options.php:1209
+#: front-page/front-page-options.php:1378
+#: front-page/front-page-options.php:1566
+msgid "Stack this section"
+msgstr ""
+
+#: front-page/front-page-options.php:151 front-page/front-page-options.php:373
+#: front-page/front-page-options.php:538 front-page/front-page-options.php:711
+#: front-page/front-page-options.php:878 front-page/front-page-options.php:1045
+#: front-page/front-page-options.php:1210
+#: front-page/front-page-options.php:1379
+#: front-page/front-page-options.php:1567
+msgid ""
+"Add the behavior of \"a stack\" for this section to fix it when you scroll "
+"to the top of the screen."
+msgstr ""
+
+#: front-page/front-page-options.php:160 front-page/front-page-options.php:382
+#: front-page/front-page-options.php:547 front-page/front-page-options.php:720
+#: front-page/front-page-options.php:887 front-page/front-page-options.php:1054
+#: front-page/front-page-options.php:1219
+#: front-page/front-page-options.php:1388
+#: front-page/front-page-options.php:1576
+msgid "Paddings"
+msgstr ""
+
+#: front-page/front-page-options.php:161 front-page/front-page-options.php:383
+#: front-page/front-page-options.php:548 front-page/front-page-options.php:721
+#: front-page/front-page-options.php:888 front-page/front-page-options.php:1055
+#: front-page/front-page-options.php:1220
+#: front-page/front-page-options.php:1389
+#: front-page/front-page-options.php:1577
+msgid "Select paddings inside this section"
+msgstr ""
+
+#: front-page/front-page-options.php:179 front-page/front-page-options.php:397
+#: front-page/front-page-options.php:560 front-page/front-page-options.php:735
+#: front-page/front-page-options.php:902 front-page/front-page-options.php:1069
+#: front-page/front-page-options.php:1232
+#: front-page/front-page-options.php:1417
+#: front-page/front-page-options.php:1601
+msgid "Section title"
+msgstr ""
+
+#: front-page/front-page-options.php:183
+msgid "Section with Big title"
+msgstr ""
+
+#: front-page/front-page-options.php:191 front-page/front-page-options.php:406
+#: front-page/front-page-options.php:568 front-page/front-page-options.php:744
+#: front-page/front-page-options.php:911 front-page/front-page-options.php:1078
+#: front-page/front-page-options.php:1240
+#: front-page/front-page-options.php:1426
+#: front-page/front-page-options.php:1609 skins/default/skin.php:509
+msgid "Description"
+msgstr ""
+
+#: front-page/front-page-options.php:192 front-page/front-page-options.php:407
+#: front-page/front-page-options.php:569 front-page/front-page-options.php:745
+#: front-page/front-page-options.php:912 front-page/front-page-options.php:1079
+#: front-page/front-page-options.php:1241
+#: front-page/front-page-options.php:1427
+#: front-page/front-page-options.php:1610
+msgid "Short description after the section's title"
+msgstr ""
+
+#: front-page/front-page-options.php:195
+msgid "This text can be changed in the section \"Title\""
+msgstr ""
+
+#: front-page/front-page-options.php:203 skins/default/skin-setup.php:264
+msgid "Buttons"
+msgstr ""
+
+#: front-page/front-page-options.php:211
+msgid "Button1 link"
+msgstr ""
+
+#: front-page/front-page-options.php:222
+msgid "Button1 caption"
+msgstr ""
+
+#: front-page/front-page-options.php:230
+msgid "Customize Button 1"
+msgstr ""
+
+#: front-page/front-page-options.php:234
+msgid "Button2 link"
+msgstr ""
+
+#: front-page/front-page-options.php:245
+msgid "Button2 caption"
+msgstr ""
+
+#: front-page/front-page-options.php:253
+msgid "Customize Button 2"
+msgstr ""
+
+#: front-page/front-page-options.php:257 front-page/front-page-options.php:423
+#: front-page/front-page-options.php:595 front-page/front-page-options.php:761
+#: front-page/front-page-options.php:928 front-page/front-page-options.php:1095
+#: front-page/front-page-options.php:1261
+#: front-page/front-page-options.php:1452
+#: front-page/front-page-options.php:1637
+msgid "Colors and images"
+msgstr ""
+
+#: front-page/front-page-options.php:262 front-page/front-page-options.php:429
+#: front-page/front-page-options.php:600 front-page/front-page-options.php:767
+#: front-page/front-page-options.php:934 front-page/front-page-options.php:1101
+#: front-page/front-page-options.php:1266
+#: front-page/front-page-options.php:1458
+#: front-page/front-page-options.php:1643 plugins/elementor/elementor.php:254
+#: plugins/js_composer/js_composer.php:26
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:335
+msgid "Color scheme"
+msgstr ""
+
+#: front-page/front-page-options.php:263 front-page/front-page-options.php:430
+#: front-page/front-page-options.php:601 front-page/front-page-options.php:768
+#: front-page/front-page-options.php:935 front-page/front-page-options.php:1102
+#: front-page/front-page-options.php:1267
+#: front-page/front-page-options.php:1459
+#: front-page/front-page-options.php:1644
+msgid "Color scheme for this section"
+msgstr ""
+
+#: front-page/front-page-options.php:271 front-page/front-page-options.php:438
+#: front-page/front-page-options.php:609 front-page/front-page-options.php:776
+#: front-page/front-page-options.php:943 front-page/front-page-options.php:1110
+#: front-page/front-page-options.php:1275
+#: front-page/front-page-options.php:1467
+#: front-page/front-page-options.php:1652
+msgid "Select or upload background image for this section"
+msgstr ""
+
+#: front-page/front-page-options.php:278 front-page/front-page-options.php:445
+#: front-page/front-page-options.php:616 front-page/front-page-options.php:783
+#: front-page/front-page-options.php:950 front-page/front-page-options.php:1117
+#: front-page/front-page-options.php:1282
+#: front-page/front-page-options.php:1474
+#: front-page/front-page-options.php:1659 skins/default/skin-setup.php:368
+msgid "Background color"
+msgstr ""
+
+#: front-page/front-page-options.php:279 front-page/front-page-options.php:446
+#: front-page/front-page-options.php:617 front-page/front-page-options.php:784
+#: front-page/front-page-options.php:951 front-page/front-page-options.php:1118
+#: front-page/front-page-options.php:1283
+#: front-page/front-page-options.php:1475
+#: front-page/front-page-options.php:1660
+msgid "Background color for this section"
+msgstr ""
+
+#: front-page/front-page-options.php:283 front-page/front-page-options.php:450
+#: front-page/front-page-options.php:621 front-page/front-page-options.php:788
+#: front-page/front-page-options.php:955 front-page/front-page-options.php:1122
+#: front-page/front-page-options.php:1287
+#: front-page/front-page-options.php:1479
+#: front-page/front-page-options.php:1664 skins/default/skin-options.php:1796
+#: skins/default/skin-options.php:1817 skins/default/skin-options.php:1849
+#: skins/default/skin-options.php:2193 skins/default/skin-options.php:2202
+msgid "None"
+msgstr ""
+
+#: front-page/front-page-options.php:284 front-page/front-page-options.php:451
+#: front-page/front-page-options.php:622 front-page/front-page-options.php:789
+#: front-page/front-page-options.php:956 front-page/front-page-options.php:1123
+#: front-page/front-page-options.php:1288
+#: front-page/front-page-options.php:1480
+#: front-page/front-page-options.php:1665
+msgid "Scheme bg color"
+msgstr ""
+
+#: front-page/front-page-options.php:285 front-page/front-page-options.php:452
+#: front-page/front-page-options.php:623 front-page/front-page-options.php:790
+#: front-page/front-page-options.php:957 front-page/front-page-options.php:1124
+#: front-page/front-page-options.php:1289
+#: front-page/front-page-options.php:1481
+#: front-page/front-page-options.php:1666
+#: plugins/trx_addons/trx_addons.php:1375
+msgid "Custom"
+msgstr ""
+
+#: front-page/front-page-options.php:290 front-page/front-page-options.php:457
+#: front-page/front-page-options.php:628 front-page/front-page-options.php:795
+#: front-page/front-page-options.php:962 front-page/front-page-options.php:1129
+#: front-page/front-page-options.php:1294
+#: front-page/front-page-options.php:1486
+#: front-page/front-page-options.php:1671
+msgid "Custom color"
+msgstr ""
+
+#: front-page/front-page-options.php:291 front-page/front-page-options.php:458
+#: front-page/front-page-options.php:629 front-page/front-page-options.php:796
+#: front-page/front-page-options.php:963 front-page/front-page-options.php:1130
+#: front-page/front-page-options.php:1295
+#: front-page/front-page-options.php:1487
+#: front-page/front-page-options.php:1672
+msgid "Custom background color for this section"
+msgstr ""
+
+#: front-page/front-page-options.php:300 front-page/front-page-options.php:467
+#: front-page/front-page-options.php:638 front-page/front-page-options.php:805
+#: front-page/front-page-options.php:972 front-page/front-page-options.php:1139
+#: front-page/front-page-options.php:1304
+#: front-page/front-page-options.php:1496
+#: front-page/front-page-options.php:1681
+msgid "Background mask"
+msgstr ""
+
+#: front-page/front-page-options.php:301 front-page/front-page-options.php:468
+#: front-page/front-page-options.php:639 front-page/front-page-options.php:806
+#: front-page/front-page-options.php:973 front-page/front-page-options.php:1140
+#: front-page/front-page-options.php:1305
+#: front-page/front-page-options.php:1497
+#: front-page/front-page-options.php:1682
+msgid ""
+"Use Background color as section mask with specified opacity. If 0 - mask is "
+"not being used"
+msgstr ""
+
+#: front-page/front-page-options.php:309 front-page/front-page-options.php:476
+#: front-page/front-page-options.php:647 front-page/front-page-options.php:814
+#: front-page/front-page-options.php:981 front-page/front-page-options.php:1148
+#: front-page/front-page-options.php:1313
+#: front-page/front-page-options.php:1505
+#: front-page/front-page-options.php:1690
+msgid "Anchor"
+msgstr ""
+
+#: front-page/front-page-options.php:310 front-page/front-page-options.php:477
+#: front-page/front-page-options.php:648 front-page/front-page-options.php:815
+#: front-page/front-page-options.php:982 front-page/front-page-options.php:1149
+#: front-page/front-page-options.php:1314
+#: front-page/front-page-options.php:1506
+#: front-page/front-page-options.php:1691
+msgid ""
+"You can select an icon and/or specify a text to create an anchor for this "
+"section to display it in the side menu (if selected in the section \"Header "
+"- Menu\")."
+msgstr ""
+
+#: front-page/front-page-options.php:312 front-page/front-page-options.php:479
+#: front-page/front-page-options.php:650 front-page/front-page-options.php:817
+#: front-page/front-page-options.php:984 front-page/front-page-options.php:1151
+#: front-page/front-page-options.php:1316
+#: front-page/front-page-options.php:1508
+#: front-page/front-page-options.php:1693
+msgid ""
+"Attention! Anchors are available only if ThemeREX Addons plugin is installed "
+"and activated!"
+msgstr ""
+
+#: front-page/front-page-options.php:316 front-page/front-page-options.php:483
+#: front-page/front-page-options.php:654 front-page/front-page-options.php:821
+#: front-page/front-page-options.php:988 front-page/front-page-options.php:1155
+#: front-page/front-page-options.php:1320
+#: front-page/front-page-options.php:1512
+#: front-page/front-page-options.php:1697
+msgid "Anchor icon"
+msgstr ""
+
+#: front-page/front-page-options.php:322 front-page/front-page-options.php:489
+#: front-page/front-page-options.php:660 front-page/front-page-options.php:827
+#: front-page/front-page-options.php:994 front-page/front-page-options.php:1161
+#: front-page/front-page-options.php:1326
+#: front-page/front-page-options.php:1518
+#: front-page/front-page-options.php:1703
+msgid "Anchor text"
+msgstr ""
+
+#: front-page/front-page-options.php:344 front-page/front-page-options.php:352
+msgid "Features"
+msgstr ""
+
+#: front-page/front-page-options.php:401
+msgid "Why our service is the best"
+msgstr ""
+
+#: front-page/front-page-options.php:410
+msgid "This text can be changed in the section \"Features\""
+msgstr ""
+
+#: front-page/front-page-options.php:415 front-page/front-page-options.php:753
+#: front-page/front-page-options.php:920 front-page/front-page-options.php:1087
+#: front-page/front-page-options.php:1444 skins/default/skin-options.php:415
+#: skins/default/skin-options.php:426 skins/default/skin-options.php:437
+#: skins/default/skin-options.php:448
+msgid "Widgets"
+msgstr ""
+
+#: front-page/front-page-options.php:416 front-page/front-page-options.php:754
+#: front-page/front-page-options.php:921 front-page/front-page-options.php:1088
+#: front-page/front-page-options.php:1445
+msgid ""
+"You can set up widgets for this section in \"Appearance - Customize\" or "
+"\"Appearance - Widgets\" tabs."
+msgstr ""
+
+#: front-page/front-page-options.php:418
+msgid ""
+"Insert your preferred widget to display services here. You can also select "
+"any other widget, thus changing the purpose of this section"
+msgstr ""
+
+#: front-page/front-page-options.php:511 front-page/front-page-options.php:519
+#: front-page/front-page-options.php:564
+msgid "About Us"
+msgstr ""
+
+#: front-page/front-page-options.php:572
+msgid "This text can be changed in the section \"About\""
+msgstr ""
+
+#: front-page/front-page-options.php:576 front-page/front-page-options.php:581
+#: front-page/front-page-options.php:1435
+#: front-page/front-page-options.php:1617 skins/default/skin-options.php:159
+#: skins/default/skin-options.php:207 skins/default/skin-options.php:218
+#: skins/default/skin-options.php:236 skins/default/skin-options.php:260
+#: skins/default/skin-options.php:273 skins/default/skin-options.php:299
+#: skins/default/skin-options.php:311 skins/default/skin-options.php:326
+#: skins/default/skin-options.php:340 skins/default/skin-options.php:355
+#: skins/default/skin-options.php:398 skins/default/skin-options.php:1005
+#: skins/default/skin-options.php:1023 skins/default/skin-options.php:1067
+#: skins/default/skin-options.php:1087 skins/default/skin-options.php:1106
+#: skins/default/skin-options.php:1123 skins/default/skin-options.php:1141
+#: skins/default/skin-options.php:1164 skins/default/skin-options.php:1182
+#: skins/default/skin-options.php:1197 skins/default/skin-options.php:1207
+#: skins/default/skin-options.php:1220 skins/default/skin-options.php:1404
+#: skins/default/skin-options.php:1503 skins/default/skin-options.php:1513
+#: skins/default/skin-options.php:1527 skins/default/skin-options.php:1541
+#: skins/default/skin-options.php:1556 skins/default/skin-options.php:1571
+#: skins/default/skin-options.php:1589 skins/default/skin-options.php:1601
+#: skins/default/skin-options.php:1649 skins/default/skin-options.php:1659
+#: skins/default/skin-options.php:1679 skins/default/skin-options.php:1689
+#: skins/default/skin-options.php:1709 skins/default/skin-options.php:1729
+#: skins/default/skin-options.php:1744 skins/default/skin-options.php:1760
+#: skins/default/skin-options.php:1775 skins/default/skin-options.php:1788
+#: skins/default/skin-options.php:1809 skins/default/skin-options.php:1827
+#: skins/default/skin-plugins.php:18
+#: skins/default/theme-specific/theme-hovers/theme-hovers.php:33
+msgid "Content"
+msgstr ""
+
+#: front-page/front-page-options.php:582
+msgid "The arbitrary content of the current section."
+msgstr ""
+
+#: front-page/front-page-options.php:585
+#, php-format
+msgid ""
+"Attention! You can use %%CONTENT%% to insert instead the content of the "
+"page, selected as the Front Page in the menu \"Settings - Reading\" or in "
+"the \"Customize - Static Front Page\""
+msgstr ""
+
+#: front-page/front-page-options.php:682
+msgid "Our Team"
+msgstr ""
+
+#: front-page/front-page-options.php:690
+msgid "Team members"
+msgstr ""
+
+#: front-page/front-page-options.php:739
+msgid "Meet our team"
+msgstr ""
+
+#: front-page/front-page-options.php:748
+msgid "This text can be changed in the section \"Team members\""
+msgstr ""
+
+#: front-page/front-page-options.php:756
+msgid ""
+"Insert your preferred widget to display team members here. You can also "
+"select any other widget, thus changing the purpose of this section"
+msgstr ""
+
+#: front-page/front-page-options.php:849 front-page/front-page-options.php:857
+#: plugins/trx_addons/trx_addons.php:645
+msgid "Testimonials"
+msgstr ""
+
+#: front-page/front-page-options.php:906
+msgid "What our clients say"
+msgstr ""
+
+#: front-page/front-page-options.php:915
+msgid "This text can be changed in the section \"Testimonials\""
+msgstr ""
+
+#: front-page/front-page-options.php:923
+msgid ""
+"Insert your preferred widget to display testimonials here. You can also "
+"select any other widget, thus changing the purpose of this section"
+msgstr ""
+
+#: front-page/front-page-options.php:1016
+#: front-page/front-page-options.php:1024
+#: front-page/front-page-options.php:1073
+msgid "Latest posts"
+msgstr ""
+
+#: front-page/front-page-options.php:1082
+msgid "This text can be changed in the section \"Latest posts\""
+msgstr ""
+
+#: front-page/front-page-options.php:1090
+msgid ""
+"Insert your preferred widget to display latest posts here. You can also "
+"select any other widget, thus changing the purpose of this section"
+msgstr ""
+
+#: front-page/front-page-options.php:1183
+#: front-page/front-page-options.php:1191
+msgid "Subscribe"
+msgstr ""
+
+#: front-page/front-page-options.php:1236
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: front-page/front-page-options.php:1244
+msgid "This text can be changed in the section \"Subscribe\""
+msgstr ""
+
+#: front-page/front-page-options.php:1248
+#: front-page/front-page-options.php:1624
+msgid "Shortcode"
+msgstr ""
+
+#: front-page/front-page-options.php:1253
+msgid "Shortcode to insert Subscribe form"
+msgstr ""
+
+#: front-page/front-page-options.php:1254
+msgid ""
+"Paste shortcode, generated with any subscribe plugin (for example, MailChimp)"
+msgstr ""
+
+#: front-page/front-page-options.php:1350
+#: front-page/front-page-options.php:1358
+#: front-page/front-page-options.php:1421
+msgid "Google map"
+msgstr ""
+
+#: front-page/front-page-options.php:1398
+#: front-page/front-page-options.php:1585
+msgid "Select layout of this section"
+msgstr ""
+
+#: front-page/front-page-options.php:1401 includes/lists.php:353
+msgid "Fullwidth"
+msgstr ""
+
+#: front-page/front-page-options.php:1402
+#: front-page/front-page-options.php:1588 includes/lists.php:343
+msgid "Boxed"
+msgstr ""
+
+#: front-page/front-page-options.php:1403
+#: front-page/front-page-options.php:1589
+msgid "2 columns"
+msgstr ""
+
+#: front-page/front-page-options.php:1430
+#: front-page/front-page-options.php:1439
+msgid "This text can be changed in the section \"Google map\""
+msgstr ""
+
+#: front-page/front-page-options.php:1436
+msgid "Any text at the left side of the map"
+msgstr ""
+
+#: front-page/front-page-options.php:1447
+msgid ""
+"Insert your preferred widget to display the map with the location of your "
+"choice here. You can also select any other widget, thus changing the purpose "
+"of this section"
+msgstr ""
+
+#: front-page/front-page-options.php:1540
+#: front-page/front-page-options.php:1548
+#: front-page/front-page-options.php:1605
+msgid "Contact Us"
+msgstr ""
+
+#: front-page/front-page-options.php:1613
+msgid "This text can be changed in the section \"Contact Us\""
+msgstr ""
+
+#: front-page/front-page-options.php:1618
+msgid "Any text at the left side of the form"
+msgstr ""
+
+#: front-page/front-page-options.php:1620
+msgid ""
+"<h5><span class=\"icon-home-2\"> </span>Find us at the office:</h5><p>500, "
+"Lorem Street,<br />Chicago, IL, 55030<br />Mon - Fri, 09:00 - 18:00</p><h5> "
+"<span class=\"icon-mobile-light\"> </span>Give us a call:</h5><p>Michael "
+"Jordan<br />+40 (123) 456-78-90<br />Mon - Fri, 08:00 - 22:00</p>"
+msgstr ""
+
+#: front-page/front-page-options.php:1629
+msgid "Shortcode with contact form"
+msgstr ""
+
+#: front-page/front-page-options.php:1630
+msgid ""
+"Paste shortcode, generated with any form plugin (for example, Contacts Form "
+"7). You can also paste any other shortcodes, changing thus the purpose of "
+"this section"
+msgstr ""
+
+#: front-page/front-page-options.php:1740
+msgid "Front Page section \"Features\""
+msgstr ""
+
+#: front-page/front-page-options.php:1741
+msgid "Widgets to be shown only in the section \"Features\" on the front page"
+msgstr ""
+
+#: front-page/front-page-options.php:1745
+msgid "Front Page section \"Team members\""
+msgstr ""
+
+#: front-page/front-page-options.php:1746
+msgid ""
+"Widgets to be shown only in the section \"Team members\" on the front page"
+msgstr ""
+
+#: front-page/front-page-options.php:1750
+msgid "Front Page section \"Testimonials\""
+msgstr ""
+
+#: front-page/front-page-options.php:1751
+msgid ""
+"Widgets to be shown only in the section \"Testimonials\" on the front page"
+msgstr ""
+
+#: front-page/front-page-options.php:1755
+msgid "Front Page section \"Latest Posts\""
+msgstr ""
+
+#: front-page/front-page-options.php:1756
+msgid ""
+"Widgets to be shown only in the section \"Latest Posts\" on the front page"
+msgstr ""
+
+#: front-page/front-page-options.php:1761
+msgid "Front Page section \"Google map\""
+msgstr ""
+
+#: front-page/front-page-options.php:1762
+msgid ""
+"Widgets to be shown only in the section \"Google map\" on the front page"
+msgstr ""
+
+#: functions.php:100
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:101
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:102
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:365
+msgid "Invalid server answer!"
+msgstr ""
+
+#: functions.php:561
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: functions.php:562
+msgid "Widgets to be shown on the main sidebar"
+msgstr ""
+
+#: functions.php:565
+msgid "Header Widgets"
+msgstr ""
+
+#: functions.php:566
+msgid "Widgets to be shown at the top of the page (in the page header area)"
+msgstr ""
+
+#: functions.php:569
+msgid "Top Page Widgets"
+msgstr ""
+
+#: functions.php:570
+msgid "Widgets to be shown below the header, but above the content and sidebar"
+msgstr ""
+
+#: functions.php:573
+msgid "Above Content Widgets"
+msgstr ""
+
+#: functions.php:574
+msgid "Widgets to be shown above the content, near the sidebar"
+msgstr ""
+
+#: functions.php:577
+msgid "Below Content Widgets"
+msgstr ""
+
+#: functions.php:578
+msgid "Widgets to be shown below the content, near the sidebar"
+msgstr ""
+
+#: functions.php:581
+msgid "Bottom Page Widgets"
+msgstr ""
+
+#: functions.php:582
+msgid "Widgets to be shown below the content and sidebar, but above the footer"
+msgstr ""
+
+#: functions.php:585
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:586
+msgid "Widgets to be shown at the bottom of the page (in the page footer area)"
+msgstr ""
+
+#: functions.php:608 functions.php:609
+msgid "on"
+msgstr ""
+
+#: functions.php:726
+msgid "@2x"
+msgstr ""
+
+#: header.php:43
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:45
+msgid "Skip to sidebar"
+msgstr ""
+
+#: header.php:47
+msgid "Skip to footer"
+msgstr ""
+
+#: image.php:30
+msgid "Published in"
+msgstr ""
+
+#: image.php:31
+msgid "Previous post:"
+msgstr ""
+
+#: includes/admin.php:278
+msgid "Server response error"
+msgstr ""
+
+#: includes/admin.php:279
+msgid "Select the icon for this menu item"
+msgstr ""
+
+#: includes/admin.php:280
+msgid "Reset all changes of the current color scheme?"
+msgstr ""
+
+#: includes/admin.php:281
+msgid "Enter the name for a new color scheme"
+msgstr ""
+
+#: includes/admin.php:282
+msgid "Do you really want to delete the current color scheme?"
+msgstr ""
+
+#: includes/admin.php:283
+msgid "You cannot delete the last color scheme!"
+msgstr ""
+
+#: includes/admin.php:284
+msgid "You cannot delete the built-in color scheme!"
+msgstr ""
+
+#: includes/admin.php:285 theme-options/theme-customizer.php:1242
+msgid "Reset"
+msgstr ""
+
+#: includes/admin.php:286 theme-options/theme-customizer.php:1243
+msgid "Are you sure you want to reset all Theme Options?"
+msgstr ""
+
+#: includes/admin.php:287
+msgid "Export"
+msgstr ""
+
+#: includes/admin.php:288
+msgid "Copy options and save to the text file."
+msgstr ""
+
+#: includes/admin.php:289
+msgid "Import"
+msgstr ""
+
+#: includes/admin.php:290
+msgid "Paste previously saved options from the text file."
+msgstr ""
+
+#: includes/admin.php:291
+msgid "Error occurs while import options!"
+msgstr ""
+
+#: includes/admin.php:292 theme-options/theme-options-override.php:120
+msgid "Options presets"
+msgstr ""
+
+#: includes/admin.php:293
+msgid "Specify the name of a new preset:"
+msgstr ""
+
+#: includes/admin.php:294
+msgid "Apply the selected preset?"
+msgstr ""
+
+#: includes/admin.php:295
+msgid "Delete the selected preset?"
+msgstr ""
+
+#: includes/lists.php:22 includes/lists.php:36 includes/lists.php:47
+#: includes/lists.php:60 includes/lists.php:71 includes/lists.php:82
+#: includes/lists.php:93 includes/lists.php:104 includes/lists.php:135
+#: includes/lists.php:162 includes/lists.php:173 includes/lists.php:202
+#: includes/lists.php:229 includes/lists.php:256 includes/lists.php:276
+#: includes/lists.php:287 includes/lists.php:300 includes/lists.php:311
+#: includes/lists.php:323 includes/lists.php:334 includes/lists.php:366
+#: includes/lists.php:406 includes/lists.php:435 includes/lists.php:475
+#: includes/lists.php:490 includes/lists.php:535 includes/lists.php:553
+#: includes/lists.php:588 includes/lists.php:617 includes/lists.php:633
+#: includes/lists.php:723 includes/lists.php:762 includes/lists.php:781
+#: includes/lists.php:814 includes/lists.php:824 includes/lists.php:841
+#: plugins/elementor/elementor.php:256 plugins/elementor/elementor.php:496
+#: plugins/trx_addons/trx_addons.php:1878 skins/default/skin-options.php:2101
+#: skins/default/skin-options.php:2171 skins/default/skin-options.php:2185
+#: skins/default/skin-options.php:2192 skins/default/skin-options.php:2201
+#: theme-options/theme-options.php:680 theme-options/theme-options.php:784
+#: theme-options/theme-options.php:1151 theme-options/theme-options.php:1458
+msgid "Inherit"
+msgstr ""
+
+#: includes/lists.php:34
+#, php-format
+msgid "Style %d"
+msgstr ""
+
+#: includes/lists.php:44 includes/lists.php:56
+msgid "Yes"
+msgstr ""
+
+#: includes/lists.php:45 includes/lists.php:57
+msgid "No"
+msgstr ""
+
+#: includes/lists.php:68 plugins/elementor/elementor.php:272
+#: plugins/elementor/elementor.php:524
+msgid "On"
+msgstr ""
+
+#: includes/lists.php:69 plugins/elementor/elementor.php:271
+#: plugins/elementor/elementor.php:523
+msgid "Off"
+msgstr ""
+
+#: includes/lists.php:79 skins/default/skin.php:915 skins/default/skin.php:944
+msgid "Show"
+msgstr ""
+
+#: includes/lists.php:80 skins/default/skin.php:914 skins/default/skin.php:943
+msgid "Hide"
+msgstr ""
+
+#: includes/lists.php:90
+msgid "Visible"
+msgstr ""
+
+#: includes/lists.php:91
+msgid "Hidden"
+msgstr ""
+
+#: includes/lists.php:101
+msgid "Horizontal"
+msgstr ""
+
+#: includes/lists.php:102
+msgid "Vertical"
+msgstr ""
+
+#: includes/lists.php:114
+msgid "No Padding"
+msgstr ""
+
+#: includes/lists.php:118
+msgid "Small Padding"
+msgstr ""
+
+#: includes/lists.php:122
+msgid "Medium Padding"
+msgstr ""
+
+#: includes/lists.php:126
+msgid "Large Padding"
+msgstr ""
+
+#: includes/lists.php:150
+msgid "Dots"
+msgstr ""
+
+#: includes/lists.php:151
+#: skins/default/trx_addons/components/cpt/services/tpl.alter-item.php:101
+#: skins/default/trx_addons/components/cpt/services/tpl.alter-item.php:112
+#: skins/default/trx_addons/components/cpt/services/tpl.default-item.php:102
+#: skins/default/trx_addons/components/cpt/services/tpl.default-item.php:113
+#: skins/default/trx_addons/components/cpt/services/tpl.light-item.php:101
+#: skins/default/trx_addons/components/cpt/services/tpl.light-item.php:112
+#: skins/default/trx_addons/components/shortcodes/price/tpe.price.php:129
+#: skins/default/trx_addons/components/shortcodes/price/tpe.price.php:152
+#: skins/default/trx_addons/components/shortcodes/price/tpl.default.php:122
+#: skins/default/trx_addons/components/shortcodes/price/tpl.default.php:157
+#: skins/default/trx_addons/components/shortcodes/skills/tpe.skills.php:169
+#: skins/default/trx_addons/components/shortcodes/skills/tpe.skills.php:198
+#: skins/default/trx_addons/components/shortcodes/skills/tpl.counter.php:59
+#: skins/default/trx_addons/components/shortcodes/skills/tpl.pie.php:109
+msgid "Icon"
+msgstr ""
+
+#: includes/lists.php:152
+msgid "Icons"
+msgstr ""
+
+#: includes/lists.php:153
+msgid "Zoom"
+msgstr ""
+
+#: includes/lists.php:154
+#: skins/default/theme-specific/theme-hovers/theme-hovers.php:23
+msgid "Fade"
+msgstr ""
+
+#: includes/lists.php:155
+msgid "Slide"
+msgstr ""
+
+#: includes/lists.php:156
+msgid "Pull"
+msgstr ""
+
+#: includes/lists.php:157
+msgid "Border"
+msgstr ""
+
+#: includes/lists.php:158 includes/lists.php:170
+msgid "Excerpt"
+msgstr ""
+
+#: includes/lists.php:159
+msgid "Info"
+msgstr ""
+
+#: includes/lists.php:171 skins/default/skin-options.php:1879
+msgid "Full post"
+msgstr ""
+
+#: includes/lists.php:182
+msgid "Page numbers"
+msgstr ""
+
+#: includes/lists.php:186
+msgid "Older/Newest"
+msgstr ""
+
+#: includes/lists.php:190
+msgid "Load more"
+msgstr ""
+
+#: includes/lists.php:194
+msgid "Infinite scroll"
+msgstr ""
+
+#: includes/lists.php:227
+msgid "- Select widgets -"
+msgstr ""
+
+#: includes/lists.php:239
+msgid "No sidebar"
+msgstr ""
+
+#: includes/lists.php:243
+msgid "Left sidebar"
+msgstr ""
+
+#: includes/lists.php:247
+msgid "Right sidebar"
+msgstr ""
+
+#: includes/lists.php:271
+msgid "Above the content"
+msgstr ""
+
+#: includes/lists.php:272
+msgid "Below the content"
+msgstr ""
+
+#: includes/lists.php:273
+msgid "Floating bar"
+msgstr ""
+
+#: includes/lists.php:297 includes/lists.php:319 includes/lists.php:772
+#: includes/lists.php:835 skins/default/skin-setup.php:427
+msgid "Default"
+msgstr ""
+
+#: includes/lists.php:320
+msgid "Over"
+msgstr ""
+
+#: includes/lists.php:321
+msgid "Under"
+msgstr ""
+
+#: includes/lists.php:347 includes/lists.php:396
+#: skins/default/skin-options.php:1698
+msgid "Wide"
+msgstr ""
+
+#: includes/lists.php:357
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/lists.php:384
+msgid "Narrow"
+msgstr ""
+
+#: includes/lists.php:392 skins/default/skin-options.php:2186
+msgid "Normal"
+msgstr ""
+
+#: includes/lists.php:422
+msgid "Margins On"
+msgstr ""
+
+#: includes/lists.php:426
+msgid "Margins Off"
+msgstr ""
+
+#: includes/lists.php:451
+msgid "Post author"
+msgstr ""
+
+#: includes/lists.php:452
+msgid "Published date"
+msgstr ""
+
+#: includes/lists.php:453
+msgid "Modified date"
+msgstr ""
+
+#: includes/lists.php:454
+msgid "Views"
+msgstr ""
+
+#: includes/lists.php:455
+msgid "Likes"
+msgstr ""
+
+#: includes/lists.php:456
+msgid "Comments"
+msgstr ""
+
+#: includes/lists.php:457
+msgid "Share links"
+msgstr ""
+
+#: includes/lists.php:458
+msgid "Categories"
+msgstr ""
+
+#: includes/lists.php:459
+msgid "Edit link"
+msgstr ""
+
+#: includes/lists.php:485 skins/default/skin-options.php:1799
+msgid "Top"
+msgstr ""
+
+#: includes/lists.php:486
+msgid "Left"
+msgstr ""
+
+#: includes/lists.php:487 skins/default/skin-options.php:1800
+#: skins/default/skin-options.php:1818
+msgid "Bottom"
+msgstr ""
+
+#: includes/lists.php:508 includes/lists.php:514
+#: plugins/trx_addons/trx_addons.php:1499
+#, php-format
+msgid "%1$s /%2$d column/"
+msgstr ""
+
+#: includes/lists.php:628
+msgid "Post"
+msgstr ""
+
+#: includes/lists.php:676 includes/lists.php:734
+msgid "- Not selected -"
+msgstr ""
+
+#: includes/lists.php:836 skins/default/skin-setup.php:404
+msgid "Link 2"
+msgstr ""
+
+#: includes/lists.php:837 skins/default/skin-setup.php:412
+msgid "Link 3"
+msgstr ""
+
+#: includes/lists.php:838
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:481
+#: skins/default/skin-setup.php:505
+msgid "Dark"
+msgstr ""
+
+#: includes/plugins-installer/plugins-installer.php:48
+msgid "Installing ..."
+msgstr ""
+
+#: includes/plugins-installer/plugins-installer.php:50
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: includes/plugins-installer/plugins-installer.php:52
+#: includes/tgmpa/class-tgm-plugin-activation.php:2855
+msgid "Install"
+msgstr ""
+
+#: includes/plugins-installer/plugins-installer.php:87
+msgid "Activating ..."
+msgstr ""
+
+#: includes/plugins-installer/plugins-installer.php:89
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: includes/plugins-installer/plugins-installer.php:91
+#: includes/tgmpa/class-tgm-plugin-activation.php:2864 skins/skins.php:383
+msgid "Activate"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:337
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:338
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:340
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:343
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:346
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:352
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:358
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:364
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:370
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:376
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:381
+msgid "Begin installing plugin"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:386
+msgid "Begin updating plugin"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:391
+msgid "Begin activating plugin"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:395
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:396
+#: includes/tgmpa/class-tgm-plugin-activation.php:908
+#: includes/tgmpa/class-tgm-plugin-activation.php:2653
+#: includes/tgmpa/class-tgm-plugin-activation.php:3735
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:397
+#: includes/tgmpa/class-tgm-plugin-activation.php:3310
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:398
+#: includes/tgmpa/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:400
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:404
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:405
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:406
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:407
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:602
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:603
+msgid "Update Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1016
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1016
+#: includes/tgmpa/class-tgm-plugin-activation.php:1024
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1212
+#: includes/tgmpa/class-tgm-plugin-activation.php:3099
+#: skins/skins-notice.php:38 skins/skins-notice.php:44
+msgid "and"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2089
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2386
+msgid "Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2389
+msgid "Recommended"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2406
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2411
+msgid "Choose the archive with the plugin from the theme's package"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "External Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2418
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2435
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2439
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2441
+msgid "Active"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2447
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2450
+msgid "Requires Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2453
+msgid "Update recommended"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2462
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2508
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2512
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2516
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2520
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2602
+msgid "unknown"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2610
+msgid "Installed version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2618
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2630
+msgid "Available version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2653
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2667
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2668
+msgid "Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2669
+msgid "Type"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2673
+msgid "Version"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2674
+msgid "Status"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2725
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2728
+#, php-format
+msgid "Select source, check this item %2$s and Bulk action \"Install\""
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2737
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2740
+#, php-format
+msgid "Select source, check this item %2$s and Bulk action \"Update\""
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2748
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2822
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2861
+msgid "Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2895
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2897
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2938
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2940
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3028
+msgid "No plugins are selected to be updated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3040
+msgid "No plugins are selected to be installed at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3309
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3651
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3654
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3656
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3660
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3662
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3663
+#: includes/tgmpa/class-tgm-plugin-activation.php:3672
+msgid "Show Details"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3663
+#: includes/tgmpa/class-tgm-plugin-activation.php:3672
+msgid "Hide Details"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3664
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3666
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3669
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3671
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3673
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3675
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/utils.php:1387
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Put contents to the file \"%s\" failed"
+msgstr ""
+
+#: includes/utils.php:1408
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Get contents from the file \"%s\" failed"
+msgstr ""
+
+#: includes/utils.php:1427
+#, php-format
+msgid "WP Filesystem is not initialized! Get rows from the file \"%s\" failed"
+msgstr ""
+
+#: includes/utils.php:1565 includes/utils.php:1649 includes/utils.php:1710
+#: plugins/gutenberg/gutenberg.php:248 theme-options/theme-customizer.php:999
+msgid "ATTENTION! This file was generated automatically! Don't change it!!!"
+msgstr ""
+
+#: includes/utils.php:1626 includes/utils.php:1718
+#, php-format
+msgid "/* SASS Suffix: --%s */"
+msgstr ""
+
+#: includes/utils.php:1636
+msgid "/* Unknown Suffixes: */"
+msgstr ""
+
+#: includes/wp.php:499
+msgid "Home"
+msgstr ""
+
+#: includes/wp.php:501
+msgid "All Posts"
+msgstr ""
+
+#: includes/wp.php:505
+#, php-format
+msgid "Author page: %s"
+msgstr ""
+
+#: includes/wp.php:507
+msgid "URL not found"
+msgstr ""
+
+#: includes/wp.php:510
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: includes/wp.php:513
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: includes/wp.php:516
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: includes/wp.php:519
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: includes/wp.php:524
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: includes/wp.php:532
+#, php-format
+msgid "Attachment: %s"
+msgstr ""
+
+#: includes/wp.php:571
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: includes/wp.php:699
+msgid "You are trying to use a menu inserted in himself!"
+msgstr ""
+
+#: includes/wp.php:1100
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/wp.php:1139
+#, php-format
+msgid "For further details on handling user data, see our %s."
+msgstr ""
+
+#: includes/wp.php:1141
+msgid "Privacy Policy"
+msgstr ""
+
+#: plugins/elementor/elementor.php:246
+msgid "Theme-specific params"
+msgstr ""
+
+#: plugins/elementor/elementor.php:268
+msgid "Justify columns"
+msgstr ""
+
+#: plugins/elementor/elementor.php:270
+msgid ""
+"Stretch columns to align the left and right edges to the site content area"
+msgstr ""
+
+#: plugins/elementor/elementor.php:311 plugins/elementor/elementor.php:351
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:346
+msgid "Color style"
+msgstr ""
+
+#: plugins/elementor/elementor.php:497
+msgid "Override"
+msgstr ""
+
+#: plugins/elementor/elementor.php:505
+msgid "New value"
+msgstr ""
+
+#: plugins/js_composer/js_composer.php:27
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:336
+msgid "Select color scheme to decorate this block"
+msgstr ""
+
+#: plugins/js_composer/js_composer.php:28
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:337
+#: skins/default/skin-options.php:1921 skins/default/skin-options.php:1939
+#: skins/default/skin-options.php:1951 skins/default/skin-options.php:1963
+#: skins/default/skin-options.php:1975 skins/default/skin-options.php:1987
+msgid "Colors"
+msgstr ""
+
+#: plugins/js_composer/js_composer.php:161
+msgid "Theme Icons"
+msgstr ""
+
+#: plugins/the-events-calendar/the-events-calendar.php:25
+msgid "Events"
+msgstr ""
+
+#: plugins/the-events-calendar/the-events-calendar.php:26
+msgid "Select parameters to display the events pages"
+msgstr ""
+
+#: plugins/the-events-calendar/the-events-calendar.php:30
+msgid "Event"
+msgstr ""
+
+#: plugins/the-events-calendar/the-events-calendar.php:207
+msgid "Tribe Events Widgets"
+msgstr ""
+
+#: plugins/the-events-calendar/the-events-calendar.php:208
+msgid "Widgets to be shown on the Tribe Events pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:224
+msgid ""
+"In order to see changes made by settings of this section, click \"Save\" and "
+"refresh the page"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:242
+msgid "Cars"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:243
+msgid "Select parameters to display the cars pages."
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:251
+msgid "Single car"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:256 plugins/trx_addons/trx_addons.php:323
+#: plugins/trx_addons/trx_addons.php:374 plugins/trx_addons/trx_addons.php:424
+#: plugins/trx_addons/trx_addons.php:475 plugins/trx_addons/trx_addons.php:542
+#: skins/default/skin-options.php:1675
+msgid "Show related posts"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:257 plugins/trx_addons/trx_addons.php:324
+#: plugins/trx_addons/trx_addons.php:375 plugins/trx_addons/trx_addons.php:425
+#: plugins/trx_addons/trx_addons.php:476 plugins/trx_addons/trx_addons.php:543
+#: skins/default/skin-options.php:1676
+msgid "Show 'Related posts' section on single post pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:262
+msgid "Related cars"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:263
+msgid "How many related cars should be displayed on the single car page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:272 plugins/trx_addons/trx_addons.php:339
+#: plugins/trx_addons/trx_addons.php:390 plugins/trx_addons/trx_addons.php:440
+#: plugins/trx_addons/trx_addons.php:491 plugins/trx_addons/trx_addons.php:558
+#: skins/default/skin-options.php:1756
+msgid "Related columns"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:273
+msgid ""
+"How many columns should be used to output related cars on the single car "
+"page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:292
+msgid "Certificates"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:293
+msgid "Select parameters to display \"Certificates\""
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:309
+msgid "Courses"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:310
+msgid "Select parameters to display the courses pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:318
+msgid "Single course"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:329
+msgid "Related courses"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:330
+msgid "How many related courses should be displayed on the single course page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:340
+msgid ""
+"How many columns should be used to output related courses on the single "
+"course page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:360
+msgid "Dishes"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:361
+msgid "Select parameters to display the dishes pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:369
+msgid "Single dish"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:380
+msgid "Related dishes"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:381
+msgid "How many related dishes should be displayed on the single dish page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:391
+msgid ""
+"How many columns should be used to output related dishes on the single dish "
+"page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:410 skins/default/skin-setup.php:928
+msgid "Portfolio"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:411
+msgid "Select parameters to display the portfolio pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:419
+msgid "Single portfolio item"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:430
+msgid "Related portfolio items"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:431
+msgid ""
+"How many related portfolio items should be displayed on the single portfolio "
+"page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:441
+msgid ""
+"How many columns should be used to output related portfolio on the single "
+"portfolio page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:461
+msgid "Properties"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:462
+msgid "Select parameters to display the properties pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:470
+msgid "Single property"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:481
+msgid "Related properties"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:482
+msgid ""
+"How many related properties should be displayed on the single property page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:492
+msgid ""
+"How many columns should be used to output related properties on the single "
+"property page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:511
+msgid "Resume"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:512
+msgid "Select parameters to display \"Resume\""
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:528
+msgid "Services"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:529
+msgid "Select parameters to display the services pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:537
+msgid "Single service item"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:548
+msgid "Related services"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:549
+msgid ""
+"How many related services should be displayed on the single service page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:559
+msgid ""
+"How many columns should be used to output related services on the single "
+"service page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:578
+msgid "Sport"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:579
+msgid "Select parameters to display the sport pages"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:595
+msgid "Team"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:596
+msgid "Select parameters to display the team members pages."
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:604
+msgid "Team member single page"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:609
+msgid "Show team member's posts"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:610
+msgid "Display the section 'Team member's posts' on the single team page"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:615
+msgid "Post count"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:616
+msgid "How many posts should be displayed on the single team page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:625
+msgid "Post columns"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:626
+msgid ""
+"How many columns should be used to output posts on the single team page?"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:646
+msgid "Select parameters to display \"Testimonials\""
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:688
+msgid "Open selected layout in a new tab to edit"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:745
+#: theme-options/theme-options-override.php:55
+#: theme-options/theme-options-override.php:242
+#: theme-options/theme-options-qsetup.php:153
+#: theme-options/theme-options.php:905 theme-options/theme-options.php:906
+#: theme-options/theme-options.php:924
+msgid "Theme Options"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:746
+msgid ""
+"Customize the appearance of your theme and adjust specific theme settings. "
+"Both WordPress Customizer and Theme Options are available."
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:747
+#: theme-options/theme-options-qsetup.php:150
+msgid "Customizer"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:751
+msgid "Demo"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:755
+msgid "Docs"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:757
+#: skins/default/templates/admin-rate.php:72
+msgid "Documentation"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:758
+msgid ""
+"Having questions? Learn all the ins and outs of the theme in our detailed "
+"documentation. That's the go-to place if you need advice."
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:759
+msgid "Open Documentation"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:763 plugins/trx_addons/trx_addons.php:765
+#: skins/default/templates/admin-rate.php:64
+#: theme-specific/theme-about/theme-upgrade.php:166
+msgid "Support"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:766
+msgid ""
+"Are you stuck and need help? Don't worry, you can always submit a support "
+"ticket, and our team will help you out."
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:767
+msgid "Read Policy & Submit Ticket"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:771
+#: skins/default/templates/admin-notice.php:30
+#: skins/default/templates/admin-rate.php:31
+#: theme-specific/theme-about/theme-about.php:40
+#: theme-specific/theme-about/theme-about.php:110
+msgid "Free"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:775
+msgid "Go PRO"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:777
+msgid "Go Pro"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:778
+msgid "Get Pro version to increase power of this theme in many times!"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:779
+#: theme-specific/theme-about/theme-upgrade.php:309
+msgid "Get PRO Version"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:1215
+#: plugins/trx_addons/trx_addons.php:1224
+#, php-format
+msgid "Started on %s"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:1215
+#: plugins/trx_addons/trx_addons.php:1224
+#, php-format
+msgid "Starting %s"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:1233
+#, php-format
+msgid "Birthday: %s"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:1879
+msgid "No hover"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons.php:2120
+msgid "Rating"
+msgstr ""
+
+#: sidebar.php:64 sidebar.php:65
+msgid "Show Sidebar"
+msgstr ""
+
+#: skins/default/plugins/elementor/elementor-style.php:59
+msgid "Theme Specific"
+msgstr ""
+
+#: skins/default/plugins/elementor/elementor-style.php:60
+msgid "Under the strips"
+msgstr ""
+
+#: skins/default/plugins/elementor/elementor-style.php:61
+msgid "Decoration Title Animation"
+msgstr ""
+
+#: skins/default/plugins/give/give.php:33
+msgid "Give Donation"
+msgstr ""
+
+#: skins/default/plugins/give/give.php:34
+msgid "Select parameters to display the community pages"
+msgstr ""
+
+#: skins/default/plugins/give/give.php:188
+msgid "Give Widgets"
+msgstr ""
+
+#: skins/default/plugins/give/give.php:189
+msgid "Widgets to be shown on the Give pages"
+msgstr ""
+
+#: skins/default/plugins/speakout/speakout-demo-importer.php:20
+#: skins/default/plugins/speakout/speakout-demo-importer.php:115
+#: skins/default/skin-plugins.php:67
+msgid "SpeakOut! Email Petitions"
+msgstr ""
+
+#: skins/default/plugins/speakout/speakout-demo-importer.php:60
+msgid "Import SpeakOut! Email Petitions"
+msgstr ""
+
+#: skins/default/plugins/speakout/speakout-demo-importer.php:74
+#: skins/default/plugins/speakout/speakout-demo-importer.php:87
+msgid "SpeakOut! Email Petitions meta"
+msgstr ""
+
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:347
+msgid "Select color style to decorate this block"
+msgstr ""
+
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:508
+msgid "Inline"
+msgstr ""
+
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:510
+msgid "Copyright text"
+msgstr ""
+
+#: skins/default/plugins/trx_addons/trx_addons-setup.php:550
+msgid "Team member's email"
+msgstr ""
+
+#: skins/default/skin-demo-importer.php:25
+msgid "Equadio Demo"
+msgstr ""
+
+#: skins/default/skin-demo-importer.php:47
+msgid "Equadio OCDI Demo"
+msgstr ""
+
+#: skins/default/skin-options.php:27
+msgid ""
+"Attention! Some of these options can be overridden in the following sections "
+"(Blog, Plugins settings, etc.) or in the settings of individual pages. If "
+"you changed such parameter and nothing happened on the page, this option may "
+"be overridden in the corresponding section or in the Page Options of this "
+"page. These options are marked with an asterisk (*) in the title."
+msgstr ""
+
+#: skins/default/skin-options.php:39
+msgid "Logo & Site Identity"
+msgstr ""
+
+#: skins/default/skin-options.php:46
+msgid "Logo Settings"
+msgstr ""
+
+#: skins/default/skin-options.php:53
+msgid "Use Site Name as Logo"
+msgstr ""
+
+#: skins/default/skin-options.php:54
+msgid "Use the site title and tagline as a text logo if no image is selected"
+msgstr ""
+
+#: skins/default/skin-options.php:61
+msgid "Logo zoom"
+msgstr ""
+
+#: skins/default/skin-options.php:62
+msgid ""
+"Zoom the logo (set 1 to leave original size). For this parameter to affect "
+"images, their max-height should be specified in \"em\" instead of \"px\" "
+"during header creation. In this case, maximum logo size depends on the "
+"actual size of the picture."
+msgstr ""
+
+#: skins/default/skin-options.php:72
+msgid "Allow retina display logo"
+msgstr ""
+
+#: skins/default/skin-options.php:73
+msgid "Show fields to select logo images for Retina display"
+msgstr ""
+
+#: skins/default/skin-options.php:81
+msgid "Logo for Retina"
+msgstr ""
+
+#: skins/default/skin-options.php:82 skins/default/skin-options.php:98
+#: skins/default/skin-options.php:113
+msgid ""
+"Select or upload site logo used on Retina displays (if empty - use default "
+"logo from the field above)"
+msgstr ""
+
+#: skins/default/skin-options.php:91
+msgid "Logo for the mobile header"
+msgstr ""
+
+#: skins/default/skin-options.php:92
+msgid ""
+"Select or upload site logo to display it in the mobile header (if enabled in "
+"the section \"Header - Header mobile\""
+msgstr ""
+
+#: skins/default/skin-options.php:97
+msgid "Logo for the mobile header on Retina"
+msgstr ""
+
+#: skins/default/skin-options.php:106
+msgid "Logo for the mobile menu"
+msgstr ""
+
+#: skins/default/skin-options.php:107
+msgid "Select or upload site logo to display it in the mobile menu"
+msgstr ""
+
+#: skins/default/skin-options.php:112
+msgid "Logo mobile on Retina"
+msgstr ""
+
+#: skins/default/skin-options.php:121
+msgid "Logo for the side menu"
+msgstr ""
+
+#: skins/default/skin-options.php:122
+msgid ""
+"Select or upload site logo (with vertical orientation) to display it in the "
+"side menu"
+msgstr ""
+
+#: skins/default/skin-options.php:127
+msgid "Logo for the side menu on Retina"
+msgstr ""
+
+#: skins/default/skin-options.php:128
+msgid ""
+"Select or upload site logo (with vertical orientation) to display it in the "
+"side menu on Retina displays (if empty - use default logo from the field "
+"above)"
+msgstr ""
+
+#: skins/default/skin-options.php:155 skins/default/skin-options.php:2527
+#: skins/default/skin-options.php:2533
+msgid "Body style"
+msgstr ""
+
+#: skins/default/skin-options.php:156 skins/default/skin-options.php:2534
+msgid "Select width of the body content"
+msgstr ""
+
+#: skins/default/skin-options.php:168
+msgid "Page width"
+msgstr ""
+
+#: skins/default/skin-options.php:169
+msgid ""
+"Total width of the site content and sidebar (in pixels). If empty - use "
+"default width"
+msgstr ""
+
+#: skins/default/skin-options.php:184
+msgid "Boxed page extra spaces"
+msgstr ""
+
+#: skins/default/skin-options.php:185
+msgid "Width of the extra side space on boxed pages"
+msgstr ""
+
+#: skins/default/skin-options.php:200 skins/default/skin-options.php:2540
+msgid "Boxed bg image"
+msgstr ""
+
+#: skins/default/skin-options.php:201
+msgid "Select or upload image for the background of the boxed content."
+msgstr ""
+
+#: skins/default/skin-options.php:214
+msgid "Page margins"
+msgstr ""
+
+#: skins/default/skin-options.php:215
+msgid "Add margins above and below the content area"
+msgstr ""
+
+#: skins/default/skin-options.php:227
+msgid "Navigation"
+msgstr ""
+
+#: skins/default/skin-options.php:232
+msgid "Sidemenu position"
+msgstr ""
+
+#: skins/default/skin-options.php:233
+msgid ""
+"Select position of the side menu - panel with icons (ancors) for inner-page "
+"navigation. Use this menu if shortcodes \"Ancor\" are present on the page."
+msgstr ""
+
+#: skins/default/skin-options.php:241
+msgid "No menu"
+msgstr ""
+
+#: skins/default/skin-options.php:245
+msgid "Left menu"
+msgstr ""
+
+#: skins/default/skin-options.php:249
+msgid "Right menu"
+msgstr ""
+
+#: skins/default/skin-options.php:256
+msgid "Iconed sidemenu"
+msgstr ""
+
+#: skins/default/skin-options.php:257
+msgid ""
+"Get icons from anchors and display them in the sidemenu, or mark sidemenu "
+"items with simple dots"
+msgstr ""
+
+#: skins/default/skin-options.php:269
+msgid "Stretch sidemenu"
+msgstr ""
+
+#: skins/default/skin-options.php:270
+msgid "Stretch sidemenu to window height (if menu items number >= 5)"
+msgstr ""
+
+#: skins/default/skin-options.php:283
+msgid "Mobile menu fullscreen"
+msgstr ""
+
+#: skins/default/skin-options.php:284
+msgid "Display mobile menu on full screen"
+msgstr ""
+
+#: skins/default/skin-options.php:290 skins/default/skin-options.php:1277
+#: skins/default/skin-options.php:1493 skins/default/skin-options.php:2406
+msgid "Sidebar"
+msgstr ""
+
+#: skins/default/skin-options.php:295 skins/default/skin-options.php:1282
+#: skins/default/skin-options.php:1498 skins/default/skin-options.php:2411
+#: skins/default/skin-options.php:2711
+msgid "Sidebar position"
+msgstr ""
+
+#: skins/default/skin-options.php:296 skins/default/skin-options.php:1283
+#: skins/default/skin-options.php:2412
+msgid "Select position to show sidebar"
+msgstr ""
+
+#: skins/default/skin-options.php:307 skins/default/skin-options.php:1290
+#: skins/default/skin-options.php:1509 skins/default/skin-options.php:2719
+msgid "Sidebar position on the small screen"
+msgstr ""
+
+#: skins/default/skin-options.php:308
+msgid ""
+"Select position to move sidebar (if it's not hidden) on the small screen - "
+"above or below the content"
+msgstr ""
+
+#: skins/default/skin-options.php:322 skins/default/skin-options.php:887
+#: skins/default/skin-options.php:1301 skins/default/skin-options.php:1523
+#: skins/default/skin-options.php:2418 skins/default/skin-options.php:2730
+msgid "Sidebar style"
+msgstr ""
+
+#: skins/default/skin-options.php:323 skins/default/skin-options.php:888
+#: skins/default/skin-options.php:1302 skins/default/skin-options.php:1524
+#: skins/default/skin-options.php:2419 skins/default/skin-options.php:2651
+#: skins/default/skin-options.php:2731
+msgid ""
+"Choose whether to use the default sidebar or sidebar Layouts (available only "
+"if the ThemeREX Addons is activated)"
+msgstr ""
+
+#: skins/default/skin-options.php:336 skins/default/skin-options.php:521
+#: skins/default/skin-options.php:725 skins/default/skin-options.php:857
+#: skins/default/skin-options.php:897 skins/default/skin-options.php:943
+#: skins/default/skin-options.php:1242 skins/default/skin-options.php:1311
+#: skins/default/skin-options.php:1458 skins/default/skin-options.php:1537
+#: skins/default/skin-options.php:2371 skins/default/skin-options.php:2428
+#: skins/default/skin-options.php:2575 skins/default/skin-options.php:2660
+#: skins/default/skin-options.php:2740 skins/default/skin-options.php:2797
+msgid "Select custom layout"
+msgstr ""
+
+#: skins/default/skin-options.php:337 skins/default/skin-options.php:898
+#: skins/default/skin-options.php:1312 skins/default/skin-options.php:1538
+#: skins/default/skin-options.php:2429 skins/default/skin-options.php:2661
+#: skins/default/skin-options.php:2741
+msgid "Select custom sidebar from Layouts Builder"
+msgstr ""
+
+#: skins/default/skin-options.php:351 skins/default/skin-options.php:908
+#: skins/default/skin-options.php:1322 skins/default/skin-options.php:1552
+#: skins/default/skin-options.php:2439 skins/default/skin-options.php:2751
+msgid "Sidebar widgets"
+msgstr ""
+
+#: skins/default/skin-options.php:352 skins/default/skin-options.php:1323
+#: skins/default/skin-options.php:2440
+msgid "Select default widgets to show in the sidebar"
+msgstr ""
+
+#: skins/default/skin-options.php:367
+msgid "Sidebar width"
+msgstr ""
+
+#: skins/default/skin-options.php:368
+msgid "Width of the sidebar (in pixels). If empty - use default width"
+msgstr ""
+
+#: skins/default/skin-options.php:380
+msgid "Sidebar gap"
+msgstr ""
+
+#: skins/default/skin-options.php:381
+msgid "Gap between content and sidebar (in pixels). If empty - use default gap"
+msgstr ""
+
+#: skins/default/skin-options.php:393 skins/default/skin-options.php:919
+#: skins/default/skin-options.php:1334 skins/default/skin-options.php:1567
+#: skins/default/skin-options.php:2450 skins/default/skin-options.php:2684
+#: skins/default/skin-options.php:2763
+msgid "Content width"
+msgstr ""
+
+#: skins/default/skin-options.php:394 skins/default/skin-options.php:1335
+#: skins/default/skin-options.php:2451 skins/default/skin-options.php:2685
+msgid "Content width if the sidebar is hidden"
+msgstr ""
+
+#: skins/default/skin-options.php:406 skins/default/skin-options.php:1343
+#: skins/default/skin-options.php:2459
+msgid "Additional widgets"
+msgstr ""
+
+#: skins/default/skin-options.php:411 skins/default/skin-options.php:1348
+#: skins/default/skin-options.php:2464 skins/default/skin-options.php:2856
+msgid "Widgets at the top of the page"
+msgstr ""
+
+#: skins/default/skin-options.php:412 skins/default/skin-options.php:1349
+#: skins/default/skin-options.php:2465 skins/default/skin-options.php:2857
+msgid ""
+"Select widgets to show at the top of the page (above content and sidebar)"
+msgstr ""
+
+#: skins/default/skin-options.php:422 skins/default/skin-options.php:1355
+#: skins/default/skin-options.php:2471 skins/default/skin-options.php:2863
+msgid "Widgets above the content"
+msgstr ""
+
+#: skins/default/skin-options.php:423 skins/default/skin-options.php:1356
+#: skins/default/skin-options.php:2472 skins/default/skin-options.php:2864
+msgid "Select widgets to show at the beginning of the content area"
+msgstr ""
+
+#: skins/default/skin-options.php:433 skins/default/skin-options.php:1362
+#: skins/default/skin-options.php:2478 skins/default/skin-options.php:2870
+msgid "Widgets below the content"
+msgstr ""
+
+#: skins/default/skin-options.php:434 skins/default/skin-options.php:1363
+#: skins/default/skin-options.php:2479 skins/default/skin-options.php:2871
+msgid "Select widgets to show at the ending of the content area"
+msgstr ""
+
+#: skins/default/skin-options.php:444 skins/default/skin-options.php:1369
+#: skins/default/skin-options.php:2485 skins/default/skin-options.php:2877
+msgid "Widgets at the bottom of the page"
+msgstr ""
+
+#: skins/default/skin-options.php:445 skins/default/skin-options.php:1370
+#: skins/default/skin-options.php:2486 skins/default/skin-options.php:2878
+msgid ""
+"Select widgets to show at the bottom of the page (below content and sidebar)"
+msgstr ""
+
+#: skins/default/skin-options.php:456
+msgid "Design & Effects"
+msgstr ""
+
+#: skins/default/skin-options.php:461
+msgid "Border radius"
+msgstr ""
+
+#: skins/default/skin-options.php:462
+msgid "Specify the border radius of the form fields and buttons in pixels"
+msgstr ""
+
+#: skins/default/skin-options.php:475
+msgid "Miscellaneous"
+msgstr ""
+
+#: skins/default/skin-options.php:480
+msgid "SEO snippets"
+msgstr ""
+
+#: skins/default/skin-options.php:481
+msgid "Add structured data markup to the single posts and pages"
+msgstr ""
+
+#: skins/default/skin-options.php:486
+msgid "Text with Privacy Policy link"
+msgstr ""
+
+#: skins/default/skin-options.php:487
+msgid "Specify text with Privacy Policy link for the checkbox 'I agree ...'"
+msgstr ""
+
+#: skins/default/skin-options.php:488
+msgid "I agree that my submitted data is being collected and stored."
+msgstr ""
+
+#: skins/default/skin-options.php:497 skins/default/skin-options.php:514
+#: skins/default/skin-options.php:525 skins/default/skin-options.php:539
+#: skins/default/skin-options.php:550 skins/default/skin-options.php:560
+#: skins/default/skin-options.php:587 skins/default/skin-options.php:599
+#: skins/default/skin-options.php:619 skins/default/skin-options.php:1230
+#: skins/default/skin-options.php:1446 skins/default/skin-options.php:2240
+#: skins/default/skin-options.php:2359 skins/default/skin-options.php:2562
+msgid "Header"
+msgstr ""
+
+#: skins/default/skin-options.php:505 skins/default/skin-options.php:510
+#: skins/default/skin-options.php:850 skins/default/skin-options.php:1235
+#: skins/default/skin-options.php:1451 skins/default/skin-options.php:2364
+#: skins/default/skin-options.php:2568
+msgid "Header style"
+msgstr ""
+
+#: skins/default/skin-options.php:511 skins/default/skin-options.php:1236
+#: skins/default/skin-options.php:1452 skins/default/skin-options.php:2365
+#: skins/default/skin-options.php:2569
+msgid ""
+"Choose whether to use the default header or header Layouts (available only "
+"if the ThemeREX Addons is activated)"
+msgstr ""
+
+#: skins/default/skin-options.php:522 skins/default/skin-options.php:858
+#: skins/default/skin-options.php:1243 skins/default/skin-options.php:1459
+#: skins/default/skin-options.php:2372
+msgid "Select custom header from Layouts Builder"
+msgstr ""
+
+#: skins/default/skin-options.php:535 skins/default/skin-options.php:867
+#: skins/default/skin-options.php:1252 skins/default/skin-options.php:1468
+#: skins/default/skin-options.php:2381 skins/default/skin-options.php:2586
+msgid "Header position"
+msgstr ""
+
+#: skins/default/skin-options.php:536
+msgid "Select site header position"
+msgstr ""
+
+#: skins/default/skin-options.php:546 skins/default/skin-options.php:1259
+#: skins/default/skin-options.php:1475 skins/default/skin-options.php:2388
+msgid "Header fullheight"
+msgstr ""
+
+#: skins/default/skin-options.php:547 skins/default/skin-options.php:1260
+#: skins/default/skin-options.php:1476 skins/default/skin-options.php:2389
+msgid ""
+"Stretch header area to fill the entire screen. Used only if the header has a "
+"background image"
+msgstr ""
+
+#: skins/default/skin-options.php:556 skins/default/skin-options.php:1266
+#: skins/default/skin-options.php:1482 skins/default/skin-options.php:2395
+msgid "Header fullwidth"
+msgstr ""
+
+#: skins/default/skin-options.php:557 skins/default/skin-options.php:1267
+#: skins/default/skin-options.php:1483 skins/default/skin-options.php:2396
+msgid ""
+"Do you want to stretch the header widgets area to the entire window width?"
+msgstr ""
+
+#: skins/default/skin-options.php:566
+msgid "Header title zoom"
+msgstr ""
+
+#: skins/default/skin-options.php:567
+msgid "Zoom the header title. 1 - original size"
+msgstr ""
+
+#: skins/default/skin-options.php:578 skins/default/skin-options.php:583
+#: skins/default/skin-options.php:2602
+msgid "Header widgets"
+msgstr ""
+
+#: skins/default/skin-options.php:579
+msgid "Here you can place a widget slider, advertising banners, etc."
+msgstr ""
+
+#: skins/default/skin-options.php:584
+msgid "Select set of widgets to show in the header on each page"
+msgstr ""
+
+#: skins/default/skin-options.php:588
+msgid "Select set of widgets to show in the header on this page"
+msgstr ""
+
+#: skins/default/skin-options.php:595
+msgid "Header columns"
+msgstr ""
+
+#: skins/default/skin-options.php:596
+msgid ""
+"Select number columns to show widgets in the Header. If 0 - autodetect by "
+"the widgets count"
+msgstr ""
+
+#: skins/default/skin-options.php:610
+msgid "Header image"
+msgstr ""
+
+#: skins/default/skin-options.php:615 skins/default/skin-options.php:2594
+msgid "Header image override"
+msgstr ""
+
+#: skins/default/skin-options.php:616
+msgid ""
+"Allow overriding the header image with a featured image of the page, post, "
+"product, etc."
+msgstr ""
+
+#: skins/default/skin-options.php:626
+msgid "Mobile header"
+msgstr ""
+
+#: skins/default/skin-options.php:627
+msgid "Configure the mobile version of the header"
+msgstr ""
+
+#: skins/default/skin-options.php:635
+msgid "Enable the mobile header"
+msgstr ""
+
+#: skins/default/skin-options.php:636
+msgid ""
+"Use the mobile version of the header (if checked) or relayout the current "
+"header on mobile devices"
+msgstr ""
+
+#: skins/default/skin-options.php:644
+msgid "Additional info"
+msgstr ""
+
+#: skins/default/skin-options.php:645
+msgid "Additional info to show at the top of the mobile header"
+msgstr ""
+
+#: skins/default/skin-options.php:657
+msgid "Hide additional info"
+msgstr ""
+
+#: skins/default/skin-options.php:666
+msgid "Hide logo"
+msgstr ""
+
+#: skins/default/skin-options.php:675
+msgid "Hide login/logout"
+msgstr ""
+
+#: skins/default/skin-options.php:684
+msgid "Hide search"
+msgstr ""
+
+#: skins/default/skin-options.php:693
+msgid "Hide cart"
+msgstr ""
+
+#: skins/default/skin-options.php:707 skins/default/skin-options.php:718
+#: skins/default/skin-options.php:729 skins/default/skin-options.php:743
+#: skins/default/skin-options.php:757 skins/default/skin-options.php:772
+#: skins/default/skin-options.php:2784
+msgid "Footer"
+msgstr ""
+
+#: skins/default/skin-options.php:714 skins/default/skin-options.php:936
+#: skins/default/skin-options.php:2790
+msgid "Footer style"
+msgstr ""
+
+#: skins/default/skin-options.php:715 skins/default/skin-options.php:2791
+msgid ""
+"Choose whether to use the default footer or footer Layouts (available only "
+"if the ThemeREX Addons is activated)"
+msgstr ""
+
+#: skins/default/skin-options.php:726 skins/default/skin-options.php:944
+msgid "Select custom footer from Layouts Builder"
+msgstr ""
+
+#: skins/default/skin-options.php:739 skins/default/skin-options.php:953
+#: skins/default/skin-options.php:2807
+msgid "Footer widgets"
+msgstr ""
+
+#: skins/default/skin-options.php:740 skins/default/skin-options.php:954
+#: skins/default/skin-options.php:2808
+msgid "Select set of widgets to show in the footer"
+msgstr ""
+
+#: skins/default/skin-options.php:753 skins/default/skin-options.php:963
+#: skins/default/skin-options.php:2817
+msgid "Footer columns"
+msgstr ""
+
+#: skins/default/skin-options.php:754 skins/default/skin-options.php:964
+#: skins/default/skin-options.php:2818
+msgid ""
+"Select number columns to show widgets in the footer. If 0 - autodetect by "
+"the widgets count"
+msgstr ""
+
+#: skins/default/skin-options.php:768 skins/default/skin-options.php:2828
+msgid "Footer fullwidth"
+msgstr ""
+
+#: skins/default/skin-options.php:769 skins/default/skin-options.php:2829
+msgid "Do you want to stretch the footer to the entire window width?"
+msgstr ""
+
+#: skins/default/skin-options.php:781
+msgid "Show logo"
+msgstr ""
+
+#: skins/default/skin-options.php:782
+msgid "Show logo in the footer"
+msgstr ""
+
+#: skins/default/skin-options.php:791
+msgid "Logo for footer"
+msgstr ""
+
+#: skins/default/skin-options.php:792
+msgid "Select or upload site logo to display it in the footer"
+msgstr ""
+
+#: skins/default/skin-options.php:801
+msgid "Logo for footer (Retina)"
+msgstr ""
+
+#: skins/default/skin-options.php:802
+msgid ""
+"Select or upload logo for the footer area used on Retina displays (if empty "
+"- use default logo from the field above)"
+msgstr ""
+
+#: skins/default/skin-options.php:812
+msgid "Show social icons"
+msgstr ""
+
+#: skins/default/skin-options.php:813
+msgid "Show social icons in the footer (under logo or footer widgets)"
+msgstr ""
+
+#: skins/default/skin-options.php:821
+msgid "Copyright"
+msgstr ""
+
+#: skins/default/skin-options.php:822
+msgid ""
+"Copyright text in the footer. Use {Y} to insert current year and press "
+"\"Enter\" to create a new line"
+msgstr ""
+
+#: skins/default/skin-options.php:824
+msgid "Copyright &copy; {Y} by ThemeREX. All rights reserved."
+msgstr ""
+
+#: skins/default/skin-options.php:837
+msgid "Mobile"
+msgstr ""
+
+#: skins/default/skin-options.php:845
+msgid "Header on the mobile device"
+msgstr ""
+
+#: skins/default/skin-options.php:851
+msgid ""
+"Choose the header to be used on mobile devices: the default header or header "
+"Layouts (available only if the ThemeREX Addons is activated)"
+msgstr ""
+
+#: skins/default/skin-options.php:868 skins/default/skin-options.php:1253
+#: skins/default/skin-options.php:1469 skins/default/skin-options.php:2382
+msgid "Select position to display the site header"
+msgstr ""
+
+#: skins/default/skin-options.php:875
+msgid "Sidebar on the mobile device"
+msgstr ""
+
+#: skins/default/skin-options.php:880
+msgid "Sidebar position on mobile"
+msgstr ""
+
+#: skins/default/skin-options.php:881
+msgid "Select sidebar position on mobile devices"
+msgstr ""
+
+#: skins/default/skin-options.php:909
+msgid "Select default widgets to show in the sidebar on mobile devices"
+msgstr ""
+
+#: skins/default/skin-options.php:920
+msgid "Content width if the sidebar is hidden on mobile devices"
+msgstr ""
+
+#: skins/default/skin-options.php:931
+msgid "Footer on the mobile device"
+msgstr ""
+
+#: skins/default/skin-options.php:937
+msgid ""
+"Choose whether to use on mobile devices: the default footer or footer "
+"Layouts (available only if the ThemeREX Addons is activated)"
+msgstr ""
+
+#: skins/default/skin-options.php:979
+msgid "Blog"
+msgstr ""
+
+#: skins/default/skin-options.php:980
+msgid "Options of the the blog archive"
+msgstr ""
+
+#: skins/default/skin-options.php:990
+msgid "Posts page"
+msgstr ""
+
+#: skins/default/skin-options.php:991
+msgid "Style and components of the blog archive"
+msgstr ""
+
+#: skins/default/skin-options.php:995
+msgid "Posts page settings"
+msgstr ""
+
+#: skins/default/skin-options.php:996
+msgid ""
+"Customize the blog archive: post layout, header and footer style, sidebar "
+"position, etc."
+msgstr ""
+
+#: skins/default/skin-options.php:1001 skins/default/skin-options.php:2289
+msgid "Blog style"
+msgstr ""
+
+#: skins/default/skin-options.php:1019 skins/default/skin-options.php:2296
+msgid "Large first post"
+msgstr ""
+
+#: skins/default/skin-options.php:1020 skins/default/skin-options.php:2297
+msgid "Make your first post stand out by making it bigger"
+msgstr ""
+
+#: skins/default/skin-options.php:1036 skins/default/skin-options.php:2306
+msgid "Posts content"
+msgstr ""
+
+#: skins/default/skin-options.php:1037 skins/default/skin-options.php:2307
+msgid "Display either post excerpts or the full post content"
+msgstr ""
+
+#: skins/default/skin-options.php:1046 skins/default/skin-options.php:2316
+msgid "Excerpt length"
+msgstr ""
+
+#: skins/default/skin-options.php:1047 skins/default/skin-options.php:2317
+msgid ""
+"Length (in words) to generate excerpt from the post content. Attention! If "
+"the post excerpt is explicitly specified - it appears unchanged"
+msgstr ""
+
+#: skins/default/skin-options.php:1056
+msgid "Blog columns"
+msgstr ""
+
+#: skins/default/skin-options.php:1057
+msgid "How many columns should be used in the blog archive (from 2 to 4)?"
+msgstr ""
+
+#: skins/default/skin-options.php:1063
+msgid "Post type"
+msgstr ""
+
+#: skins/default/skin-options.php:1064
+msgid "Select post type to show in the blog archive"
+msgstr ""
+
+#: skins/default/skin-options.php:1083
+msgid "Category to show"
+msgstr ""
+
+#: skins/default/skin-options.php:1084
+msgid "Select category to show in the blog archive"
+msgstr ""
+
+#: skins/default/skin-options.php:1102
+msgid "Posts per page"
+msgstr ""
+
+#: skins/default/skin-options.php:1103
+msgid "How many posts will be displayed on this page"
+msgstr ""
+
+#: skins/default/skin-options.php:1119 skins/default/skin-options.php:2337
+msgid "Pagination style"
+msgstr ""
+
+#: skins/default/skin-options.php:1120 skins/default/skin-options.php:2338
+msgid "Show Older/Newest posts or Page numbers below the posts list"
+msgstr ""
+
+#: skins/default/skin-options.php:1137 skins/default/skin-options.php:2344
+msgid "Post animation"
+msgstr ""
+
+#: skins/default/skin-options.php:1138 skins/default/skin-options.php:2345
+msgid ""
+"Select post animation for the archive page. Attention! Do not use any "
+"animation on pages with the 'wheel to the anchor' behaviour!"
+msgstr ""
+
+#: skins/default/skin-options.php:1154
+msgid "Disable animation on mobile"
+msgstr ""
+
+#: skins/default/skin-options.php:1155
+msgid "Disable any posts animation on mobile devices"
+msgstr ""
+
+#: skins/default/skin-options.php:1160
+msgid "Show filters"
+msgstr ""
+
+#: skins/default/skin-options.php:1161
+msgid "Show categories as tabs to filter posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1177
+msgid "Open video in the popup on a blog archive"
+msgstr ""
+
+#: skins/default/skin-options.php:1178
+msgid ""
+"Open the video from posts in the popup (if plugin \"ThemeREX Addons\" is "
+"installed) or play the video instead the cover image"
+msgstr ""
+
+#: skins/default/skin-options.php:1193 skins/default/skin-options.php:2351
+msgid "Open full post in blog"
+msgstr ""
+
+#: skins/default/skin-options.php:1194
+msgid ""
+"Allow to open the full version of the post directly in the blog feed. "
+"Attention! Applies only to 1 column layouts!"
+msgstr ""
+
+#: skins/default/skin-options.php:1203 skins/default/skin-options.php:1886
+msgid "Hide author bio"
+msgstr ""
+
+#: skins/default/skin-options.php:1204
+msgid ""
+"Hide author bio after post content when open the full version of the post "
+"directly in the blog feed."
+msgstr ""
+
+#: skins/default/skin-options.php:1216 skins/default/skin-options.php:1895
+msgid "Hide related posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1217
+msgid ""
+"Hide related posts after post content when open the full version of the post "
+"directly in the blog feed."
+msgstr ""
+
+#: skins/default/skin-options.php:1291
+msgid ""
+"Select position to move sidebar on the small screen - above or below the "
+"content"
+msgstr ""
+
+#: skins/default/skin-options.php:1377
+msgid "Advanced settings"
+msgstr ""
+
+#: skins/default/skin-options.php:1382
+msgid "Image placeholder"
+msgstr ""
+
+#: skins/default/skin-options.php:1383
+msgid ""
+"Select or upload a placeholder image for posts without a featured image. "
+"Placeholder is used exclusively on the blog stream page (and not on single "
+"post pages), and only in those styles, where omitting a featured image would "
+"be inappropriate."
+msgstr ""
+
+#: skins/default/skin-options.php:1388
+msgid "Sticky posts style"
+msgstr ""
+
+#: skins/default/skin-options.php:1389
+msgid "Select style of the sticky posts output"
+msgstr ""
+
+#: skins/default/skin-options.php:1392
+msgid "Decorated posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1393
+msgid "Mini-cards"
+msgstr ""
+
+#: skins/default/skin-options.php:1398 skins/default/skin-options.php:1614
+#: skins/default/skin-options.php:2326 skins/default/skin-setup.php:288
+msgid "Post meta"
+msgstr ""
+
+#: skins/default/skin-options.php:1399
+msgid ""
+"If your blog page is created using the 'Blog archive' page template, set up "
+"the 'Post Meta' settings in the 'Theme Options' section of that page. Post "
+"counters and Share Links are available only if plugin ThemeREX Addons is "
+"active"
+msgstr ""
+
+#: skins/default/skin-options.php:1401 skins/default/skin-options.php:1617
+#: skins/default/skin-options.php:2329
+msgid "<b>Tip:</b> Drag items to change their order."
+msgstr ""
+
+#: skins/default/skin-options.php:1419
+msgid "Easy readable date format"
+msgstr ""
+
+#: skins/default/skin-options.php:1420
+msgid ""
+"For how many days to show the easy-readable date format (e.g. '3 days ago') "
+"instead of the standard publication date"
+msgstr ""
+
+#: skins/default/skin-options.php:1425
+msgid "Use \"Blog Archive\" page settings on the post list"
+msgstr ""
+
+#: skins/default/skin-options.php:1426
+msgid ""
+"Apply options and content of pages created with the template \"Blog "
+"Archive\" for some type of posts and / or taxonomy when viewing feeds of "
+"posts of this type and taxonomy."
+msgstr ""
+
+#: skins/default/skin-options.php:1435 skins/default/skin-options.php:1441
+msgid "Single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1436
+msgid "Settings of the single post"
+msgstr ""
+
+#: skins/default/skin-options.php:1442
+msgid ""
+"Customize the single post: content  layout, header and footer styles, "
+"sidebar position, meta elements, etc."
+msgstr ""
+
+#: skins/default/skin-options.php:1499
+msgid "Select position to show sidebar on the single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1510
+msgid ""
+"Select position to move sidebar on the single posts on the small screen - "
+"above or below the content"
+msgstr ""
+
+#: skins/default/skin-options.php:1553
+msgid "Select default widgets to show in the sidebar on the single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1568
+msgid "Content width on the single posts if the sidebar is hidden"
+msgstr ""
+
+#: skins/default/skin-options.php:1580
+msgid "Featured image and title"
+msgstr ""
+
+#: skins/default/skin-options.php:1585
+msgid "Single style"
+msgstr ""
+
+#: skins/default/skin-options.php:1597
+msgid "Post subtitle"
+msgstr ""
+
+#: skins/default/skin-options.php:1598
+msgid "Specify post subtitle to display it under the post title."
+msgstr ""
+
+#: skins/default/skin-options.php:1608
+msgid "Show post meta"
+msgstr ""
+
+#: skins/default/skin-options.php:1609
+msgid "Display block with post's meta: date, categories, counters, etc."
+msgstr ""
+
+#: skins/default/skin-options.php:1615
+msgid ""
+"Meta parts for single posts. Post counters and Share Links are available "
+"only if plugin ThemeREX Addons is active"
+msgstr ""
+
+#: skins/default/skin-options.php:1628
+msgid "Share links position"
+msgstr ""
+
+#: skins/default/skin-options.php:1629
+msgid ""
+"Select one or more positions to show Share links on single posts. Post "
+"counters and Share Links are available only if plugin ThemeREX Addons is "
+"active"
+msgstr ""
+
+#: skins/default/skin-options.php:1639
+msgid "Show author info"
+msgstr ""
+
+#: skins/default/skin-options.php:1640
+msgid "Display block with information about post's author"
+msgstr ""
+
+#: skins/default/skin-options.php:1645
+msgid "Show comments button"
+msgstr ""
+
+#: skins/default/skin-options.php:1646
+msgid "Display button to show/hide comments block"
+msgstr ""
+
+#: skins/default/skin-options.php:1655
+msgid "Comments block"
+msgstr ""
+
+#: skins/default/skin-options.php:1656
+msgid "Select initial state of the comments block"
+msgstr ""
+
+#: skins/default/skin-options.php:1670 skins/default/skin-options.php:1740
+msgid "Related posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1685
+msgid "Related posts style"
+msgstr ""
+
+#: skins/default/skin-options.php:1686
+msgid "Select the style of the related posts output"
+msgstr ""
+
+#: skins/default/skin-options.php:1696
+msgid "Modern"
+msgstr ""
+
+#: skins/default/skin-options.php:1697 skins/default/skin-setup.php:907
+msgid "Classic"
+msgstr ""
+
+#: skins/default/skin-options.php:1699
+msgid "List"
+msgstr ""
+
+#: skins/default/skin-options.php:1700
+msgid "Short"
+msgstr ""
+
+#: skins/default/skin-options.php:1705
+msgid "Related posts position"
+msgstr ""
+
+#: skins/default/skin-options.php:1706
+msgid "Select position to display the related posts"
+msgstr ""
+
+#: skins/default/skin-options.php:1716
+msgid "Inside the content (fullwidth)"
+msgstr ""
+
+#: skins/default/skin-options.php:1717
+msgid "At left side of the content"
+msgstr ""
+
+#: skins/default/skin-options.php:1718
+msgid "At right side of the content"
+msgstr ""
+
+#: skins/default/skin-options.php:1719
+msgid "After the content"
+msgstr ""
+
+#: skins/default/skin-options.php:1720
+msgid "After the content & sidebar"
+msgstr ""
+
+#: skins/default/skin-options.php:1725
+msgid "Before # paragraph"
+msgstr ""
+
+#: skins/default/skin-options.php:1726
+msgid "Before what paragraph should related posts appear? If 0 - randomly."
+msgstr ""
+
+#: skins/default/skin-options.php:1741
+msgid "How many related posts should be displayed in the single post?"
+msgstr ""
+
+#: skins/default/skin-options.php:1757
+msgid ""
+"How many columns should be used to output related posts on the single post "
+"page?"
+msgstr ""
+
+#: skins/default/skin-options.php:1771
+msgid "Use slider layout"
+msgstr ""
+
+#: skins/default/skin-options.php:1772
+msgid ""
+"Use slider layout in case related posts count is more than columns count"
+msgstr ""
+
+#: skins/default/skin-options.php:1784
+msgid "Slider controls"
+msgstr ""
+
+#: skins/default/skin-options.php:1785
+msgid "Show arrows in the slider"
+msgstr ""
+
+#: skins/default/skin-options.php:1797
+msgid "Side"
+msgstr ""
+
+#: skins/default/skin-options.php:1798
+msgid "Outside"
+msgstr ""
+
+#: skins/default/skin-options.php:1805
+msgid "Slider pagination"
+msgstr ""
+
+#: skins/default/skin-options.php:1806
+msgid "Show bullets after the slider"
+msgstr ""
+
+#: skins/default/skin-options.php:1823
+msgid "Space between slides"
+msgstr ""
+
+#: skins/default/skin-options.php:1824
+msgid "Space between slides in the related posts slider (in pixels)"
+msgstr ""
+
+#: skins/default/skin-options.php:1840
+msgid "Post navigation"
+msgstr ""
+
+#: skins/default/skin-options.php:1845
+msgid "Show post navigation"
+msgstr ""
+
+#: skins/default/skin-options.php:1846
+msgid ""
+"Display post navigation on single post pages or load the next post "
+"automatically after the content of the current article."
+msgstr ""
+
+#: skins/default/skin-options.php:1850
+msgid "Prev/Next links"
+msgstr ""
+
+#: skins/default/skin-options.php:1851
+msgid "Autoload next post"
+msgstr ""
+
+#: skins/default/skin-options.php:1856
+msgid "Fixed post navigation"
+msgstr ""
+
+#: skins/default/skin-options.php:1857
+msgid ""
+"Fix the position of post navigation buttons on desktop. Display them on "
+"either side of post content."
+msgstr ""
+
+#: skins/default/skin-options.php:1865
+msgid "Which block to load?"
+msgstr ""
+
+#: skins/default/skin-options.php:1866
+msgid ""
+"Load only the content of the next article or the article and sidebar "
+"together."
+msgstr ""
+
+#: skins/default/skin-options.php:1868
+msgid ""
+"Attention! If you override sidebar position or content width on single posts "
+"(e.g. the sidebar is displayed on some posts and hidden on others), please "
+"don’t use the 'Full post' option to prevent improper content positioning."
+msgstr ""
+
+#: skins/default/skin-options.php:1875
+msgid "Only content"
+msgstr ""
+
+#: skins/default/skin-options.php:1887
+msgid "Hide author bio after post content when infinite scroll is used."
+msgstr ""
+
+#: skins/default/skin-options.php:1896
+msgid "Hide related posts after post content when infinite scroll is used."
+msgstr ""
+
+#: skins/default/skin-options.php:1905
+msgid "Hide comments after post content when infinite scroll is used."
+msgstr ""
+
+#: skins/default/skin-options.php:1929
+msgid "Color schemes"
+msgstr ""
+
+#: skins/default/skin-options.php:1930
+msgid ""
+"Color schemes for various parts of the site. \"Inherit\" means that this "
+"block uses the main color scheme from the first parameter - Site Color Scheme"
+msgstr ""
+
+#: skins/default/skin-options.php:1935
+msgid "Site Color Scheme"
+msgstr ""
+
+#: skins/default/skin-options.php:1947
+msgid "Header Color Scheme"
+msgstr ""
+
+#: skins/default/skin-options.php:1959
+msgid "Sidemenu Color Scheme"
+msgstr ""
+
+#: skins/default/skin-options.php:1971
+msgid "Sidebar Color Scheme"
+msgstr ""
+
+#: skins/default/skin-options.php:1983
+msgid "Footer Color Scheme"
+msgstr ""
+
+#: skins/default/skin-options.php:1996 skins/default/skin-options.php:2001
+msgid "Color scheme editor"
+msgstr ""
+
+#: skins/default/skin-options.php:1997
+msgid ""
+"Select a color scheme to modify. Attention! Only sections of the site with "
+"the selected color scheme will be affected by the changes"
+msgstr ""
+
+#: skins/default/skin-options.php:2032
+msgid "Category"
+msgstr ""
+
+#: skins/default/skin-options.php:2033
+msgid "Tag"
+msgstr ""
+
+#: skins/default/skin-options.php:2034
+msgid "Author"
+msgstr ""
+
+#: skins/default/skin-options.php:2035
+#: skins/default/templates/search-form.php:19
+msgid "Search"
+msgstr ""
+
+#: skins/default/skin-options.php:2045
+msgid "Typography"
+msgstr ""
+
+#: skins/default/skin-options.php:2054 skins/default/skin-options.php:2060
+msgid "Load fonts"
+msgstr ""
+
+#: skins/default/skin-options.php:2055
+msgid ""
+"Specify fonts to load when theme start. You can use them in the base theme "
+"elements: headers, text, menu, links, input fields, etc."
+msgstr ""
+
+#: skins/default/skin-options.php:2056
+msgid ""
+"Press \"Refresh\" button to reload preview area after the all fonts are "
+"changed"
+msgstr ""
+
+#: skins/default/skin-options.php:2065
+msgid "Google fonts subsets"
+msgstr ""
+
+#: skins/default/skin-options.php:2066
+msgid ""
+"Specify a comma separated list of subsets to be loaded from Google fonts."
+msgstr ""
+
+#: skins/default/skin-options.php:2067
+msgid ""
+"Permitted subsets include: latin,latin-ext,cyrillic,cyrillic-ext,greek,greek-"
+"ext,vietnamese"
+msgstr ""
+
+#: skins/default/skin-options.php:2079
+#, php-format
+msgid "Font %s"
+msgstr ""
+
+#: skins/default/skin-options.php:2085
+msgid "Font name"
+msgstr ""
+
+#: skins/default/skin-options.php:2093
+msgid "Font family"
+msgstr ""
+
+#: skins/default/skin-options.php:2095
+msgid "Select a font family to be used if the preferred font is not available"
+msgstr ""
+
+#: skins/default/skin-options.php:2102
+msgid "serif"
+msgstr ""
+
+#: skins/default/skin-options.php:2103
+msgid "sans-serif"
+msgstr ""
+
+#: skins/default/skin-options.php:2104
+msgid "monospace"
+msgstr ""
+
+#: skins/default/skin-options.php:2105
+msgid "cursive"
+msgstr ""
+
+#: skins/default/skin-options.php:2106
+msgid "fantasy"
+msgstr ""
+
+#: skins/default/skin-options.php:2111
+msgid "Font styles"
+msgstr ""
+
+#: skins/default/skin-options.php:2113
+msgid ""
+"Font styles used only for Google fonts. This is a comma separated list of "
+"the font weight and style options. For example: 400,400italic,700"
+msgstr ""
+
+#: skins/default/skin-options.php:2115
+msgid ""
+"Attention! Each weight and style option increases download size! Specify "
+"only those weight and style options that you plan on using."
+msgstr ""
+
+#: skins/default/skin-options.php:2134 skins/default/skin-options.php:2145
+#, php-format
+msgid "%s settings"
+msgstr ""
+
+#: skins/default/skin-options.php:2138
+#, php-format
+msgid "Font settings for the \"%s\" tag."
+msgstr ""
+
+#: skins/default/skin-options.php:2172
+msgid "100 (Light)"
+msgstr ""
+
+#: skins/default/skin-options.php:2173
+msgid "200 (Light)"
+msgstr ""
+
+#: skins/default/skin-options.php:2174
+msgid "300 (Thin)"
+msgstr ""
+
+#: skins/default/skin-options.php:2175
+msgid "400 (Normal)"
+msgstr ""
+
+#: skins/default/skin-options.php:2176
+msgid "500 (Semibold)"
+msgstr ""
+
+#: skins/default/skin-options.php:2177
+msgid "600 (Semibold)"
+msgstr ""
+
+#: skins/default/skin-options.php:2178
+msgid "700 (Bold)"
+msgstr ""
+
+#: skins/default/skin-options.php:2179
+msgid "800 (Black)"
+msgstr ""
+
+#: skins/default/skin-options.php:2180
+msgid "900 (Black)"
+msgstr ""
+
+#: skins/default/skin-options.php:2187
+msgid "Italic"
+msgstr ""
+
+#: skins/default/skin-options.php:2194
+msgid "Underline"
+msgstr ""
+
+#: skins/default/skin-options.php:2195
+msgid "Overline"
+msgstr ""
+
+#: skins/default/skin-options.php:2196
+msgid "Line-through"
+msgstr ""
+
+#: skins/default/skin-options.php:2203
+msgid "Uppercase"
+msgstr ""
+
+#: skins/default/skin-options.php:2204
+msgid "Lowercase"
+msgstr ""
+
+#: skins/default/skin-options.php:2205
+msgid "Capitalize"
+msgstr ""
+
+#: skins/default/skin-options.php:2236
+msgid "Header video"
+msgstr ""
+
+#: skins/default/skin-options.php:2237
+msgid "Select video to use it as background for the header"
+msgstr ""
+
+#: skins/default/skin-options.php:2254
+msgid "Logo"
+msgstr ""
+
+#: skins/default/skin-options.php:2255 theme-options/theme-customizer.php:766
+msgid "Select or upload the site logo"
+msgstr ""
+
+#: skins/default/skin-options.php:2278
+#, php-format
+msgid "Style and components of the %s posts page"
+msgstr ""
+
+#: skins/default/skin-options.php:2283
+#, php-format
+msgid "%s posts page"
+msgstr ""
+
+#: skins/default/skin-options.php:2285
+#, php-format
+msgid ""
+"Customize %s page: post layout, header and footer styles, sidebar position "
+"and widgets, etc."
+msgstr ""
+
+#: skins/default/skin-options.php:2327
+msgid ""
+"Set up post meta parts to show in the blog archive. Post counters and Share "
+"Links are available only if plugin ThemeREX Addons is active"
+msgstr ""
+
+#: skins/default/skin-options.php:2352
+msgid ""
+"Allow to open the full version of the post directly in the posts feed. "
+"Attention! Applies only to 1 column layouts!"
+msgstr ""
+
+#: skins/default/skin-options.php:2529
+#, php-format
+msgid "Select body style to display %s list and single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:2541
+msgid "Select or upload image, used as background in the boxed body"
+msgstr ""
+
+#: skins/default/skin-options.php:2564
+#, php-format
+msgid "Set up header parameters to display %s list and single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:2577
+#, php-format
+msgid "Select custom layout to display the site header on the %s pages"
+msgstr ""
+
+#: skins/default/skin-options.php:2588
+#, php-format
+msgid "Select position to display the site header on the %s pages"
+msgstr ""
+
+#: skins/default/skin-options.php:2596
+#, php-format
+msgid "Allow overriding the header image with a featured image of %s."
+msgstr ""
+
+#: skins/default/skin-options.php:2604
+#, php-format
+msgid "Select set of widgets to show in the header on the %s pages"
+msgstr ""
+
+#: skins/default/skin-options.php:2623
+#, php-format
+msgid "Sidebar on the %s list"
+msgstr ""
+
+#: skins/default/skin-options.php:2625
+#, php-format
+msgid "Set up sidebar parameters to display %s list and single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:2630
+#, php-format
+msgid "Sidebar position on the %s list"
+msgstr ""
+
+#: skins/default/skin-options.php:2632
+#, php-format
+msgid "Select sidebar position for the %s list"
+msgstr ""
+
+#: skins/default/skin-options.php:2639
+#, php-format
+msgid "Sidebar position on the %s list on the small screen"
+msgstr ""
+
+#: skins/default/skin-options.php:2640 skins/default/skin-options.php:2720
+msgid ""
+"Select a position for the sidebar on the small screen: above the content, "
+"below or on a sliding side-panel."
+msgstr ""
+
+#: skins/default/skin-options.php:2650
+#, php-format
+msgid "Sidebar style on the %s list"
+msgstr ""
+
+#: skins/default/skin-options.php:2672
+#, php-format
+msgid "Sidebar widgets on the %s list"
+msgstr ""
+
+#: skins/default/skin-options.php:2674
+#, php-format
+msgid "Select sidebar to show on the %s list"
+msgstr ""
+
+#: skins/default/skin-options.php:2705
+#, php-format
+msgid "Sidebar on the single %s"
+msgstr ""
+
+#: skins/default/skin-options.php:2707
+#, php-format
+msgid "Set up sidebar parameters to display single %s"
+msgstr ""
+
+#: skins/default/skin-options.php:2713
+#, php-format
+msgid "Select sidebar position for the single %s"
+msgstr ""
+
+#: skins/default/skin-options.php:2753
+#, php-format
+msgid "Select sidebar widgets for the single %s"
+msgstr ""
+
+#: skins/default/skin-options.php:2764
+msgid "Content width on the single post if the sidebar is hidden"
+msgstr ""
+
+#: skins/default/skin-options.php:2786
+#, php-format
+msgid "Set up footer parameters to display %s list and single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:2798
+msgid "Select custom layout to display the site footer"
+msgstr ""
+
+#: skins/default/skin-options.php:2850
+msgid "Additional panels"
+msgstr ""
+
+#: skins/default/skin-options.php:2852
+#, php-format
+msgid "Set up additional panels to display %s list and single posts"
+msgstr ""
+
+#: skins/default/skin-options.php:2929 theme-options/theme-options.php:1849
+#: theme-options/theme-options.php:1868
+msgid "- Select category -"
+msgstr ""
+
+#: skins/default/skin-plugins.php:13
+msgid "Core"
+msgstr ""
+
+#: skins/default/skin-plugins.php:14
+msgid "Page Builders"
+msgstr ""
+
+#: skins/default/skin-plugins.php:15
+msgid "E-Commerce & Donations"
+msgstr ""
+
+#: skins/default/skin-plugins.php:16
+msgid "Socials and Communities"
+msgstr ""
+
+#: skins/default/skin-plugins.php:17
+msgid "Events and Appointments"
+msgstr ""
+
+#: skins/default/skin-plugins.php:19
+msgid "Other"
+msgstr ""
+
+#: skins/default/skin-plugins.php:23 theme-options/theme-customizer.php:876
+#: theme-options/theme-customizer.php:886
+msgid "ThemeREX Addons"
+msgstr ""
+
+#: skins/default/skin-plugins.php:24
+msgid ""
+"Will allow you to install recommended plugins, demo content, and improve the "
+"theme's functionality overall with multiple theme options"
+msgstr ""
+
+#: skins/default/skin-plugins.php:30
+msgid "Elementor"
+msgstr ""
+
+#: skins/default/skin-plugins.php:31
+msgid ""
+"Is a beautiful PageBuilder, even the free version of which allows you to "
+"create great pages using a variety of modules."
+msgstr ""
+
+#: skins/default/skin-plugins.php:37
+msgid "Essential Addons for Elementor"
+msgstr ""
+
+#: skins/default/skin-plugins.php:38
+msgid "The ultimate elements library for Elementor PageBuilder"
+msgstr ""
+
+#: skins/default/skin-plugins.php:44
+msgid "Gutenberg"
+msgstr ""
+
+#: skins/default/skin-plugins.php:45
+msgid ""
+"It's a posts editor coming in place of the classic TinyMCE. Can be installed "
+"and used in parallel with Elementor"
+msgstr ""
+
+#: skins/default/skin-plugins.php:52
+#: theme-specific/theme-about/theme-upgrade.php:97
+msgid "WPBakery PageBuilder"
+msgstr ""
+
+#: skins/default/skin-plugins.php:53
+msgid "Popular PageBuilder which allows you to create excellent pages"
+msgstr ""
+
+#: skins/default/skin-plugins.php:60
+msgid "Give"
+msgstr ""
+
+#: skins/default/skin-plugins.php:74
+msgid "Instagram Feed"
+msgstr ""
+
+#: skins/default/skin-plugins.php:75
+msgid "Displays the latest photos from your profile on Instagram"
+msgstr ""
+
+#: skins/default/skin-plugins.php:81
+msgid "MailChimp for WP"
+msgstr ""
+
+#: skins/default/skin-plugins.php:82
+msgid "Allows visitors to subscribe to newsletters"
+msgstr ""
+
+#: skins/default/skin-plugins.php:88
+msgid "The Events Calendar"
+msgstr ""
+
+#: skins/default/skin-plugins.php:95
+msgid "Contact Form 7"
+msgstr ""
+
+#: skins/default/skin-plugins.php:96
+msgid "CF7 allows you to create an unlimited number of contact forms"
+msgstr ""
+
+#: skins/default/skin-plugins.php:102
+msgid "Essential Grid"
+msgstr ""
+
+#: skins/default/skin-plugins.php:109
+msgid "Revolution Slider"
+msgstr ""
+
+#: skins/default/skin-plugins.php:116
+msgid "WPML - Sitepress Multilingual CMS"
+msgstr ""
+
+#: skins/default/skin-plugins.php:117
+msgid "Allows you to make your website multilingual"
+msgstr ""
+
+#: skins/default/skin-plugins.php:124
+msgid "Cookie Information"
+msgstr ""
+
+#: skins/default/skin-plugins.php:125
+msgid ""
+"Allow visitors to decide for themselves what personal data they want to "
+"store on your site"
+msgstr ""
+
+#: skins/default/skin-plugins.php:131
+msgid "ThemeREX Updater"
+msgstr ""
+
+#: skins/default/skin-plugins.php:132
+msgid ""
+"Update theme and theme-specific plugins from developer's upgrade server."
+msgstr ""
+
+#: skins/default/skin-plugins.php:138
+msgid "ThemeREX Popup"
+msgstr ""
+
+#: skins/default/skin-plugins.php:139
+msgid "Add popup to your site."
+msgstr ""
+
+#: skins/default/skin-setup.php:135
+#, php-format
+msgid ""
+"Font settings for the %s of the site. To ensure that the elements scale "
+"properly on mobile devices, please use only the following units: \"rem\", "
+"\"em\" or \"ex\""
+msgstr ""
+
+#: skins/default/skin-setup.php:140
+msgid "Main text"
+msgstr ""
+
+#: skins/default/skin-setup.php:141
+msgid "main text"
+msgstr ""
+
+#: skins/default/skin-setup.php:154
+msgid "Article text"
+msgstr ""
+
+#: skins/default/skin-setup.php:155
+msgid "article text"
+msgstr ""
+
+#: skins/default/skin-setup.php:168
+msgid "Heading 1"
+msgstr ""
+
+#: skins/default/skin-setup.php:169
+msgid "tag H1"
+msgstr ""
+
+#: skins/default/skin-setup.php:182
+msgid "Heading 2"
+msgstr ""
+
+#: skins/default/skin-setup.php:183
+msgid "tag H2"
+msgstr ""
+
+#: skins/default/skin-setup.php:196
+msgid "Heading 3"
+msgstr ""
+
+#: skins/default/skin-setup.php:197
+msgid "tag H3"
+msgstr ""
+
+#: skins/default/skin-setup.php:210
+msgid "Heading 4"
+msgstr ""
+
+#: skins/default/skin-setup.php:211
+msgid "tag H4"
+msgstr ""
+
+#: skins/default/skin-setup.php:224
+msgid "Heading 5"
+msgstr ""
+
+#: skins/default/skin-setup.php:225
+msgid "tag H5"
+msgstr ""
+
+#: skins/default/skin-setup.php:238
+msgid "Heading 6"
+msgstr ""
+
+#: skins/default/skin-setup.php:239
+msgid "tag H6"
+msgstr ""
+
+#: skins/default/skin-setup.php:252
+msgid "Logo text"
+msgstr ""
+
+#: skins/default/skin-setup.php:253
+msgid "text of the logo"
+msgstr ""
+
+#: skins/default/skin-setup.php:265
+msgid "buttons"
+msgstr ""
+
+#: skins/default/skin-setup.php:276
+msgid "Input fields"
+msgstr ""
+
+#: skins/default/skin-setup.php:277
+msgid "input fields, dropdowns and textareas"
+msgstr ""
+
+#: skins/default/skin-setup.php:289
+msgid "post meta (author, categories, publish date, counters, share, etc.)"
+msgstr ""
+
+#: skins/default/skin-setup.php:302
+#: skins/default/templates/header-navi-side.php:32
+msgid "Main menu"
+msgstr ""
+
+#: skins/default/skin-setup.php:303
+msgid "main menu items"
+msgstr ""
+
+#: skins/default/skin-setup.php:314
+msgid "Dropdown menu"
+msgstr ""
+
+#: skins/default/skin-setup.php:315
+msgid "dropdown menu items"
+msgstr ""
+
+#: skins/default/skin-setup.php:343
+msgid "Main"
+msgstr ""
+
+#: skins/default/skin-setup.php:344
+msgid "Colors of the main content area"
+msgstr ""
+
+#: skins/default/skin-setup.php:347 skins/default/skin.php:445
+msgid "Alter"
+msgstr ""
+
+#: skins/default/skin-setup.php:348
+msgid "Colors of the alternative blocks (sidebars, etc.)"
+msgstr ""
+
+#: skins/default/skin-setup.php:351
+msgid "Extra"
+msgstr ""
+
+#: skins/default/skin-setup.php:352
+msgid ""
+"Colors of the extra blocks (dropdowns, price blocks, table headers, etc.)"
+msgstr ""
+
+#: skins/default/skin-setup.php:355
+msgid "Inverse"
+msgstr ""
+
+#: skins/default/skin-setup.php:356
+msgid ""
+"Colors of the inverse blocks - when link color used as background of the "
+"block (dropdowns, blockquotes, etc.)"
+msgstr ""
+
+#: skins/default/skin-setup.php:359
+msgid "Input"
+msgstr ""
+
+#: skins/default/skin-setup.php:360
+msgid "Colors of the form fields (text field, textarea, select, etc.)"
+msgstr ""
+
+#: skins/default/skin-setup.php:369
+msgid "Background color of this block in the normal state"
+msgstr ""
+
+#: skins/default/skin-setup.php:372
+msgid "Background hover"
+msgstr ""
+
+#: skins/default/skin-setup.php:373
+msgid "Background color of this block in the hovered state"
+msgstr ""
+
+#: skins/default/skin-setup.php:376
+msgid "Border color"
+msgstr ""
+
+#: skins/default/skin-setup.php:377
+msgid "Border color of this block in the normal state"
+msgstr ""
+
+#: skins/default/skin-setup.php:380
+msgid "Border hover"
+msgstr ""
+
+#: skins/default/skin-setup.php:381
+msgid "Border color of this block in the hovered state"
+msgstr ""
+
+#: skins/default/skin-setup.php:384
+msgid "Text"
+msgstr ""
+
+#: skins/default/skin-setup.php:385
+msgid "Color of the text inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:388
+msgid "Text dark"
+msgstr ""
+
+#: skins/default/skin-setup.php:389
+msgid "Color of the dark text (bold, header, etc.) inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:392
+msgid "Text light"
+msgstr ""
+
+#: skins/default/skin-setup.php:393
+msgid "Color of the light text (post meta, etc.) inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:396
+msgid "Link"
+msgstr ""
+
+#: skins/default/skin-setup.php:397
+msgid "Color of the links inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:400
+msgid "Link hover"
+msgstr ""
+
+#: skins/default/skin-setup.php:401
+msgid "Color of the hovered state of links inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:405
+msgid "Color of the accented texts (areas) inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:408
+msgid "Link 2 hover"
+msgstr ""
+
+#: skins/default/skin-setup.php:409
+msgid "Color of the hovered state of accented texts (areas) inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:413
+msgid "Color of the other accented texts (buttons) inside this block"
+msgstr ""
+
+#: skins/default/skin-setup.php:416
+msgid "Link 3 hover"
+msgstr ""
+
+#: skins/default/skin-setup.php:417
+msgid ""
+"Color of the hovered state of other accented texts (buttons) inside this "
+"block"
+msgstr ""
+
+#: skins/default/skin-setup.php:811
+msgid "Huge image"
+msgstr ""
+
+#: skins/default/skin-setup.php:818
+msgid "Large image"
+msgstr ""
+
+#: skins/default/skin-setup.php:826
+msgid "Medium image"
+msgstr ""
+
+#: skins/default/skin-setup.php:833
+msgid "Small square avatar"
+msgstr ""
+
+#: skins/default/skin-setup.php:841
+msgid "Masonry Large (scaled)"
+msgstr ""
+
+#: skins/default/skin-setup.php:849
+msgid "Masonry (scaled)"
+msgstr ""
+
+#: skins/default/skin-setup.php:855
+msgid "Medium square image"
+msgstr ""
+
+#: skins/default/skin-setup.php:861
+msgid "Medium wide image"
+msgstr ""
+
+#: skins/default/skin-setup.php:867
+msgid "Medium quadratic image"
+msgstr ""
+
+#: skins/default/skin-setup.php:873
+msgid "Big rectangle image"
+msgstr ""
+
+#: skins/default/skin-setup.php:893
+msgid "Standard"
+msgstr ""
+
+#: skins/default/skin-setup.php:900
+msgid "Band"
+msgstr ""
+
+#: skins/default/skin-setup.php:918
+msgid "Classic Masonry"
+msgstr ""
+
+#: skins/default/skin-setup.php:937
+msgid "Portfolio Masonry"
+msgstr ""
+
+#: skins/default/skin-setup.php:961
+msgid "Style 1"
+msgstr ""
+
+#: skins/default/skin-setup.php:962
+msgid ""
+"Fullwidth image is above the content area, the title and meta are over the "
+"image"
+msgstr ""
+
+#: skins/default/skin-setup.php:967
+msgid "Style 2"
+msgstr ""
+
+#: skins/default/skin-setup.php:968
+msgid ""
+"Fullwidth image is above the content area, the title and meta are inside the "
+"content area"
+msgstr ""
+
+#: skins/default/skin-setup.php:973
+msgid "Style 3"
+msgstr ""
+
+#: skins/default/skin-setup.php:974
+msgid ""
+"Fullwidth image is above the content area, the title and meta are below the "
+"image"
+msgstr ""
+
+#: skins/default/skin-setup.php:979
+msgid "Style 4"
+msgstr ""
+
+#: skins/default/skin-setup.php:980
+msgid ""
+"Boxed image is above the content area, the title and meta are above the image"
+msgstr ""
+
+#: skins/default/skin-setup.php:985
+msgid "Style 5"
+msgstr ""
+
+#: skins/default/skin-setup.php:986
+msgid ""
+"Boxed image is inside the content area, the title and meta are above the "
+"content area"
+msgstr ""
+
+#: skins/default/skin-setup.php:991
+msgid "Style 6"
+msgstr ""
+
+#: skins/default/skin-setup.php:992
+msgid ""
+"Boxed image, the title and meta are inside the content area, the title and "
+"meta are above the image"
+msgstr ""
+
+#: skins/default/skin.php:98
+msgid "Only Featured Image"
+msgstr ""
+
+#: skins/default/skin.php:106
+msgid "Classic Grid Alternative"
+msgstr ""
+
+#: skins/default/skin.php:115
+msgid "Announce"
+msgstr ""
+
+#: skins/default/skin.php:442
+msgid "Decoration"
+msgstr ""
+
+#: skins/default/skin.php:511
+msgid "Items Description"
+msgstr ""
+
+#: skins/default/skin.php:537 theme-options/theme-options.php:1733
+msgid "Simple"
+msgstr ""
+
+#: skins/default/skin.php:622 theme-specific/theme-tags.php:553
+msgid "Sponsored content"
+msgstr ""
+
+#: skins/default/skin.php:646 theme-specific/theme-tags.php:577
+msgid "Published:"
+msgstr ""
+
+#: skins/default/skin.php:661 theme-specific/theme-tags.php:592
+msgid "Updated:"
+msgstr ""
+
+#: skins/default/skin.php:681 theme-specific/theme-tags.php:612
+msgid "By"
+msgstr ""
+
+#: skins/default/skin.php:703 theme-specific/theme-tags.php:634
+msgid "View"
+msgstr ""
+
+#: skins/default/skin.php:729 skins/default/skin.php:732
+#: skins/default/skin.php:741 theme-specific/theme-tags.php:660
+#: theme-specific/theme-tags.php:663 theme-specific/theme-tags.php:672
+msgid "Like"
+msgstr ""
+
+#: skins/default/skin.php:729 skins/default/skin.php:733
+#: theme-specific/theme-tags.php:660 theme-specific/theme-tags.php:664
+msgid "Dislike"
+msgstr ""
+
+#: skins/default/skin.php:740 theme-specific/theme-tags.php:671
+msgid "Reaction"
+msgstr ""
+
+#: skins/default/skin.php:754 theme-specific/theme-tags.php:685
+msgid "Share"
+msgstr ""
+
+#: skins/default/skin.php:840
+#: skins/default/trx_addons/templates/tpl.posts-list.php:93
+msgid "by"
+msgstr ""
+
+#: skins/default/skin.php:905
+msgid "Details"
+msgstr ""
+
+#: skins/default/skin.php:913
+msgid "Show Excerpt"
+msgstr ""
+
+#: skins/default/skin.php:942
+msgid "Subtitle"
+msgstr ""
+
+#: skins/default/templates/admin-notice.php:18
+#: skins/default/templates/admin-rate.php:19 skins/skins-notice.php:19
+msgid "Theme screenshot"
+msgstr ""
+
+#: skins/default/templates/admin-notice.php:29
+#, php-format
+msgid "Welcome to %1$s v.%2$s"
+msgstr ""
+
+#: skins/default/templates/admin-notice.php:48
+msgid ""
+"Attention! Plugin \"ThemeREX Addons\" is required! Please, install and "
+"activate it!"
+msgstr ""
+
+#: skins/default/templates/admin-notice.php:62
+msgid "Install plugin \"ThemeREX Addons\""
+msgstr ""
+
+#: skins/default/templates/admin-notice.php:68
+#: skins/default/templates/admin-rate.php:78 skins/skins-notice.php:74
+msgid "Dismiss"
+msgstr ""
+
+#: skins/default/templates/admin-rate.php:30
+#, php-format
+msgid "Rate our theme \"%s\", please"
+msgstr ""
+
+#: skins/default/templates/admin-rate.php:41
+msgid ""
+"We are glad you chose our WP theme for your website. You've done well "
+"customizing your website and we hope that you've enjoyed working with our "
+"theme."
+msgstr ""
+
+#: skins/default/templates/admin-rate.php:42
+msgid ""
+"It would be just awesome if you spend just a minute of your time to rate our "
+"theme or the customer service you've received from us."
+msgstr ""
+
+#: skins/default/templates/admin-rate.php:43
+msgid ""
+"* We love receiving your reviews! Every time you leave a review, our CEO "
+"Henry Rise gives $5 to homeless dog shelter! Save the planet with us!"
+msgstr ""
+
+#: skins/default/templates/admin-rate.php:56
+#, php-format
+msgid "Rate theme %s"
+msgstr ""
+
+#: skins/default/templates/author-bio.php:20
+msgid "About"
+msgstr ""
+
+#: skins/default/templates/author-bio.php:27
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: skins/default/templates/author-page.php:36
+#, php-format
+msgid "%s article published"
+msgstr ""
+
+#: skins/default/templates/author-page.php:42
+msgid "No posts published."
+msgstr ""
+
+#: skins/default/templates/author-page.php:51
+msgid "Follow:"
+msgstr ""
+
+#: skins/default/templates/content-404.php:3
+msgid "404"
+msgstr ""
+
+#: skins/default/templates/content-404.php:5
+msgid "Oops..."
+msgstr ""
+
+#: skins/default/templates/content-404.php:6
+msgid "We're sorry, but <br>something went wrong."
+msgstr ""
+
+#: skins/default/templates/content-404.php:7
+msgid "Homepage"
+msgstr ""
+
+#: skins/default/templates/content-excerpt.php:129
+#: skins/default/templates/content-page.php:39
+#: theme-specific/theme-tags.php:356
+msgid "Pages:"
+msgstr ""
+
+#: skins/default/templates/content-excerpt.php:133
+#: skins/default/templates/content-page.php:43
+#: theme-specific/theme-tags.php:360 theme-specific/theme-tags.php:1781
+msgid "Page"
+msgstr ""
+
+#: skins/default/templates/content-none-archive.php:3
+#: skins/default/templates/content-none-search.php:3
+msgid "No results"
+msgstr ""
+
+#: skins/default/templates/content-none-archive.php:5
+msgid "We're sorry, but your query did not match"
+msgstr ""
+
+#: skins/default/templates/content-none-archive.php:9
+#: skins/default/templates/content-none-search.php:14
+#, php-format
+msgid ""
+"Can't find what you need? Take a moment and do a search below or start from "
+"<a href='%s'>our homepage</a>."
+msgstr ""
+
+#: skins/default/templates/content-none-search.php:8
+#, php-format
+msgid "We're sorry, but your search \"%s\" did not match"
+msgstr ""
+
+#: skins/default/templates/footer-logo.php:24
+msgid "Site logo"
+msgstr ""
+
+#: skins/default/templates/header-title.php:64
+msgid "Site icon"
+msgstr ""
+
+#: skins/default/templates/related-posts-classic.php:23
+#: skins/default/templates/related-posts-list.php:17
+#: skins/default/templates/related-posts-modern.php:20
+#: skins/default/templates/related-posts-short.php:17
+#: skins/default/templates/related-posts-wide.php:24
+#: skins/default/templates/related-posts.php:23
+msgid "- No title -"
+msgstr ""
+
+#: skins/default/templates/related-posts-classic.php:39
+#: theme-specific/theme-tags.php:319
+msgid "Read more"
+msgstr ""
+
+#: skins/default/theme-specific/theme-hovers/theme-hovers.php:19
+msgid "Button hover"
+msgstr ""
+
+#: skins/default/theme-specific/theme-hovers/theme-hovers.php:20
+msgid "Select a hover effect for theme buttons"
+msgstr ""
+
+#: skins/default/theme-specific/theme-hovers/theme-hovers.php:28
+msgid "Image hover"
+msgstr ""
+
+#: skins/default/theme-specific/theme-hovers/theme-hovers.php:29
+msgid "Select a hover effect for theme images"
+msgstr ""
+
+#: skins/skins-notice.php:26
+msgid "New skins available"
+msgstr ""
+
+#: skins/skins-notice.php:34
+#, php-format
+msgid "%d new version"
+msgstr ""
+
+#: skins/skins-notice.php:40
+#, php-format
+msgid "%d free skin"
+msgstr ""
+
+#: skins/skins-notice.php:46
+#, php-format
+msgid "%d paid skin"
+msgstr ""
+
+#: skins/skins-notice.php:53
+#, php-format
+msgid "We are pleased to announce that %s are available for your theme"
+msgstr ""
+
+#: skins/skins-notice.php:68
+msgid "Go to Skins manager"
+msgstr ""
+
+#: skins/skins.php:274
+msgid "Select a skin for your website."
+msgstr ""
+
+#: skins/skins.php:285 skins/skins.php:929 skins/skins.php:960
+msgid "Skins"
+msgstr ""
+
+#: skins/skins.php:309
+msgid "Choose a Skin"
+msgstr ""
+
+#: skins/skins.php:315
+msgid ""
+"Select the desired style of your website. Some skins may require you to "
+"install additional plugins."
+msgstr ""
+
+#: skins/skins.php:355
+msgid "Live Preview"
+msgstr ""
+
+#: skins/skins.php:370
+msgid "Activated"
+msgstr ""
+
+#: skins/skins.php:396
+msgid "Purchase"
+msgstr ""
+
+#: skins/skins.php:407
+msgid "Download"
+msgstr ""
+
+#: skins/skins.php:420
+#, php-format
+msgid "v.%s"
+msgstr ""
+
+#: skins/skins.php:459
+msgid "Activate your theme in order to be able to change skins."
+msgstr ""
+
+#: skins/skins.php:483
+#, php-format
+msgid "Update to v.%s"
+msgstr ""
+
+#: skins/skins.php:511
+msgid "Attention!"
+msgstr ""
+
+#: skins/skins.php:514
+msgid "Some skins require installation of additional plugins."
+msgstr ""
+
+#: skins/skins.php:516
+msgid "After selecting a new skin, your theme settings will be changed."
+msgstr ""
+
+#: skins/skins.php:519
+msgid "A new skin is selected. The page will be reloaded."
+msgstr ""
+
+#: skins/skins.php:520
+msgid "Skin is changed!"
+msgstr ""
+
+#: skins/skins.php:523
+msgid "Download skin"
+msgstr ""
+
+#: skins/skins.php:526
+msgid ""
+"The new skin will be installed in the 'skins' folder inside your theme "
+"folder."
+msgstr ""
+
+#: skins/skins.php:528 skins/skins.php:547
+msgid "Attention! Do not forget to activate the new skin after installation."
+msgstr ""
+
+#: skins/skins.php:531 skins/skins.php:551
+msgid "A new skin is installed. The page will be reloaded."
+msgstr ""
+
+#: skins/skins.php:532 skins/skins.php:552
+msgid "Skin is installed!"
+msgstr ""
+
+#: skins/skins.php:533 skins/skins.php:553
+msgid "Skin download error!"
+msgstr ""
+
+#: skins/skins.php:536
+msgid "Download purchased skin"
+msgstr ""
+
+#: skins/skins.php:539
+msgid ""
+"1. Follow the link below and purchase the selected skin. After payment you "
+"will receive a purchase code."
+msgstr ""
+
+#: skins/skins.php:541
+msgid "Purchase the selected skin."
+msgstr ""
+
+#: skins/skins.php:543
+msgid ""
+"2. Enter the purchase code of the selected skin in the field below and press "
+"the button 'Apply'."
+msgstr ""
+
+#: skins/skins.php:545
+msgid ""
+"3. The new skin will be installed to the folder 'skins' inside your theme "
+"folder."
+msgstr ""
+
+#: skins/skins.php:550
+msgid "Enter the purchase code of the skin."
+msgstr ""
+
+#: skins/skins.php:556
+msgid "Update skin"
+msgstr ""
+
+#: skins/skins.php:559
+msgid ""
+"Attention! The new version of the skin will be installed in the same folder "
+"instead the current version!"
+msgstr ""
+
+#: skins/skins.php:561
+msgid ""
+"If you made any changes in the files from the folder of the selected skin - "
+"they will be lost."
+msgstr ""
+
+#: skins/skins.php:564
+msgid "The skin is updated. The page will be reloaded."
+msgstr ""
+
+#: skins/skins.php:565
+msgid "Skin is updated!"
+msgstr ""
+
+#: skins/skins.php:566
+msgid "Skin update error!"
+msgstr ""
+
+#: skins/skins.php:567
+msgid "Selected skins are updated."
+msgstr ""
+
+#: skins/skins.php:582
+msgid "Sorry, you are not allowed to switch skins."
+msgstr ""
+
+#: skins/skins.php:592
+#, php-format
+msgid "Can not switch to the skin %s"
+msgstr ""
+
+#: skins/skins.php:596
+#, php-format
+msgid "Skin %s is already active"
+msgstr ""
+
+#: skins/skins.php:632
+msgid "Options of the new skin are not found!"
+msgstr ""
+
+#: skins/skins.php:686
+msgid "Theme is not activated!"
+msgstr ""
+
+#: skins/skins.php:690
+#, php-format
+msgid "Can not download the skin %s"
+msgstr ""
+
+#: skins/skins.php:694
+#, php-format
+msgid "Skin %s is already installed"
+msgstr ""
+
+#: skins/skins.php:719 theme-specific/theme-about/theme-upgrade.php:445
+msgid "Unrecognized server answer!"
+msgstr ""
+
+#: skins/skins.php:729 theme-specific/theme-about/theme-upgrade.php:454
+msgid "Problem with save upgrade file to the folder with uploads"
+msgstr ""
+
+#: skins/skins.php:740 theme-specific/theme-about/theme-upgrade.php:479
+msgid "Package with upgrade is corrupt"
+msgstr ""
+
+#: skins/skins.php:743 theme-specific/theme-about/theme-upgrade.php:482
+msgid "Incorrect server answer"
+msgstr ""
+
+#: skins/skins.php:746 theme-specific/theme-about/theme-upgrade.php:485
+msgid "Unrecognized server answer format:"
+msgstr ""
+
+#: skins/skins.php:791
+msgid "Uploaded file with skin package is not available"
+msgstr ""
+
+#: skins/skins.php:816
+msgid "Active theme components: Skins"
+msgstr ""
+
+#: skins/skins.php:821
+msgid "Skins of the current theme are all up to date."
+msgstr ""
+
+#: skins/skins.php:827
+msgid ""
+"The following skins have new versions available. Check the ones you want to "
+"update and then click &#8220;Update Skins&#8221;."
+msgstr ""
+
+#: skins/skins.php:830
+msgid ""
+"<strong>Please Note:</strong> Any customizations you have made to skin files "
+"will be lost."
+msgstr ""
+
+#: skins/skins.php:833 skins/skins.php:883
+msgid "Update Skins"
+msgstr ""
+
+#: skins/skins.php:838 skins/skins.php:879
+msgid "Select All"
+msgstr ""
+
+#: skins/skins.php:855
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: skins/skins.php:865
+#, php-format
+msgid "You have version %1$s installed. Update to %2$s."
+msgstr ""
+
+#: skins/skins.php:907
+#, php-format
+msgid "%d Skin Update"
+msgstr ""
+
+#: theme-options/theme-customizer.php:79
+msgid "Plugins settings"
+msgstr ""
+
+#: theme-options/theme-customizer.php:747
+msgid ""
+"Use \"((\" and \"))\", \"{{\" and \"}}\" to modify style and color of parts "
+"of the text, \"||\" to break current line"
+msgstr ""
+
+#: theme-options/theme-customizer.php:793
+msgid "Background"
+msgstr ""
+
+#: theme-options/theme-customizer.php:795
+msgid "Used only if \"General settings - Body style\" equal to \"boxed\""
+msgstr ""
+
+#: theme-options/theme-customizer.php:853
+#, php-format
+msgid ""
+"You have to choose widget \"<b>%s</b>\" in this section. You can also select "
+"any other widget, and change the purpose of this section"
+msgstr ""
+
+#: theme-options/theme-customizer.php:874
+#, php-format
+msgid ""
+"You need to install the <b>%s</b> plugin to be able to add Team members, "
+"Testimonials, Services and many other widgets"
+msgstr ""
+
+#: theme-options/theme-customizer.php:890
+msgid ""
+"Also you can insert in this section any other widgets and to modify its "
+"purpose"
+msgstr ""
+
+#: theme-options/theme-customizer.php:1241
+msgid "Refresh"
+msgstr ""
+
+#: theme-options/theme-options-override.php:122
+msgid "Options Presets"
+msgstr ""
+
+#: theme-options/theme-options-override.php:123
+msgid ""
+"Select a preset to override options of the current page or save current "
+"options as a new preset"
+msgstr ""
+
+#: theme-options/theme-options-override.php:270
+msgid "[Complex Data]"
+msgstr ""
+
+#: theme-options/theme-options-override.php:309
+#, php-format
+msgid "Blog archive for \"%s\""
+msgstr ""
+
+#: theme-options/theme-options-override.php:310
+msgid "Blog archive"
+msgstr ""
+
+#: theme-options/theme-options-override.php:328
+#: theme-options/theme-options-override.php:362
+#: theme-specific/theme-about/theme-upgrade.php:413
+msgid "Sorry, you are not allowed to manage options."
+msgstr ""
+
+#: theme-options/theme-options-override.php:348
+#, php-format
+msgid "Preset \"%s\" is added!"
+msgstr ""
+
+#: theme-options/theme-options-override.php:350
+msgid "Wrong preset name or options data is received! Preset is not added!"
+msgstr ""
+
+#: theme-options/theme-options-override.php:377
+#, php-format
+msgid "Preset \"%s\" is deleted!"
+msgstr ""
+
+#: theme-options/theme-options-override.php:379
+msgid "Wrong preset name is received! Preset is not deleted!"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:39
+msgid "Start customizing your theme."
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:51
+#: theme-options/theme-options-qsetup.php:138
+msgid "Quick Setup"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:64
+msgid "Theme Colors"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:70
+msgid "Accent color 1"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:71
+msgid "Color of the links"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:78
+msgid "Accent color 1 (hovered state)"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:79
+msgid "Color of the hovered state of the links"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:86
+msgid "Accent color 2"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:87
+msgid "Color of the accented areas"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:94
+msgid "Accent color 2 (hovered state)"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:95
+msgid "Color of the hovered state of the accented areas"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:102
+msgid "Accent color 3"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:103
+msgid "Color of the another accented areas"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:110
+msgid "Accent color 3 (hovered state)"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:111
+msgid "Color of the hovered state of the another accented areas"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:146
+msgid "Here you can customize the basic settings of your website."
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:149
+#, php-format
+msgid "For a detailed customization, go to %s."
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:153
+msgid "or"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:159
+msgid ""
+"<b>Note:</b> If you've imported the demo data, you may skip this step, since "
+"all the necessary settings have already been applied."
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:254
+#: theme-options/theme-options.php:926
+msgid "Save Options"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:275
+#: theme-options/theme-options.php:371
+msgid "Bad security code! Options are not saved!"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:281
+#: theme-options/theme-options.php:377
+msgid "Manage options is denied for the current user! Options are not saved!"
+msgstr ""
+
+#: theme-options/theme-options-qsetup.php:333
+#: theme-options/theme-options.php:385
+msgid "Options are saved"
+msgstr ""
+
+#: theme-options/theme-options.php:169
+#, php-format
+msgid "Undefined option \"%s\""
+msgstr ""
+
+#: theme-options/theme-options.php:171 theme-options/theme-options.php:565
+msgid "called from:"
+msgstr ""
+
+#: theme-options/theme-options.php:563
+#, php-format
+msgid "Undefined setting \"%s\""
+msgstr ""
+
+#: theme-options/theme-options.php:927
+msgid "Export Options"
+msgstr ""
+
+#: theme-options/theme-options.php:928
+msgid "Import Options"
+msgstr ""
+
+#: theme-options/theme-options.php:929
+msgid "Reset Options"
+msgstr ""
+
+#: theme-options/theme-options.php:1034
+#, php-format
+msgid ""
+"<strong>Attention! The number of theme options ( %1$d )</strong> on this "
+"page <strong>exceeds the maximum number of variables ( %2$d )</strong> "
+"specified in your server's PHP configuration!"
+msgstr ""
+
+#: theme-options/theme-options.php:1036
+msgid ""
+"When you save the options, you will lose some of the settings (they will "
+"take their default values)."
+msgstr ""
+
+#: theme-options/theme-options.php:1123
+msgid "Drag to reorder"
+msgstr ""
+
+#: theme-options/theme-options.php:1133
+msgid "Clone items"
+msgstr ""
+
+#: theme-options/theme-options.php:1136
+msgid "Delete items"
+msgstr ""
+
+#: theme-options/theme-options.php:1145
+msgid "+ Add New Item"
+msgstr ""
+
+#: theme-options/theme-options.php:1202
+msgid ""
+"This option can be overridden in the following sections (Blog, Plugins "
+"settings, etc.) or in the settings of individual pages"
+msgstr ""
+
+#: theme-options/theme-options.php:1411
+msgid "- Select preset -"
+msgstr ""
+
+#: theme-options/theme-options.php:1418
+msgid "Apply the selected preset"
+msgstr ""
+
+#: theme-options/theme-options.php:1422
+msgid "Create a new preset"
+msgstr ""
+
+#: theme-options/theme-options.php:1426
+msgid "Delete the selected preset"
+msgstr ""
+
+#: theme-options/theme-options.php:1489
+msgid "Add Images"
+msgstr ""
+
+#: theme-options/theme-options.php:1489
+msgid "Choose Image"
+msgstr ""
+
+#: theme-options/theme-options.php:1490
+msgid "Add Media"
+msgstr ""
+
+#: theme-options/theme-options.php:1490
+msgid "Choose Media"
+msgstr ""
+
+#: theme-options/theme-options.php:1501
+msgid "Selected image"
+msgstr ""
+
+#: theme-options/theme-options.php:1537
+msgid "Select icon"
+msgstr ""
+
+#: theme-options/theme-options.php:1547
+msgid "Search for an icon"
+msgstr ""
+
+#: theme-options/theme-options.php:1717
+msgid "Reload scheme"
+msgstr ""
+
+#: theme-options/theme-options.php:1718
+msgid "Duplicate scheme"
+msgstr ""
+
+#: theme-options/theme-options.php:1719
+msgid "Delete scheme"
+msgstr ""
+
+#: theme-options/theme-options.php:1726
+msgid "Editor type"
+msgstr ""
+
+#: theme-options/theme-options.php:1740
+msgid "Advanced"
+msgstr ""
+
+#: theme-specific/theme-about/theme-about.php:43
+#: theme-specific/theme-about/theme-about.php:45
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: theme-specific/theme-about/theme-about.php:108
+#, php-format
+msgid "Welcome to %1$s %2$s v.%3$s"
+msgstr ""
+
+#: theme-specific/theme-about/theme-about.php:122
+msgid ""
+"In order to continue, please install and activate <b>ThemeREX Addons plugin</"
+"b>."
+msgstr ""
+
+#: theme-specific/theme-about/theme-about.php:140
+msgid ""
+"<i>ThemeREX Addons plugin</i> will allow you to install recommended plugins, "
+"demo content, and improve the theme's functionality overall with multiple "
+"theme options."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:28
+msgid "Free version"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:31
+msgid "PRO version"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:37
+msgid "Mobile friendly"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:40
+msgid "Responsive layout. Looks great on any device."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:49
+msgid "Built-in posts slider"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:52
+msgid ""
+"Allows you to add beautiful slides using the built-in shortcode/widget "
+"\"Slider\" with swipe gestures support."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:65
+msgid "Revolution Slider Compatibility"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:68
+msgid ""
+"Our built-in shortcode/widget \"Slider\" is able to work not only with "
+"posts, but also with slides created  in \"Revolution Slider\"."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:81
+msgid "Elementor (free PageBuilder)"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:84
+msgid "Full integration with a nice free page builder \"Elementor\"."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:100
+msgid ""
+"Full integration with a very popular page builder \"WPBakery PageBuilder\". "
+"A number of useful shortcodes and widgets to create beautiful homepages and "
+"other sections of your website."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:109
+msgid "Additional shortcodes pack"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:112
+msgid ""
+"A number of useful shortcodes to create beautiful homepages and other "
+"sections of your website with WPBakery PageBuilder."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:124
+msgid "Headers and Footers builder"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:127
+msgid ""
+"Powerful visual builder of headers and footers! No manual code editing - use "
+"all the advantages of drag-and-drop technology."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:139
+msgid "Easy Digital Downloads Compatibility"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:142
+msgid ""
+"Ready for digital e-commerce. You can build an online digital store with "
+"this theme."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:154
+msgid "Many other popular plugins compatibility"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:157
+msgid ""
+"PRO version is compatible (was tested and has built-in support) with many "
+"popular plugins."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:169
+msgid ""
+"Our premium support is going to take care of any problems, in case there "
+"will be any of course."
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:182
+#: theme-specific/theme-about/theme-upgrade.php:204
+msgid "Get PRO version"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:220
+msgid "Close"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:226
+#, php-format
+msgid "Upgrade %1$s Free v.%2$s to PRO"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:236
+msgid "Step 1:"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:239
+msgid "Get a License Key"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:243
+msgid "Paste License Key here"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:250
+msgid "Step 2:"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:253
+msgid "Generate an Envato API Personal Token"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:257
+msgid "Paste Personal Token here"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:263
+#, php-format
+msgid "Step %d: Upgrade to PRO Version"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:266
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:282
+msgid "Error getting data from the update server!"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:283
+msgid "Upgrade details:"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:284
+msgid "Theme upgraded successfully! Now you have the PRO version!"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:315
+msgid "Upgrade to the PRO Version"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:316
+msgid ""
+"Get the PRO License Key and paste it to the field below to upgrade current "
+"theme to the PRO Version"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:473
+msgid "Uploaded file with upgrade package is not available"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:488
+msgid "Entered key is not valid!"
+msgstr ""
+
+#: theme-specific/theme-about/theme-upgrade.php:657
+msgid ""
+"Error with plugin activation. Try to manually activate in the Plugins menu"
+msgstr ""
+
+#: theme-specific/theme-tags.php:339
+msgid "View comment"
+msgstr ""
+
+#: theme-specific/theme-tags.php:339
+msgid "View comments"
+msgstr ""
+
+#: theme-specific/theme-tags.php:391
+msgid "Tags:"
+msgstr ""
+
+#: theme-specific/theme-tags.php:469
+msgid "Next"
+msgstr ""
+
+#: theme-specific/theme-tags.php:473
+msgid "Previous"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1457
+msgid "You May Also Like"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1554
+msgid "All"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1757
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: theme-specific/theme-tags.php:1779
+msgid "<"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1780
+msgid ">"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1798
+msgid "Load more posts"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1805
+msgid "Previous posts"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1805
+msgid "Newest posts"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1806
+msgid "Next posts"
+msgstr ""
+
+#: theme-specific/theme-tags.php:1806
+msgid "Older posts"
+msgstr ""

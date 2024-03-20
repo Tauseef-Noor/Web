@@ -1,0 +1,382 @@
+/* Elementor styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+/* Add negative margins to the our post container to align left and right side of the post content and header/footer */
+.post_content > .elementor,
+[class*="type-cpt_"] > [class*="_page_content"] > .elementor {
+	margin-left:  calc( -1 * var(--theme-var-elm_add_page_margins) / 2 );
+	margin-right: calc( -1 * var(--theme-var-elm_add_page_margins) / 2 );
+}
+
+/* Add margins to "No Gap" on fullscreen for compensation of the previous rule */
+.body_style_fullscreen .post_content > .elementor .elementor-section.elementor-section-full_width > .elementor-container.elementor-column-gap-no,
+.body_style_fullscreen [class*="type-cpt_"] > [class*="_page_content"] > .elementor .elementor-section.elementor-section-full_width > .elementor-container.elementor-column-gap-no {
+	margin-left:  calc( var(--theme-var-elm_add_page_margins) / 2 );
+	margin-right: calc( var(--theme-var-elm_add_page_margins) / 2 );
+}
+
+/* Default Elementor's grid */
+.elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated, /* Elm 2.9- */
+.elementor-column-gap-narrow > .elementor-column > .elementor-element-populated {                 /* Elm 3.0+ */
+  padding:  calc( var(--theme-var-elm_gap_narrow) / 2 );
+}
+.elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated,  /* Elm 2.9- */
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated {          /* Elm 3.0+ */
+  padding:  calc( var(--theme-var-elm_gap_default) / 2 );
+}
+.elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated, /* Elm 2.9- */
+.elementor-column-gap-extended > .elementor-column > .elementor-element-populated {         /* Elm 3.0+ */
+  padding:  calc( var(--theme-var-elm_gap_extended) / 2 );
+}
+.elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated,   /* Elm 2.9- */
+.elementor-column-gap-wide > .elementor-column > .elementor-element-populated {           /* Elm 3.0+ */
+  padding:  calc( var(--theme-var-elm_gap_wide) / 2 );
+}
+.elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated,  /* Elm 2.9- */
+.elementor-column-gap-wider > .elementor-column > .elementor-element-populated {          /* Elm 3.0+ */
+  padding:  calc( var(--theme-var-elm_gap_wider) / 2 );
+}
+
+.elementor-container > .elementor-row > .elementor-column > .elementor-element-populated,     /* Elm 2.9- */
+.elementor-container > .elementor-column > .elementor-element-populated {             /* Elm 3.0+ */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Stretch columns container to remove white spaces from sides of the rows with gaps between columns */
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container:not(.elementor-column-gap-no) {
+	max-width: none;
+	position: relative;
+}
+
+/* Boxed sections in the fullwidth pages */
+.body_style_fullwide .elementor-section.elementor-section-boxed > .elementor-container.elementor-container {
+	max-width: var(--theme-var-page_fullwide);
+}
+.body_style_fullwide .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-narrow {
+	max-width: calc( var(--theme-var-page_fullwide) + var(--theme-var-elm_gap_narrow) );
+}
+.body_style_fullwide .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-default {
+	max-width: calc( var(--theme-var-page_fullwide) + var(--theme-var-elm_gap_default) );
+}
+.body_style_fullwide .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-extended {
+	max-width: calc( var(--theme-var-page_fullwide) + var(--theme-var-elm_gap_extended) );
+}
+.body_style_fullwide .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-wide {
+	max-width: calc( var(--theme-var-page_fullwide) + var(--theme-var-elm_gap_wide) );
+}
+.body_style_fullwide .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-wider {
+	max-width: calc( var(--theme-var-page_fullwide) + var(--theme-var-elm_gap_wider) );
+}
+
+/* No gap */
+.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-no {
+	max-width: var(--theme-var-page);
+}
+
+/* Narrow: 5px */
+.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-narrow {
+	max-width: var(--theme-var-page10);
+}
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	width: var(--theme-var-page10);
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	width: var(--theme-var-content10);
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	left: calc( -1 * var(--theme-var-elm_gap_narrow) / 2 );
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	margin-left: calc( -1 * var(--theme-var-elm_gap_narrow) / 2 );
+	margin-right: calc( -1 * var(--theme-var-elm_gap_narrow) / 2 );
+}
+
+/* Default: 10px */
+.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-default {
+	max-width: var(--theme-var-page20);
+}
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	width: var(--theme-var-page20);
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	width: var(--theme-var-content20);
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	left: calc( -1 * var(--theme-var-elm_gap_default) / 2 );
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	margin-left: calc( -1 * var(--theme-var-elm_gap_default) / 2 );
+	margin-right: calc( -1 * var(--theme-var-elm_gap_default) / 2 );
+}
+
+/* Extended: 15px */
+.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-extended {
+	max-width: var(--theme-var-page30);
+}
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+	width: var(--theme-var-page30);
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+	width: var(--theme-var-content30);
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {	
+	left: calc( -1 * var(--theme-var-elm_gap_extended) / 2 ); 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {	
+	margin-left: calc( -1 * var(--theme-var-elm_gap_extended) / 2 );
+	margin-right: calc( -1 * var(--theme-var-elm_gap_extended) / 2 );
+}
+
+/* Wide: 20px */
+.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-wide {
+	max-width: var(--theme-var-page40);
+}
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	width: var(--theme-var-page40);
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	width: var(--theme-var-content40);
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	left: calc( -1 * var(--theme-var-elm_gap_wide) / 2 );
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	margin-left: calc( -1 * var(--theme-var-elm_gap_wide) / 2 );
+	margin-right: calc( -1 * var(--theme-var-elm_gap_wide) / 2 );
+}
+
+/* Wider: 30px */
+.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-wider {
+	max-width: var(--theme-var-page60);
+}
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+	width: var(--theme-var-page60);
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+	width: var(--theme-var-content60);
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {	
+	left: calc( -1 * var(--theme-var-elm_gap_wider) / 2 );
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {	
+	margin-left: calc( -1 * var(--theme-var-elm_gap_wider) / 2 );
+	margin-right: calc( -1 * var(--theme-var-elm_gap_wider) / 2 );
+}
+
+
+/* Elementor Lightbox */
+.elementor-lightbox {
+	background-color: var(--theme-color-bg_color_07);
+}
+.elementor-lightbox .dialog-lightbox-close-button,
+.elementor-lightbox .elementor-swiper-button {
+	color: var(--theme-color-text_dark);
+	background-color: transparent;
+}
+.elementor-lightbox .dialog-lightbox-close-button:hover,
+.elementor-lightbox .elementor-swiper-button:hover {
+	color: var(--theme-color-text_link);
+}
+
+
+/* Shape above and below rows */
+.elementor-shape .elementor-shape-fill {
+	fill: var(--theme-color-bg_color);
+}
+
+/* Divider */
+.elementor-widget-divider {
+	--divider-border-color: var(--theme-color-bd_color);
+}
+.elementor-divider-separator {
+	border-color: var(--theme-color-bd_color);
+}
+
+
+
+/* Additional entrance animations
+------------------------------------ */
+@-webkit-keyframes ta_under_strips {
+	0% {
+		-webkit-transform: translateX(-101%);
+				transform: translateX(-101%);
+	}
+	50% {
+		-webkit-transform: translateX(0);
+				transform: translateX(0);
+	}
+	100% {
+		-webkit-transform: translateX(101%);
+				transform: translateX(101%);
+	}
+}
+
+@keyframes ta_under_strips {
+	0% {
+		-webkit-transform: translateX(-101%);
+				transform: translateX(-101%);
+	}
+	50% {
+		-webkit-transform: translateX(0);
+				transform: translateX(0);
+	}
+	100% {
+		-webkit-transform: translateX(101%);
+				transform: translateX(101%);
+	}
+}
+.ta_under_strips {
+	overflow: hidden;
+
+	> div {
+		opacity: 0;
+		-webkit-animation: fadeIn .2s 1s forwards;
+				animation: fadeIn .2s 1s forwards;
+	}
+}
+.ta_under_strips:before,
+.ta_under_strips:after {
+	content: " ";
+	@include abs-cover;
+}
+.ta_under_strips:before {
+	background-color: var(--theme-color-text_link);
+	z-index: 1;
+	-webkit-transform: translateX(-101%);
+	    -ms-transform: translateX(-101%);
+			transform: translateX(-101%);
+	-webkit-animation: ta_under_strips 1.5s cubic-bezier(.86,0,.07,1) forwards;
+			animation: ta_under_strips 1.5s cubic-bezier(.86,0,.07,1) forwards;
+}
+.ta_under_strips:after {
+	background-color: var(--theme-color-text_hover);
+	z-index: 2;
+	-webkit-transform: translateX(-101%);
+	    -ms-transform: translateX(-101%);
+			transform: translateX(-101%);
+	-webkit-animation: ta_under_strips 1.2s .2s cubic-bezier(1,0,.54,.99) forwards;
+			animation: ta_under_strips 1.2s .2s cubic-bezier(1,0,.54,.99) forwards;
+}
+
+/* Spacer */
+.elementor-widget-spacer.sc_height_huge .elementor-spacer-inner {
+	height: 8rem !important;
+}
+.elementor-widget-spacer.sc_height_large .elementor-spacer-inner,
+.elementor-widget-spacer.sc_height_big .elementor-spacer-inner {
+	height: 6rem !important;
+}
+.elementor-widget-spacer.sc_height_medium .elementor-spacer-inner {
+	height: 3rem !important;
+}
+.elementor-widget-spacer.sc_height_small .elementor-spacer-inner {
+	height: 1.8rem !important;
+}
+.elementor-widget-spacer.sc_height_tiny .elementor-spacer-inner {
+	height: 1.2rem !important;
+}
+
+/* Progress Bar */
+.elementor-widget-progress .elementor-progress-wrapper,
+.elementor-widget-progress .elementor-progress-bar {
+	height: 15px;
+	@include border-radius(0);
+}
+.elementor-widget-progress .elementor-progress-bar {
+	background-color: var(--theme-color-text_link2);
+}
+.elementor-widget-progress .elementor-progress-wrapper {
+	margin-top: 15px;
+	background-color: var(--theme-color-input_bg_color);
+}
+.elementor-widget-progress .elementor-title {
+	padding-right: 30px;
+	@include font(1.250rem, 1.3em, 700);
+	color: var(--theme-color-text_dark);
+}
+.elementor-widget-progress .elementor-progress-bar {
+	color: var(--theme-color-text);
+}
+.elementor-widget-progress .elementor-progress-text,
+.elementor-widget-progress .elementor-progress-percentage {
+	padding-right: 0;
+	@include abs-rt(0, -33px);
+	@include font(1rem, 1.3em, 400);
+	letter-spacing: 0.6px;
+}
+.elementor-widget-progress .elementor-progress-text {
+	padding-right: 50px;
+	padding-left: 0;
+	max-width: 230px;
+}
+.elementor-widget-progress + .elementor-widget-progress {
+	margin-top: 40px;
+}
+
+/* Counter  */
+.elementor-counter .elementor-counter-number-wrapper {
+	@include font(5.625em, 1em, 400);
+	color: var(--theme-color-text_dark);
+}
+.elementor-counter .elementor-counter-title {
+	@include font(1em, 1.5em, 400);
+	text-align: left;
+	color: var(--theme-color-text);
+}
+.elementor-counter .elementor-counter-number-wrapper + .elementor-counter-title {
+	margin-top: 1em;
+}
+
+.elementor-counter .elementor-counter-number-prefix,
+.elementor-counter .elementor-counter-number-suffix {
+	flex-grow: 0;
+}
+
+/* Heading */
+.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+	@include font(7.750em, 0.755em);
+	letter-spacing: 1px;
+}
+.elementor-widget-heading .elementor-heading-title.elementor-size-xl > span {
+	color: var(--theme-color-inverse_dark);
+}
+.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+	@include font(9.375em, 0.755em);
+	letter-spacing: 1px;
+}
+.elementor-widget-heading .elementor-heading-title.elementor-size-xxl > span {
+	color: var(--theme-color-inverse_dark);
+}
+.elementor-widget-heading h1.elementor-heading-title { line-height: 0.905em; }
+.elementor-widget-heading h2.elementor-heading-title { line-height: 1.025em; }
+.elementor-widget-heading h3.elementor-heading-title { line-height: 1.1em; }
+.elementor-widget-heading h4.elementor-heading-title { line-height: 1.152em; }
+.elementor-widget-heading h5.elementor-heading-title { line-height: 1.1855em; }
+.elementor-widget-heading h6.elementor-heading-title { line-height: 1.285em; }
+
+/* Elementor Editor */
+.elementor-editor-active .sc_layouts_item_menu_mobile_button,
+.elementor-editor-active .sc_layouts_menu_mobile_button {
+	display: block !important;
+}
